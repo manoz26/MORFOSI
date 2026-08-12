@@ -1,0 +1,10058 @@
+[
+  {
+    "code": "818",
+    "institution": "Α.Ε.Ν.",
+    "name": "ΣΧΟΛΗ ΜΗΧΑΝΙΚΩΝ",
+    "city": null,
+    "fields": {
+      "2": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "4": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "817",
+    "institution": "Α.Ε.Ν.",
+    "name": "ΣΧΟΛΗ ΠΛΟΙΑΡΧΩΝ",
+    "city": null,
+    "fields": {
+      "2": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "4": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "413",
+    "institution": "ΑΕΑ ΑΘΗΝΑΣ",
+    "name": "ΠΡΟΓΡΑΜΜΑ ΙΕΡΑΤΙΚΩΝ ΣΠΟΥΔΩΝ ΑΘΗΝΑΣ",
+    "city": null,
+    "fields": {
+      "1": [
+        25,
+        25,
+        30,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "129",
+    "institution": "ΑΠΘ",
+    "name": "ΑΓΓΛΙΚΗΣ ΓΛΩΣΣΑΣ ΚΑΙ ΦΙΛΟΛΟΓΙΑΣ",
+    "city": "ΘΕΣΣΑΛΟΝΙΚΗ",
+    "fields": {
+      "1": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 20,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "227",
+    "institution": "ΑΠΘ",
+    "name": "ΑΓΡΟΝΟΜΩΝ ΚΑΙ ΤΟΠΟΓΡΑΦΩΝ ΜΗΧΑΝΙΚΩΝ",
+    "city": "ΘΕΣΣΑΛΟΝΙΚΗ",
+    "fields": {
+      "2": [
+        25,
+        25,
+        20,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "233",
+    "institution": "ΑΠΘ",
+    "name": "ΑΡΧΙΤΕΚΤΟΝΩΝ ΜΗΧΑΝΙΚΩΝ",
+    "city": "ΘΕΣΣΑΛΟΝΙΚΗ",
+    "fields": {
+      "2": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 10,
+    "special2": 10,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "279",
+    "institution": "ΑΠΘ",
+    "name": "ΒΙΟΛΟΓΙΑΣ",
+    "city": "ΘΕΣΣΑΛΟΝΙΚΗ",
+    "fields": {
+      "2": [
+        24,
+        22,
+        30,
+        24
+      ],
+      "3": [
+        20,
+        20,
+        27,
+        33
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "133",
+    "institution": "ΑΠΘ",
+    "name": "ΓΑΛΛΙΚΗΣ ΓΛΩΣΣΑΣ ΚΑΙ ΦΙΛΟΛΟΓΙΑΣ",
+    "city": "ΘΕΣΣΑΛΟΝΙΚΗ",
+    "fields": {
+      "1": [
+        35,
+        20,
+        20,
+        25
+      ]
+    },
+    "special1": 20,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "137",
+    "institution": "ΑΠΘ",
+    "name": "ΓΕΡΜΑΝΙΚΗΣ ΓΛΩΣΣΑΣ ΚΑΙ ΦΙΛΟΛΟΓΙΑΣ",
+    "city": "ΘΕΣΣΑΛΟΝΙΚΗ",
+    "fields": {
+      "1": [
+        30,
+        20,
+        30,
+        20
+      ]
+    },
+    "special1": 20,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "285",
+    "institution": "ΑΠΘ",
+    "name": "ΓΕΩΛΟΓΙΑΣ",
+    "city": "ΘΕΣΣΑΛΟΝΙΚΗ",
+    "fields": {
+      "2": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "273",
+    "institution": "ΑΠΘ",
+    "name": "ΓΕΩΠΟΝΙΑΣ (ΘΕΣΣΑΛΟΝΙΚΗ) - ΑΠΘ",
+    "city": null,
+    "fields": {
+      "2": [
+        20,
+        20,
+        30,
+        30
+      ],
+      "3": [
+        20,
+        20,
+        30,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "275",
+    "institution": "ΑΠΘ",
+    "name": "ΔΑΣΟΛΟΓΙΑΣ ΚΑΙ ΦΥΣΙΚΟΥ ΠΕΡΙΒΑΛΛΟΝΤΟΣ (ΘΕΣΣΑΛΟΝΙΚΗ) ΔΗΜΟΣΙΟΓΡΑΦΙΑΣ ΚΑΙ ΜΕΣΩΝ",
+    "city": null,
+    "fields": {
+      "2": [
+        20,
+        20,
+        30,
+        30
+      ],
+      "3": [
+        20,
+        20,
+        30,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "147",
+    "institution": "ΑΠΘ",
+    "name": "ΜΑΖΙΚΗΣ ΕΠΙΚΟΙΝΩΝΙΑΣ",
+    "city": "ΘΕΣΣΑΛΟΝΙΚΗ",
+    "fields": {
+      "1": [
+        30,
+        20,
+        30,
+        20
+      ]
+    },
+    "special1": 20,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "403",
+    "institution": "ΑΠΘ",
+    "name": "ΕΠΙΣΤΗΜΗΣ ΦΥΣΙΚΗΣ ΑΓΩΓΗΣ ΚΑΙ ΑΘΛΗΤΙΣΜΟΥ",
+    "city": "ΘΕΣΣΑΛΟΝΙΚΗ",
+    "fields": {
+      "1": [
+        30,
+        25,
+        25,
+        20
+      ],
+      "2": [
+        30,
+        25,
+        20,
+        25
+      ],
+      "3": [
+        30,
+        25,
+        20,
+        25
+      ],
+      "4": [
+        30,
+        25,
+        20,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 20,
+    "musicIncluded": false
+  },
+  {
+    "code": "402",
+    "institution": "ΑΠΘ",
+    "name": "ΕΠΙΣΤΗΜΗΣ ΦΥΣΙΚΗΣ ΑΓΩΓΗΣ ΚΑΙ ΑΘΛΗΤΙΣΜΟΥ",
+    "city": "ΣΕΡΡΕΣ",
+    "fields": {
+      "1": [
+        30,
+        25,
+        25,
+        20
+      ],
+      "2": [
+        30,
+        25,
+        20,
+        25
+      ],
+      "3": [
+        30,
+        25,
+        20,
+        25
+      ],
+      "4": [
+        30,
+        25,
+        20,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 20,
+    "musicIncluded": false
+  },
+  {
+    "code": "134",
+    "institution": "ΑΠΘ",
+    "name": "ΕΠΙΣΤΗΜΩΝ ΠΡΟΣΧΟΛΙΚΗΣ ΑΓΩΓΗΣ ΚΑΙ ΕΚΠΑΙΔΕΥΣΗΣ (ΘΕΣΣΑΛΟΝΙΚΗ) ΗΛΕΚΤΡΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ ΚΑΙ",
+    "city": null,
+    "fields": {
+      "1": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "2": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "3": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "4": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "219",
+    "institution": "ΑΠΘ",
+    "name": "ΜΗΧΑΝΙΚΩΝ ΥΠΟΛΟΓΙΣΤΩΝ",
+    "city": "ΘΕΣΣΑΛΟΝΙΚΗ",
+    "fields": {
+      "2": [
+        20,
+        30,
+        20,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "168",
+    "institution": "ΑΠΘ",
+    "name": "ΘΕΑΤΡΟΥ",
+    "city": "ΘΕΣΣΑΛΟΝΙΚΗ",
+    "fields": {
+      "1": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "2": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "3": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "4": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "103",
+    "institution": "ΑΠΘ",
+    "name": "ΘΕΟΛΟΓΙΑΣ",
+    "city": "ΘΕΣΣΑΛΟΝΙΚΗ",
+    "fields": {
+      "1": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "780",
+    "institution": "ΑΠΘ",
+    "name": "ΘΕΟΛΟΓΙΑΣ (ΘΕΣΣΑΛΟΝΙΚΗ) - ΜΟΥΣΟΥΛΜΑΝΙΚΩΝ ΣΠΟΥΔΩΝ",
+    "city": null,
+    "fields": {
+      "1": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "297",
+    "institution": "ΑΠΘ",
+    "name": "ΙΑΤΡΙΚΗΣ",
+    "city": "ΘΕΣΣΑΛΟΝΙΚΗ",
+    "fields": {
+      "3": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "112",
+    "institution": "ΑΠΘ",
+    "name": "ΙΣΤΟΡΙΑΣ ΚΑΙ ΑΡΧΑΙΟΛΟΓΙΑΣ",
+    "city": "ΘΕΣΣΑΛΟΝΙΚΗ",
+    "fields": {
+      "1": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "139",
+    "institution": "ΑΠΘ",
+    "name": "ΙΤΑΛΙΚΗΣ ΓΛΩΣΣΑΣ ΚΑΙ ΦΙΛΟΛΟΓΙΑΣ",
+    "city": "ΘΕΣΣΑΛΟΝΙΚΗ",
+    "fields": {
+      "1": [
+        30,
+        20,
+        20,
+        30
+      ]
+    },
+    "special1": 20,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "163",
+    "institution": "ΑΠΘ",
+    "name": "ΚΙΝΗΜΑΤΟΓΡΑΦΟΥ (ΘΕΣΣΑΛΟΝΙΚΗ) ΚΟΙΝΩΝΙΚΗΣ ΘΕΟΛΟΓΙΑΣ ΚΑΙ",
+    "city": null,
+    "fields": {
+      "1": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "2": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "3": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "4": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "107",
+    "institution": "ΑΠΘ",
+    "name": "ΧΡΙΣΤΙΑΝΙΚΟΥ ΠΟΛΙΤΙΣΜΟΥ",
+    "city": "ΘΕΣΣΑΛΟΝΙΚΗ",
+    "fields": {
+      "1": [
+        25,
+        30,
+        20,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "307",
+    "institution": "ΑΠΘ",
+    "name": "ΚΤΗΝΙΑΤΡΙΚΗΣ",
+    "city": "ΘΕΣΣΑΛΟΝΙΚΗ",
+    "fields": {
+      "3": [
+        20,
+        20,
+        27,
+        33
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "245",
+    "institution": "ΑΠΘ",
+    "name": "ΜΑΘΗΜΑΤΙΚΩΝ",
+    "city": "ΘΕΣΣΑΛΟΝΙΚΗ",
+    "fields": {
+      "2": [
+        20,
+        25,
+        20,
+        35
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "363",
+    "institution": "ΑΠΘ",
+    "name": "ΜΗΧΑΝΙΚΩΝ ΧΩΡΟΤΑΞΙΑΣ ΚΑΙ ΑΝΑΠΤΥΞΗΣ",
+    "city": "ΘΕΣΣΑΛΟΝΙΚΗ",
+    "fields": {
+      "2": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "211",
+    "institution": "ΑΠΘ",
+    "name": "ΜΗΧΑΝΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ",
+    "city": "ΘΕΣΣΑΛΟΝΙΚΗ",
+    "fields": {
+      "2": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "406",
+    "institution": "ΑΠΘ",
+    "name": "ΜΟΥΣΙΚΩΝ ΣΠΟΥΔΩΝ",
+    "city": "ΘΕΣΣΑΛΟΝΙΚΗ",
+    "fields": {
+      "1": [
+        25,
+        0,
+        20,
+        0
+      ],
+      "2": [
+        25,
+        0,
+        0,
+        20
+      ],
+      "3": [
+        25,
+        20,
+        0,
+        0
+      ],
+      "4": [
+        25,
+        0,
+        20,
+        0
+      ]
+    },
+    "special1": 25,
+    "special2": 30,
+    "practical": 0,
+    "musicIncluded": true
+  },
+  {
+    "code": "119",
+    "institution": "ΑΠΘ",
+    "name": "ΝΟΜΙΚΗΣ",
+    "city": "ΘΕΣΣΑΛΟΝΙΚΗ",
+    "fields": {
+      "1": [
+        30,
+        30,
+        20,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "305",
+    "institution": "ΑΠΘ",
+    "name": "ΟΔΟΝΤΙΑΤΡΙΚΗΣ",
+    "city": "ΘΕΣΣΑΛΟΝΙΚΗ",
+    "fields": {
+      "3": [
+        20,
+        25,
+        25,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "311",
+    "institution": "ΑΠΘ",
+    "name": "ΟΙΚΟΝΟΜΙΚΩΝ ΕΠΙΣΤΗΜΩΝ (ΘΕΣΣΑΛΟΝΙΚΗ) - ΑΠΘ",
+    "city": null,
+    "fields": {
+      "4": [
+        30,
+        30,
+        20,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "140",
+    "institution": "ΑΠΘ",
+    "name": "ΠΑΙΔΑΓΩΓΙΚΟ ΔΗΜΟΤΙΚΗΣ ΕΚΠΑΙΔΕΥΣΗΣ",
+    "city": "ΘΕΣΣΑΛΟΝΙΚΗ",
+    "fields": {
+      "1": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "2": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "3": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "4": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "338",
+    "institution": "ΑΠΘ",
+    "name": "ΠΛΗΡΟΦΟΡΙΚΗΣ",
+    "city": "ΘΕΣΣΑΛΟΝΙΚΗ",
+    "fields": {
+      "2": [
+        20,
+        30,
+        20,
+        30
+      ],
+      "4": [
+        20,
+        30,
+        30,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "357",
+    "institution": "ΑΠΘ",
+    "name": "ΠΟΛΙΤΙΚΩΝ ΕΠΙΣΤΗΜΩΝ",
+    "city": "ΘΕΣΣΑΛΟΝΙΚΗ",
+    "fields": {
+      "1": [
+        30,
+        20,
+        30,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "203",
+    "institution": "ΑΠΘ",
+    "name": "ΠΟΛΙΤΙΚΩΝ ΜΗΧΑΝΙΚΩΝ",
+    "city": "ΘΕΣΣΑΛΟΝΙΚΗ",
+    "fields": {
+      "2": [
+        25,
+        20,
+        20,
+        35
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "291",
+    "institution": "ΑΠΘ",
+    "name": "ΦΑΡΜΑΚΕΥΤΙΚΗΣ",
+    "city": "ΘΕΣΣΑΛΟΝΙΚΗ",
+    "fields": {
+      "3": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "111",
+    "institution": "ΑΠΘ",
+    "name": "ΦΙΛΟΛΟΓΙΑΣ",
+    "city": "ΘΕΣΣΑΛΟΝΙΚΗ",
+    "fields": {
+      "1": [
+        27,
+        27,
+        20,
+        26
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "120",
+    "institution": "ΑΠΘ",
+    "name": "ΦΙΛΟΣΟΦΙΑΣ ΚΑΙ ΠΑΙΔΑΓΩΓΙΚΗΣ",
+    "city": "ΘΕΣΣΑΛΟΝΙΚΗ",
+    "fields": {
+      "1": [
+        30,
+        30,
+        20,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "255",
+    "institution": "ΑΠΘ",
+    "name": "ΦΥΣΙΚΗΣ",
+    "city": "ΘΕΣΣΑΛΟΝΙΚΗ",
+    "fields": {
+      "2": [
+        20,
+        33,
+        20,
+        27
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "265",
+    "institution": "ΑΠΘ",
+    "name": "ΧΗΜΕΙΑΣ",
+    "city": "ΘΕΣΣΑΛΟΝΙΚΗ",
+    "fields": {
+      "2": [
+        20,
+        25,
+        35,
+        20
+      ],
+      "3": [
+        20,
+        25,
+        35,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "237",
+    "institution": "ΑΠΘ",
+    "name": "ΧΗΜΙΚΩΝ ΜΗΧΑΝΙΚΩΝ",
+    "city": "ΘΕΣΣΑΛΟΝΙΚΗ",
+    "fields": {
+      "2": [
+        20,
+        25,
+        25,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "172",
+    "institution": "ΑΠΘ",
+    "name": "ΨΥΧΟΛΟΓΙΑΣ",
+    "city": "ΘΕΣΣΑΛΟΝΙΚΗ",
+    "fields": {
+      "1": [
+        35,
+        25,
+        20,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "384",
+    "institution": "ΑΣΚΤ",
+    "name": "ΘΕΩΡΙΑΣ ΚΑΙ ΙΣΤΟΡΙΑΣ ΤΗΣ ΤΕΧΝΗΣ (ΑΘΗΝΑ) ΕΚΠΑΙΔΕΥΤΙΚΩΝ ΗΛΕΚΤΡΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ ΚΑΙ ΕΚΠΑΙΔΕΥΤΙΚΩΝ",
+    "city": null,
+    "fields": {
+      "1": [
+        25,
+        20,
+        35,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "497",
+    "institution": "ΑΣΠΑΙΤΕ",
+    "name": "ΗΛΕΚΤΡΟΝΙΚΩΝ ΜΗΧΑΝΙΚΩΝ - ΕΚΠΑΙΔΕΥΤΙΚΩΝ ΗΛΕΚΤΡΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ",
+    "city": null,
+    "fields": {
+      "2": [
+        25,
+        25,
+        20,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "507",
+    "institution": "ΑΣΠΑΙΤΕ",
+    "name": "ΗΛΕΚΤΡΟΝΙΚΩΝ ΜΗΧΑΝΙΚΩΝ - ΕΚΠΑΙΔΕΥΤΙΚΩΝ ΗΛΕΚΤΡΟΝΙΚΩΝ ΜΗΧΑΝΙΚΩΝ",
+    "city": null,
+    "fields": {
+      "2": [
+        25,
+        25,
+        20,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "477",
+    "institution": "ΑΣΠΑΙΤΕ",
+    "name": "ΕΚΠΑΙΔΕΥΤΙΚΩΝ ΜΗΧΑΝΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ",
+    "city": null,
+    "fields": {
+      "2": [
+        25,
+        25,
+        20,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "776",
+    "institution": "ΑΣΠΑΙΤΕ",
+    "name": "ΕΚΠΑΙΔΕΥΤΙΚΩΝ ΠΟΛΙΤΙΚΩΝ ΜΗΧΑΝΙΚΩΝ ΑΞΙΩΜΑΤΙΚΩΝ ΕΛΛΗΝΙΚΗΣ",
+    "city": null,
+    "fields": {
+      "2": [
+        25,
+        25,
+        20,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "872",
+    "institution": "ΑΣΤ. ΣΧΟΛΕΣ",
+    "name": "ΑΣΤΥΝΟΜΙΑΣ",
+    "city": "ΜΟΝΟ ΓΙΑ ΑΣΤΥΝΟΜΙΚΟΥΣ",
+    "fields": {
+      "1": [
+        30,
+        20,
+        30,
+        20
+      ],
+      "2": [
+        30,
+        20,
+        20,
+        30
+      ],
+      "4": [
+        30,
+        30,
+        20,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "869",
+    "institution": "ΑΣΤ. ΣΧΟΛΕΣ",
+    "name": "ΑΞΙΩΜΑΤΙΚΩΝ ΕΛΛΗΝΙΚΗΣ ΑΣΤΥΝΟΜΙΑΣ",
+    "city": "ΜΟΝΟ ΓΙΑ ΠΟΛΙΤΕΣ",
+    "fields": {
+      "1": [
+        30,
+        20,
+        30,
+        20
+      ],
+      "2": [
+        30,
+        20,
+        20,
+        30
+      ],
+      "4": [
+        30,
+        30,
+        20,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "870",
+    "institution": "ΑΣΤ. ΣΧΟΛΕΣ",
+    "name": "ΑΣΤΥΦΥΛΑΚΩΝ",
+    "city": "ΜΟΝΟ ΓΙΑ ΠΟΛΙΤΕΣ",
+    "fields": {
+      "1": [
+        30,
+        20,
+        30,
+        20
+      ],
+      "2": [
+        30,
+        20,
+        20,
+        30
+      ],
+      "4": [
+        30,
+        30,
+        20,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "614",
+    "institution": "ΑΣΤΕ",
+    "name": "ΑΝΩΤΕΡΗ ΣΧΟΛΗ ΤΟΥΡΙΣΤΙΚΗΣ ΕΚΠΑΙΔΕΥΣΗΣ ΚΡΗΤΗΣ",
+    "city": "ΑΣΤΕΚ",
+    "fields": {
+      "1": [
+        24,
+        24,
+        24,
+        28
+      ],
+      "4": [
+        22,
+        22,
+        28,
+        28
+      ]
+    },
+    "special1": 20,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "613",
+    "institution": "ΑΣΤΕ",
+    "name": "ΑΝΩΤΕΡΗ ΣΧΟΛΗ ΤΟΥΡΙΣΤΙΚΗΣ ΕΚΠΑΙΔΕΥΣΗΣ ΡΟΔΟΥ",
+    "city": "ΑΣΤΕΡ",
+    "fields": {
+      "1": [
+        24,
+        24,
+        24,
+        28
+      ],
+      "4": [
+        22,
+        22,
+        28,
+        28
+      ]
+    },
+    "special1": 20,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "326",
+    "institution": "ΓΕΩΠΟΝΙΚΟ ΠΑΝ.",
+    "name": "ΑΓΡΟΤΙΚΗΣ ΟΙΚΟΝΟΜΙΑΣ ΚΑΙ ΑΝΑΠΤΥΞΗΣ (ΑΘΗΝΑ) ΑΞΙΟΠΟΙΗΣΗΣ ΦΥΣΙΚΩΝ ΠΟΡΩΝ",
+    "city": null,
+    "fields": {
+      "3": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "4": [
+        20,
+        30,
+        20,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "327",
+    "institution": "ΓΕΩΠΟΝΙΚΟ ΠΑΝ.",
+    "name": "ΚΑΙ ΓΕΩΡΓΙΚΗΣ ΜΗΧΑΝΙΚΗΣ",
+    "city": "ΑΘΗΝΑ",
+    "fields": {
+      "2": [
+        20,
+        25,
+        25,
+        30
+      ],
+      "3": [
+        20,
+        35,
+        25,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "325",
+    "institution": "ΓΕΩΠΟΝΙΚΟ ΠΑΝ.",
+    "name": "ΒΙΟΤΕΧΝΟΛΟΓΙΑΣ (ΑΘΗΝΑ) ΔΑΣΟΛΟΓΙΑΣ ΚΑΙ ΔΙΑΧΕΙΡΙΣΗΣ",
+    "city": null,
+    "fields": {
+      "2": [
+        20,
+        25,
+        30,
+        25
+      ],
+      "3": [
+        20,
+        25,
+        25,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1061",
+    "institution": "ΓΕΩΠΟΝΙΚΟ ΠΑΝ.",
+    "name": "ΦΥΣΙΚΟΥ ΠΕΡΙΒΑΛΛΟΝΤΟΣ (ΚΑΡΠΕΝΗΣΙ) ΔΙΟΙΚΗΣΗΣ ΓΕΩΡΓΙΚΩΝ",
+    "city": null,
+    "fields": {
+      "2": [
+        30,
+        20,
+        30,
+        20
+      ],
+      "3": [
+        30,
+        20,
+        30,
+        20
+      ],
+      "4": [
+        30,
+        20,
+        20,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1063",
+    "institution": "ΓΕΩΠΟΝΙΚΟ ΠΑΝ.",
+    "name": "ΕΠΙΧΕΙΡΗΣΕΩΝ ΚΑΙ ΣΥΣΤΗΜΑΤΩΝ ΕΦΟΔΙΑΣΜΟΥ",
+    "city": "ΘΗΒΑ",
+    "fields": {
+      "2": [
+        20,
+        25,
+        25,
+        30
+      ],
+      "4": [
+        20,
+        25,
+        25,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "324",
+    "institution": "ΓΕΩΠΟΝΙΚΟ ΠΑΝ.",
+    "name": "ΕΠΙΣΤΗΜΗΣ ΖΩΙΚΗΣ ΠΑΡΑΓΩΓΗΣ (ΑΘΗΝΑ) ΕΠΙΣΤΗΜΗΣ ΤΡΟΦΙΜΩΝ ΚΑΙ",
+    "city": null,
+    "fields": {
+      "2": [
+        20,
+        20,
+        30,
+        30
+      ],
+      "3": [
+        20,
+        20,
+        30,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "328",
+    "institution": "ΓΕΩΠΟΝΙΚΟ ΠΑΝ.",
+    "name": "ΔΙΑΤΡΟΦΗΣ ΤΟΥ ΑΝΘΡΩΠΟΥ",
+    "city": "ΑΘΗΝΑ",
+    "fields": {
+      "2": [
+        25,
+        20,
+        30,
+        25
+      ],
+      "3": [
+        25,
+        20,
+        30,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "323",
+    "institution": "ΓΕΩΠΟΝΙΚΟ ΠΑΝ.",
+    "name": "ΕΠΙΣΤΗΜΗΣ ΦΥΤΙΚΗΣ ΠΑΡΑΓΩΓΗΣ",
+    "city": "ΑΘΗΝΑ",
+    "fields": {
+      "2": [
+        25,
+        20,
+        35,
+        20
+      ],
+      "3": [
+        25,
+        20,
+        25,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1064",
+    "institution": "ΓΕΩΠΟΝΙΚΟ ΠΑΝ.",
+    "name": "ΠΕΡΙΦΕΡΕΙΑΚΗΣ ΚΑΙ ΟΙΚΟΝΟΜΙΚΗΣ ΑΝΑΠΤΥΞΗΣ",
+    "city": "ΑΜΦΙΣΣΑ",
+    "fields": {
+      "1": [
+        30,
+        20,
+        30,
+        20
+      ],
+      "2": [
+        30,
+        20,
+        20,
+        30
+      ],
+      "4": [
+        25,
+        20,
+        25,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1610",
+    "institution": "ΔΙ.ΠΑ.Ε.",
+    "name": "ΑΓΩΓΗΣ ΚΑΙ ΦΡΟΝΤΙΔΑΣ ΣΤΗΝ ΠΡΩΙΜΗ ΠΑΙΔΙΚΗ ΗΛΙΚΙΑ",
+    "city": "ΘΕΣΣΑΛΟΝΙΚΗ",
+    "fields": {
+      "1": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "2": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "3": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "4": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1609",
+    "institution": "ΔΙ.ΠΑ.Ε.",
+    "name": "ΒΙΒΛΙΟΘΗΚΟΝΟΜΙΑΣ, ΑΡΧΕΙΟΝΟΜΙΑΣ ΚΑΙ ΣΥΣΤΗΜΑΤΩΝ ΠΛΗΡΟΦΟΡΗΣΗΣ",
+    "city": "ΘΕΣΣΑΛΟΝΙΚΗ",
+    "fields": {
+      "1": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "4": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1615",
+    "institution": "ΔΙ.ΠΑ.Ε.",
+    "name": "ΒΙΟΪΑΤΡΙΚΩΝ ΕΠΙΣΤΗΜΩΝ",
+    "city": "ΘΕΣΣΑΛΟΝΙΚΗ",
+    "fields": {
+      "3": [
+        20,
+        20,
+        25,
+        35
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1634",
+    "institution": "ΔΙ.ΠΑ.Ε.",
+    "name": "ΓΕΩΠΟΝΙΑΣ (ΘΕΣΣΑΛΟΝΙΚΗ) - ΔΙ.ΠΑ.Ε.",
+    "city": null,
+    "fields": {
+      "2": [
+        20,
+        25,
+        30,
+        25
+      ],
+      "3": [
+        20,
+        25,
+        25,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1627",
+    "institution": "ΔΙ.ΠΑ.Ε.",
+    "name": "ΔΗΜΙΟΥΡΓΙΚΟΥ ΣΧΕΔΙΑΣΜΟΥ ΚΑΙ ΕΝΔΥΣΗΣ",
+    "city": "ΚΙΛΚΙΣ",
+    "fields": {
+      "1": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "2": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "4": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1603",
+    "institution": "ΔΙ.ΠΑ.Ε.",
+    "name": "ΔΙΟΙΚΗΣΗΣ ΕΦΟΔΙΑΣΤΙΚΗΣ ΑΛΥΣΙΔΑΣ (ΚΑΤΕΡΙΝΗ) ΔΙΟΙΚΗΣΗΣ ΟΡΓΑΝΙΣΜΩΝ,",
+    "city": null,
+    "fields": {
+      "2": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "4": [
+        20,
+        20,
+        30,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1605",
+    "institution": "ΔΙ.ΠΑ.Ε.",
+    "name": "ΜΑΡΚΕΤΙΝΓΚ ΚΑΙ ΤΟΥΡΙΣΜΟΥ",
+    "city": "ΘΕΣΣΑΛΟΝΙΚΗ",
+    "fields": {
+      "4": [
+        20,
+        20,
+        30,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1635",
+    "institution": "ΔΙ.ΠΑ.Ε.",
+    "name": "ΕΠΙΣΤΗΜΗΣ ΚΑΙ ΤΕΧΝΟΛΟΓΙΑΣ ΤΡΟΦΙΜΩΝ",
+    "city": "ΘΕΣΣΑΛΟΝΙΚΗ",
+    "fields": {
+      "2": [
+        20,
+        25,
+        30,
+        25
+      ],
+      "3": [
+        20,
+        25,
+        30,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1613",
+    "institution": "ΔΙ.ΠΑ.Ε.",
+    "name": "ΕΠΙΣΤΗΜΩΝ ΔΙΑΤΡΟΦΗΣ ΚΑΙ ΔΙΑΙΤΟΛΟΓΙΑΣ",
+    "city": "ΘΕΣΣΑΛΟΝΙΚΗ",
+    "fields": {
+      "3": [
+        20,
+        20,
+        30,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1626",
+    "institution": "ΔΙ.ΠΑ.Ε.",
+    "name": "ΕΣΩΤΕΡΙΚΗΣ ΑΡΧΙΤΕΚΤΟΝΙΚΗΣ",
+    "city": "ΣΕΡΡΕΣ",
+    "fields": {
+      "2": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "4": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 10,
+    "special2": 10,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1606",
+    "institution": "ΔΙ.ΠΑ.Ε.",
+    "name": "ΛΟΓΙΣΤΙΚΗΣ ΚΑΙ ΠΛΗΡΟΦΟΡΙΑΚΩΝ ΣΥΣΤΗΜΑΤΩΝ",
+    "city": "ΘΕΣΣΑΛΟΝΙΚΗ",
+    "fields": {
+      "4": [
+        20,
+        20,
+        30,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1614",
+    "institution": "ΔΙ.ΠΑ.Ε.",
+    "name": "ΜΑΙΕΥΤΙΚΗΣ",
+    "city": "ΘΕΣΣΑΛΟΝΙΚΗ",
+    "fields": {
+      "3": [
+        22,
+        22,
+        25,
+        31
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1624",
+    "institution": "ΔΙ.ΠΑ.Ε.",
+    "name": "ΜΗΧΑΝΙΚΩΝ ΠΑΡΑΓΩΓΗΣ ΚΑΙ ΔΙΟΙΚΗΣΗΣ",
+    "city": "ΘΕΣΣΑΛΟΝΙΚΗ",
+    "fields": {
+      "2": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "4": [
+        20,
+        25,
+        30,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1623",
+    "institution": "ΔΙ.ΠΑ.Ε.",
+    "name": "ΜΗΧΑΝΙΚΩΝ ΠΕΡΙΒΑΛΛΟΝΤΟΣ (ΘΕΣΣΑΛΟΝΙΚΗ) ΜΗΧΑΝΙΚΩΝ ΠΛΗΡΟΦΟΡΙΚΗΣ ΚΑΙ",
+    "city": null,
+    "fields": {
+      "2": [
+        20,
+        25,
+        30,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1625",
+    "institution": "ΔΙ.ΠΑ.Ε.",
+    "name": "ΗΛΕΚΤΡΟΝΙΚΩΝ ΣΥΣΤΗΜΑΤΩΝ (ΘΕΣΣΑΛΟΝΙΚΗ) ΜΗΧΑΝΙΚΩΝ ΠΛΗΡΟΦΟΡΙΚΗΣ,",
+    "city": null,
+    "fields": {
+      "2": [
+        25,
+        25,
+        20,
+        30
+      ],
+      "4": [
+        25,
+        30,
+        25,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1622",
+    "institution": "ΔΙ.ΠΑ.Ε.",
+    "name": "ΥΠΟΛΟΓΙΣΤΩΝ ΚΑΙ ΤΗΛΕΠΙΚΟΙΝΩΝΙΩΝ",
+    "city": "ΣΕΡΡΕΣ",
+    "fields": {
+      "2": [
+        20,
+        30,
+        20,
+        30
+      ],
+      "4": [
+        20,
+        30,
+        30,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1620",
+    "institution": "ΔΙ.ΠΑ.Ε.",
+    "name": "ΜΗΧΑΝΙΚΩΝ ΤΟΠΟΓΡΑΦΙΑΣ ΚΑΙ ΓΕΩΠΛΗΡΟΦΟΡΙΚΗΣ",
+    "city": "ΣΕΡΡΕΣ",
+    "fields": {
+      "2": [
+        30,
+        20,
+        20,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1619",
+    "institution": "ΔΙ.ΠΑ.Ε.",
+    "name": "ΜΗΧΑΝΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ",
+    "city": "ΣΕΡΡΕΣ",
+    "fields": {
+      "2": [
+        20,
+        30,
+        20,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1618",
+    "institution": "ΔΙ.ΠΑ.Ε.",
+    "name": "ΝΟΣΗΛΕΥΤΙΚΗΣ",
+    "city": "ΘΕΣΣΑΛΟΝΙΚΗ",
+    "fields": {
+      "3": [
+        25,
+        20,
+        25,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1602",
+    "institution": "ΔΙ.ΠΑ.Ε.",
+    "name": "ΟΙΚΟΝΟΜΙΚΩΝ ΕΠΙΣΤΗΜΩΝ",
+    "city": "ΣΕΡΡΕΣ",
+    "fields": {
+      "4": [
+        20,
+        25,
+        20,
+        35
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1601",
+    "institution": "ΔΙ.ΠΑ.Ε.",
+    "name": "ΟΡΓΑΝΩΣΗΣ ΚΑΙ ΔΙΟΙΚΗΣΗΣ ΕΠΙΧΕΙΡΗΣΕΩΝ",
+    "city": "ΣΕΡΡΕΣ",
+    "fields": {
+      "4": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1621",
+    "institution": "ΔΙ.ΠΑ.Ε.",
+    "name": "ΠΟΛΙΤΙΚΩΝ ΜΗΧΑΝΙΚΩΝ",
+    "city": "ΣΕΡΡΕΣ",
+    "fields": {
+      "2": [
+        26,
+        27,
+        20,
+        27
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1616",
+    "institution": "ΔΙ.ΠΑ.Ε.",
+    "name": "ΦΥΣΙΚΟΘΕΡΑΠΕΙΑΣ",
+    "city": "ΘΕΣΣΑΛΟΝΙΚΗ",
+    "fields": {
+      "3": [
+        20,
+        25,
+        25,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "353",
+    "institution": "ΔΠΘ",
+    "name": "ΑΓΡΟΤΙΚΗΣ ΑΝΑΠΤΥΞΗΣ",
+    "city": "ΟΡΕΣΤΙΑΔΑ",
+    "fields": {
+      "2": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "3": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "4": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1633",
+    "institution": "ΔΠΘ",
+    "name": "ΑΜΠΕΛΟΥΡΓΙΑΣ ΚΑΙ ΟΙΝΟΛΟΓΙΑΣ",
+    "city": "ΔΡΑΜΑ",
+    "fields": {
+      "2": [
+        20,
+        20,
+        40,
+        20
+      ],
+      "3": [
+        20,
+        20,
+        30,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1669",
+    "institution": "ΔΠΘ",
+    "name": "ΑΝΘΡΩΠΙΣΤΙΚΩΝ ΣΠΟΥΔΩΝ",
+    "city": "ΚΟΜΟΤΗΝΗ",
+    "fields": {
+      "1": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "4": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "234",
+    "institution": "ΔΠΘ",
+    "name": "ΑΡΧΙΤΕΚΤΟΝΩΝ ΜΗΧΑΝΙΚΩΝ (ΞΑΝΘΗ) ΔΑΣΟΛΟΓΙΑΣ ΚΑΙ ΔΙΑΧΕΙΡΙΣΗΣ",
+    "city": null,
+    "fields": {
+      "2": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 10,
+    "special2": 10,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "212",
+    "institution": "ΔΠΘ",
+    "name": "ΠΕΡΙΒΑΛΛΟΝΤΟΣ ΚΑΙ ΦΥΣΙΚΩΝ ΠΟΡΩΝ",
+    "city": "ΟΡΕΣΤΙΑΔΑ",
+    "fields": {
+      "2": [
+        30,
+        20,
+        30,
+        20
+      ],
+      "3": [
+        20,
+        20,
+        25,
+        35
+      ],
+      "4": [
+        20,
+        20,
+        25,
+        35
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1607",
+    "institution": "ΔΠΘ",
+    "name": "ΔΙΟΙΚΗΤΙΚΗΣ ΕΠΙΣΤΗΜΗΣ ΚΑΙ ΤΕΧΝΟΛΟΓΙΑΣ",
+    "city": "ΚΑΒΑΛΑ",
+    "fields": {
+      "2": [
+        30,
+        20,
+        20,
+        30
+      ],
+      "4": [
+        20,
+        20,
+        30,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1670",
+    "institution": "ΔΠΘ",
+    "name": "ΕΡΓΟΘΕΡΑΠΕΙΑΣ",
+    "city": "ΚΟΜΟΤΗΝΗ",
+    "fields": {
+      "3": [
+        22,
+        26,
+        26,
+        26
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "404",
+    "institution": "ΔΠΘ",
+    "name": "ΕΠΙΣΤΗΜΗΣ ΦΥΣΙΚΗΣ ΑΓΩΓΗΣ ΚΑΙ ΑΘΛΗΤΙΣΜΟΥ (ΚΟΜΟΤΗΝΗ) ΕΠΙΣΤΗΜΩΝ ΤΗΣ ΕΚΠΑΙΔΕΥΣΗΣ",
+    "city": null,
+    "fields": {
+      "1": [
+        30,
+        25,
+        25,
+        20
+      ],
+      "2": [
+        30,
+        25,
+        20,
+        25
+      ],
+      "3": [
+        30,
+        25,
+        20,
+        25
+      ],
+      "4": [
+        30,
+        25,
+        25,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 20,
+    "musicIncluded": false
+  },
+  {
+    "code": "160",
+    "institution": "ΔΠΘ",
+    "name": "ΣΤΗΝ ΠΡΟΣΧΟΛΙΚΗ ΗΛΙΚΙΑ (ΑΛΕΞΑΝΔΡΟΥΠΟΛΗ) ΗΛΕΚΤΡΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ ΚΑΙ",
+    "city": null,
+    "fields": {
+      "1": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "2": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "3": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "4": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "223",
+    "institution": "ΔΠΘ",
+    "name": "ΜΗΧΑΝΙΚΩΝ ΥΠΟΛΟΓΙΣΤΩΝ",
+    "city": "ΞΑΝΘΗ",
+    "fields": {
+      "2": [
+        20,
+        30,
+        20,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "302",
+    "institution": "ΔΠΘ",
+    "name": "ΙΑΤΡΙΚΗΣ",
+    "city": "ΑΛΕΞΑΝΔΡΟΥΠΟΛΗ",
+    "fields": {
+      "3": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1301",
+    "institution": "ΔΠΘ",
+    "name": "ΚΟΙΝΩΝΙΚΗΣ ΕΡΓΑΣΙΑΣ",
+    "city": "ΚΟΜΟΤΗΝΗ",
+    "fields": {
+      "1": [
+        30,
+        20,
+        30,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1302",
+    "institution": "ΔΠΘ",
+    "name": "ΚΟΙΝΩΝΙΚΗΣ ΠΟΛΙΤΙΚΗΣ",
+    "city": "ΚΟΜΟΤΗΝΗ",
+    "fields": {
+      "1": [
+        30,
+        20,
+        25,
+        25
+      ],
+      "4": [
+        30,
+        20,
+        20,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1604",
+    "institution": "ΔΠΘ",
+    "name": "ΛΟΓΙΣΤΙΚΗΣ ΚΑΙ ΧΡΗΜΑΤΟΟΙΚΟΝΟΜΙΚΗΣ",
+    "city": "ΚΑΒΑΛΑ",
+    "fields": {
+      "4": [
+        20,
+        20,
+        25,
+        35
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "224",
+    "institution": "ΔΠΘ",
+    "name": "ΜΗΧΑΝΙΚΩΝ ΠΑΡΑΓΩΓΗΣ ΚΑΙ ΔΙΟΙΚΗΣΗΣ",
+    "city": "ΞΑΝΘΗ",
+    "fields": {
+      "2": [
+        20,
+        30,
+        20,
+        30
+      ],
+      "4": [
+        20,
+        30,
+        30,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "476",
+    "institution": "ΔΠΘ",
+    "name": "ΜΗΧΑΝΙΚΩΝ ΠΕΡΙΒΑΛΛΟΝΤΟΣ",
+    "city": "ΞΑΝΘΗ",
+    "fields": {
+      "2": [
+        20,
+        30,
+        30,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "290",
+    "institution": "ΔΠΘ",
+    "name": "ΜΟΡΙΑΚΗΣ ΒΙΟΛΟΓΙΑΣ ΚΑΙ ΓΕΝΕΤΙΚΗΣ",
+    "city": "ΑΛΕΞΑΝΔΡΟΥΠΟΛΗ",
+    "fields": {
+      "2": [
+        20,
+        25,
+        30,
+        25
+      ],
+      "3": [
+        20,
+        25,
+        25,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "121",
+    "institution": "ΔΠΘ",
+    "name": "ΝΟΜΙΚΗΣ",
+    "city": "ΚΟΜΟΤΗΝΗ",
+    "fields": {
+      "1": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1617",
+    "institution": "ΔΠΘ",
+    "name": "ΝΟΣΗΛΕΥΤΙΚΗΣ",
+    "city": "ΑΛΕΞΑΝΔΡΟΥΠΟΛΗ",
+    "fields": {
+      "3": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "97",
+    "institution": "ΔΠΘ",
+    "name": "ΟΙΚΟΝΟΜΙΚΩΝ ΕΠΙΣΤΗΜΩΝ",
+    "city": "ΚΟΜΟΤΗΝΗ",
+    "fields": {
+      "4": [
+        20,
+        28,
+        20,
+        32
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "142",
+    "institution": "ΔΠΘ",
+    "name": "ΠΑΙΔΑΓΩΓΙΚΟ ΔΗΜΟΤΙΚΗΣ ΕΚΠΑΙΔΕΥΣΗΣ",
+    "city": "ΑΛΕΞΑΝΔΡΟΥΠΟΛΗ",
+    "fields": {
+      "1": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "2": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "3": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "4": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1630",
+    "institution": "ΔΠΘ",
+    "name": "ΠΛΗΡΟΦΟΡΙΚΗΣ",
+    "city": "ΚΑΒΑΛΑ",
+    "fields": {
+      "2": [
+        25,
+        25,
+        20,
+        30
+      ],
+      "4": [
+        25,
+        25,
+        30,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "373",
+    "institution": "ΔΠΘ",
+    "name": "ΠΟΛΙΤΙΚΗΣ ΕΠΙΣΤΗΜΗΣ",
+    "city": "ΚΟΜΟΤΗΝΗ",
+    "fields": {
+      "1": [
+        25,
+        20,
+        35,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "207",
+    "institution": "ΔΠΘ",
+    "name": "ΠΟΛΙΤΙΚΩΝ ΜΗΧΑΝΙΚΩΝ (ΞΑΝΘΗ) ΦΥΣΙΚΟΥ ΠΕΡΙΒΑΛΛΟΝΤΟΣ ΚΑΙ",
+    "city": null,
+    "fields": {
+      "2": [
+        26,
+        26,
+        20,
+        28
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1632",
+    "institution": "ΔΠΘ",
+    "name": "ΚΛΙΜΑΤΙΚΗΣ ΑΝΘΕΚΤΙΚΟΤΗΤΑΣ",
+    "city": "ΔΡΑΜΑ",
+    "fields": {
+      "2": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "3": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1628",
+    "institution": "ΔΠΘ",
+    "name": "ΦΥΣΙΚΗΣ",
+    "city": "ΚΑΒΑΛΑ",
+    "fields": {
+      "2": [
+        20,
+        30,
+        23,
+        27
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1629",
+    "institution": "ΔΠΘ",
+    "name": "ΧΗΜΕΙΑΣ",
+    "city": "ΚΑΒΑΛΑ",
+    "fields": {
+      "2": [
+        20,
+        26,
+        28,
+        26
+      ],
+      "3": [
+        20,
+        26,
+        28,
+        26
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1668",
+    "institution": "ΔΠΘ",
+    "name": "ΨΥΧΟΛΟΓΙΑΣ",
+    "city": "ΔΙΔΥΜΟΤΕΙΧΟ",
+    "fields": {
+      "1": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "127",
+    "institution": "ΕΚΠΑ",
+    "name": "ΑΓΓΛΙΚΗΣ ΓΛΩΣΣΑΣ ΚΑΙ ΦΙΛΟΛΟΓΙΑΣ (ΑΘΗΝΑ) ΑΓΡΟΤΙΚΗΣ ΑΝΑΠTΥΞΗΣ,",
+    "city": null,
+    "fields": {
+      "1": [
+        30,
+        20,
+        25,
+        25
+      ]
+    },
+    "special1": 20,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1001",
+    "institution": "ΕΚΠΑ",
+    "name": "ΑΓΡΟΔΙΑΤΡΟΦΗΣ ΚΑΙ ΔΙΑΧΕΙΡΙΣΗΣ ΦΥΣΙΚΩΝ ΠΟΡΩΝ (ΨΑΧΝΑ ΕΥΒΟΙΑΣ) ΑΕΡΟΔΙΑΣΤΗΜΙΚΗΣ ΕΠΙΣΤΗΜΗΣ",
+    "city": null,
+    "fields": {
+      "2": [
+        20,
+        25,
+        30,
+        25
+      ],
+      "3": [
+        20,
+        20,
+        30,
+        30
+      ],
+      "4": [
+        20,
+        20,
+        30,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1002",
+    "institution": "ΕΚΠΑ",
+    "name": "ΚΑΙ ΤΕΧΝΟΛΟΓΙΑΣ",
+    "city": "ΨΑΧΝΑ ΕΥΒΟΙΑΣ",
+    "fields": {
+      "2": [
+        20,
+        30,
+        20,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "277",
+    "institution": "ΕΚΠΑ",
+    "name": "ΒΙΟΛΟΓΙΑΣ",
+    "city": "ΑΘΗΝΑ",
+    "fields": {
+      "2": [
+        22,
+        23,
+        30,
+        25
+      ],
+      "3": [
+        22,
+        20,
+        25,
+        33
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "131",
+    "institution": "ΕΚΠΑ",
+    "name": "ΓΑΛΛΙΚΗΣ ΓΛΩΣΣΑΣ ΚΑΙ ΦΙΛΟΛΟΓΙΑΣ",
+    "city": "ΑΘΗΝΑ",
+    "fields": {
+      "1": [
+        30,
+        20,
+        20,
+        30
+      ]
+    },
+    "special1": 20,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "135",
+    "institution": "ΕΚΠΑ",
+    "name": "ΓΕΡΜΑΝΙΚΗΣ ΓΛΩΣΣΑΣ ΚΑΙ ΦΙΛΟΛΟΓΙΑΣ",
+    "city": "ΑΘΗΝΑ",
+    "fields": {
+      "1": [
+        30,
+        20,
+        25,
+        25
+      ]
+    },
+    "special1": 20,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "283",
+    "institution": "ΕΚΠΑ",
+    "name": "ΓΕΩΛΟΓΙΑΣ ΚΑΙ ΓΕΩΠΕΡΙΒΑΛΛΟΝΤΟΣ",
+    "city": "ΑΘΗΝΑ",
+    "fields": {
+      "2": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1004",
+    "institution": "ΕΚΠΑ",
+    "name": "ΔΙΑΧΕΙΡΙΣΗΣ ΛΙΜΕΝΩΝ ΚΑΙ ΝΑΥΤΙΛΙΑΣ",
+    "city": "ΨΑΧΝΑ ΕΥΒΟΙΑΣ",
+    "fields": {
+      "4": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1005",
+    "institution": "ΕΚΠΑ",
+    "name": "ΔΙΟΙΚΗΣΗΣ ΕΠΙΧΕΙΡΗΣΕΩΝ ΚΑΙ ΟΡΓΑΝΙΣΜΩΝ",
+    "city": "ΑΘΗΝΑ",
+    "fields": {
+      "4": [
+        20,
+        20,
+        30,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "154",
+    "institution": "ΕΚΠΑ",
+    "name": "ΕΚΠΑΙΔΕΥΣΗΣ ΚΑΙ ΑΓΩΓΗΣ ΣΤΗΝ ΠΡΟΣΧΟΛΙΚΗ ΗΛΙΚΙΑ",
+    "city": "ΑΘΗΝΑ",
+    "fields": {
+      "1": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "2": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "3": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "4": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "148",
+    "institution": "ΕΚΠΑ",
+    "name": "ΕΠΙΚΟΙΝΩΝΙΑΣ ΚΑΙ ΜΕΣΩΝ ΜΑΖΙΚΗΣ ΕΝΗΜΕΡΩΣΗΣ",
+    "city": "ΑΘΗΝΑ",
+    "fields": {
+      "1": [
+        30,
+        20,
+        30,
+        20
+      ]
+    },
+    "special1": 10,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "401",
+    "institution": "ΕΚΠΑ",
+    "name": "ΕΠΙΣΤΗΜΗΣ ΦΥΣΙΚΗΣ ΑΓΩΓΗΣ ΚΑΙ ΑΘΛΗΤΙΣΜΟΥ",
+    "city": "ΑΘΗΝΑ",
+    "fields": {
+      "1": [
+        30,
+        25,
+        25,
+        20
+      ],
+      "2": [
+        30,
+        25,
+        20,
+        25
+      ],
+      "3": [
+        30,
+        25,
+        20,
+        25
+      ],
+      "4": [
+        30,
+        25,
+        25,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 20,
+    "musicIncluded": false
+  },
+  {
+    "code": "146",
+    "institution": "ΕΚΠΑ",
+    "name": "ΘΕΑΤΡΙΚΩΝ ΣΠΟΥΔΩΝ",
+    "city": "ΑΘΗΝΑ",
+    "fields": {
+      "1": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "2": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "3": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "4": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "101",
+    "institution": "ΕΚΠΑ",
+    "name": "ΘΕΟΛΟΓΙΑΣ",
+    "city": "ΑΘΗΝΑ",
+    "fields": {
+      "1": [
+        30,
+        30,
+        20,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "295",
+    "institution": "ΕΚΠΑ",
+    "name": "ΙΑΤΡΙΚΗΣ",
+    "city": "ΑΘΗΝΑ",
+    "fields": {
+      "3": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "183",
+    "institution": "ΕΚΠΑ",
+    "name": "ΙΣΠΑΝΙΚΗΣ ΓΛΩΣΣΑΣ ΚΑΙ ΦΙΛΟΛΟΓΙΑΣ",
+    "city": "ΑΘΗΝΑ",
+    "fields": {
+      "1": [
+        35,
+        20,
+        20,
+        25
+      ]
+    },
+    "special1": 20,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "110",
+    "institution": "ΕΚΠΑ",
+    "name": "ΙΣΤΟΡΙΑΣ ΚΑΙ ΑΡΧΑΙΟΛΟΓΙΑΣ",
+    "city": "ΑΘΗΝΑ",
+    "fields": {
+      "1": [
+        30,
+        26,
+        24,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "173",
+    "institution": "ΕΚΠΑ",
+    "name": "ΙΣΤΟΡΙΑΣ ΚΑΙ ΦΙΛΟΣΟΦΙΑΣ ΤΗΣ ΕΠΙΣΤΗΜΗΣ",
+    "city": "ΑΘΗΝΑ",
+    "fields": {
+      "1": [
+        28,
+        22,
+        28,
+        22
+      ],
+      "2": [
+        28,
+        28,
+        22,
+        22
+      ],
+      "3": [
+        28,
+        22,
+        22,
+        28
+      ],
+      "4": [
+        28,
+        28,
+        22,
+        22
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "182",
+    "institution": "ΕΚΠΑ",
+    "name": "ΙΤΑΛΙΚΗΣ ΓΛΩΣΣΑΣ ΚΑΙ ΦΙΛΟΛΟΓΙΑΣ",
+    "city": "ΑΘΗΝΑ",
+    "fields": {
+      "1": [
+        25,
+        20,
+        25,
+        30
+      ]
+    },
+    "special1": 20,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "105",
+    "institution": "ΕΚΠΑ",
+    "name": "ΚΟΙΝΩΝΙΚΗΣ ΘΕΟΛΟΓΙΑΣ ΚΑΙ ΘΡΗΣΚΕΙΟΛΟΓΙΑΣ",
+    "city": "ΑΘΗΝΑ",
+    "fields": {
+      "1": [
+        30,
+        20,
+        30,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1006",
+    "institution": "ΕΚΠΑ",
+    "name": "ΚΟΙΝΩΝΙΟΛΟΓΙΑΣ (ΑΘΗΝΑ) - ΕΚΠΑ",
+    "city": null,
+    "fields": {
+      "1": [
+        30,
+        20,
+        30,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "243",
+    "institution": "ΕΚΠΑ",
+    "name": "ΜΑΘΗΜΑΤΙΚΩΝ",
+    "city": "ΑΘΗΝΑ",
+    "fields": {
+      "2": [
+        20,
+        25,
+        20,
+        35
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "408",
+    "institution": "ΕΚΠΑ",
+    "name": "ΜΟΥΣΙΚΩΝ ΣΠΟΥΔΩΝ",
+    "city": "ΑΘΗΝΑ",
+    "fields": {
+      "1": [
+        30,
+        0,
+        20,
+        0
+      ],
+      "2": [
+        30,
+        0,
+        0,
+        20
+      ],
+      "3": [
+        30,
+        20,
+        0,
+        0
+      ],
+      "4": [
+        30,
+        0,
+        20,
+        0
+      ]
+    },
+    "special1": 20,
+    "special2": 30,
+    "practical": 0,
+    "musicIncluded": true
+  },
+  {
+    "code": "117",
+    "institution": "ΕΚΠΑ",
+    "name": "ΝΟΜΙΚΗΣ",
+    "city": "ΑΘΗΝΑ",
+    "fields": {
+      "1": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "306",
+    "institution": "ΕΚΠΑ",
+    "name": "ΝΟΣΗΛΕΥΤΙΚΗΣ",
+    "city": "ΑΘΗΝΑ",
+    "fields": {
+      "3": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "303",
+    "institution": "ΕΚΠΑ",
+    "name": "ΟΔΟΝΤΙΑΤΡΙΚΗΣ",
+    "city": "ΑΘΗΝΑ",
+    "fields": {
+      "3": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "309",
+    "institution": "ΕΚΠΑ",
+    "name": "ΟΙΚΟΝΟΜΙΚΩΝ ΕΠΙΣΤΗΜΩΝ",
+    "city": "ΑΘΗΝΑ",
+    "fields": {
+      "4": [
+        22,
+        34,
+        20,
+        24
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1007",
+    "institution": "ΕΚΠΑ",
+    "name": "ΠΑΙΔΑΓΩΓΙΚΟ ΔΕΥΤΕΡΟΒΑΘΜΙΑΣ ΕΚΠΑΙΔΕΥΣΗΣ",
+    "city": "ΑΘΗΝΑ",
+    "fields": {
+      "1": [
+        30,
+        25,
+        25,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "128",
+    "institution": "ΕΚΠΑ",
+    "name": "ΠΑΙΔΑΓΩΓΙΚΟ ΔΗΜΟΤΙΚΗΣ ΕΚΠΑΙΔΕΥΣΗΣ",
+    "city": "ΑΘΗΝΑ",
+    "fields": {
+      "1": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "2": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "3": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "4": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "330",
+    "institution": "ΕΚΠΑ",
+    "name": "ΠΛΗΡΟΦΟΡΙΚΗΣ ΚΑΙ ΤΗΛΕΠΙΚΟΙΝΩΝΙΩΝ",
+    "city": "ΑΘΗΝΑ",
+    "fields": {
+      "2": [
+        20,
+        25,
+        20,
+        35
+      ],
+      "4": [
+        20,
+        35,
+        25,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "123",
+    "institution": "ΕΚΠΑ",
+    "name": "ΠΟΛΙΤΙΚΗΣ ΕΠΙΣΤΗΜΗΣ ΚΑΙ ΔΗΜΟΣΙΑΣ ΔΙΟΙΚΗΣΗΣ (ΑΘΗΝΑ) ΡΩΣΙΚΗΣ ΓΛΩΣΣΑΣ ΚΑΙ ΦΙΛΟΛΟΓΙΑΣ",
+    "city": null,
+    "fields": {
+      "1": [
+        20,
+        30,
+        30,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "192",
+    "institution": "ΕΚΠΑ",
+    "name": "ΚΑΙ ΣΛΑΒΙΚΩΝ ΣΠΟΥΔΩΝ (ΑΘΗΝΑ) - ΡΩΣΙΚΗΣ ΓΛΩΣΣΑΣ ΚΑΙ ΦΙΛΟΛΟΓΙΑΣ",
+    "city": null,
+    "fields": {
+      "1": [
+        30,
+        25,
+        25,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1008",
+    "institution": "ΕΚΠΑ",
+    "name": "ΤΕΧΝΟΛΟΓΙΩΝ ΨΗΦΙΑΚΗΣ ΒΙΟΜΗΧΑΝΙΑΣ (ΨΑΧΝΑ ΕΥΒΟΙΑΣ) ΤΟΥΡΚΙΚΩΝ ΣΠΟΥΔΩΝ ΚΑΙ",
+    "city": null,
+    "fields": {
+      "2": [
+        20,
+        30,
+        20,
+        30
+      ],
+      "4": [
+        20,
+        30,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "188",
+    "institution": "ΕΚΠΑ",
+    "name": "ΣΥΓΧΡΟΝΩΝ ΑΣΙΑΤΙΚΩΝ ΣΠΟΥΔΩΝ",
+    "city": "ΑΘΗΝΑ",
+    "fields": {
+      "1": [
+        30,
+        20,
+        30,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "289",
+    "institution": "ΕΚΠΑ",
+    "name": "ΦΑΡΜΑΚΕΥΤΙΚΗΣ",
+    "city": "ΑΘΗΝΑ",
+    "fields": {
+      "3": [
+        20,
+        20,
+        30,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "109",
+    "institution": "ΕΚΠΑ",
+    "name": "ΦΙΛΟΛΟΓΙΑΣ",
+    "city": "ΑΘΗΝΑ",
+    "fields": {
+      "1": [
+        26,
+        26,
+        22,
+        26
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1010",
+    "institution": "ΕΚΠΑ",
+    "name": "ΦΙΛΟΣΟΦΙΑΣ",
+    "city": "ΑΘΗΝΑ",
+    "fields": {
+      "1": [
+        35,
+        25,
+        20,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "253",
+    "institution": "ΕΚΠΑ",
+    "name": "ΦΥΣΙΚΗΣ",
+    "city": "ΑΘΗΝΑ",
+    "fields": {
+      "2": [
+        20,
+        33,
+        20,
+        27
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "263",
+    "institution": "ΕΚΠΑ",
+    "name": "ΧΗΜΕΙΑΣ (ΑΘΗΝΑ) ΨΗΦΙΑΚΩΝ ΤΕΧΝΩΝ ΚΑΙ",
+    "city": null,
+    "fields": {
+      "2": [
+        20,
+        25,
+        30,
+        25
+      ],
+      "3": [
+        20,
+        25,
+        35,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1011",
+    "institution": "ΕΚΠΑ",
+    "name": "ΚΙΝΗΜΑΤΟΓΡΑΦΟΥ",
+    "city": "ΨΑΧΝΑ ΕΥΒΟΙΑΣ",
+    "fields": {
+      "1": [
+        30,
+        20,
+        30,
+        20
+      ],
+      "2": [
+        30,
+        20,
+        20,
+        30
+      ],
+      "3": [
+        40,
+        20,
+        20,
+        20
+      ],
+      "4": [
+        25,
+        25,
+        30,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "171",
+    "institution": "ΕΚΠΑ",
+    "name": "ΨΥΧΟΛΟΓΙΑΣ (ΑΘΗΝΑ) - ΕΚΠΑ",
+    "city": null,
+    "fields": {
+      "1": [
+        30,
+        25,
+        25,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1657",
+    "institution": "ΕΛ.ΜΕ.ΠΑ.",
+    "name": "ΓΕΩΠΟΝΙΑΣ",
+    "city": "ΗΡΑΚΛΕΙΟ",
+    "fields": {
+      "2": [
+        30,
+        20,
+        30,
+        20
+      ],
+      "3": [
+        20,
+        20,
+        30,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1655",
+    "institution": "ΕΛ.ΜΕ.ΠΑ.",
+    "name": "ΔΙΟΙΚΗΣΗΣ ΕΠΙΧΕΙΡΗΣΕΩΝ ΚΑΙ ΤΟΥΡΙΣΜΟΥ",
+    "city": "ΗΡΑΚΛΕΙΟ",
+    "fields": {
+      "4": [
+        24,
+        28,
+        20,
+        28
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1656",
+    "institution": "ΕΛ.ΜΕ.ΠΑ.",
+    "name": "ΔΙΟΙΚΗΤΙΚΗΣ ΕΠΙΣΤΗΜΗΣ ΚΑΙ ΤΕΧΝΟΛΟΓΙΑΣ",
+    "city": "ΑΓΙΟΣ ΝΙΚΟΛΑΟΣ",
+    "fields": {
+      "2": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "4": [
+        20,
+        20,
+        30,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1653",
+    "institution": "ΕΛ.ΜΕ.ΠΑ.",
+    "name": "ΕΠΙΣΤΗΜΩΝ ΔΙΑΤΡΟΦΗΣ ΚΑΙ ΔΙΑΙΤΟΛΟΓΙΑΣ (ΣΗΤΕΙΑ) ΗΛΕΚΤΡΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ ΚΑΙ",
+    "city": null,
+    "fields": {
+      "3": [
+        20,
+        20,
+        30,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1660",
+    "institution": "ΕΛ.ΜΕ.ΠΑ.",
+    "name": "ΜΗΧΑΝΙΚΩΝ ΥΠΟΛΟΓΙΣΤΩΝ",
+    "city": "ΗΡΑΚΛΕΙΟ",
+    "fields": {
+      "2": [
+        30,
+        20,
+        20,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1662",
+    "institution": "ΕΛ.ΜΕ.ΠΑ.",
+    "name": "ΗΛΕΚΤΡΟΝΙΚΩΝ ΜΗΧΑΝΙΚΩΝ",
+    "city": "ΧΑΝΙΑ",
+    "fields": {
+      "2": [
+        27,
+        27,
+        26,
+        20
+      ],
+      "4": [
+        30,
+        20,
+        30,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1652",
+    "institution": "ΕΛ.ΜΕ.ΠΑ.",
+    "name": "ΚΟΙΝΩΝΙΚΗΣ ΕΡΓΑΣΙΑΣ (ΗΡΑΚΛΕΙΟ) ΛΟΓΙΣΤΙΚΗΣ ΚΑΙ",
+    "city": null,
+    "fields": {
+      "1": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1654",
+    "institution": "ΕΛ.ΜΕ.ΠΑ.",
+    "name": "ΧΡΗΜΑΤΟΟΙΚΟΝΟΜΙΚΗΣ",
+    "city": "ΗΡΑΚΛΕΙΟ",
+    "fields": {
+      "4": [
+        20,
+        30,
+        20,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1659",
+    "institution": "ΕΛ.ΜΕ.ΠΑ.",
+    "name": "ΜΗΧΑΝΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ",
+    "city": "ΗΡΑΚΛΕΙΟ",
+    "fields": {
+      "2": [
+        25,
+        25,
+        20,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1664",
+    "institution": "ΕΛ.ΜΕ.ΠΑ.",
+    "name": "ΜΟΥΣΙΚΗΣ ΤΕΧΝΟΛΟΓΙΑΣ ΚΑΙ ΑΚΟΥΣΤΙΚΗΣ",
+    "city": "ΡΕΘΥΜΝΟ",
+    "fields": {
+      "2": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "4": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1651",
+    "institution": "ΕΛ.ΜΕ.ΠΑ.",
+    "name": "ΝΟΣΗΛΕΥΤΙΚΗΣ",
+    "city": "ΗΡΑΚΛΕΙΟ",
+    "fields": {
+      "3": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "225",
+    "institution": "ΕΜΠ",
+    "name": "ΑΓΡΟΝΟΜΩΝ ΚΑΙ ΤΟΠΟΓΡΑΦΩΝ ΜΗΧΑΝΙΚΩΝ - ΜΗΧΑΝΙΚΩΝ ΓΕΩΠΛΗΡΟΦΟΡΙΚΗΣ",
+    "city": "ΑΘΗΝΑ",
+    "fields": {
+      "2": [
+        25,
+        25,
+        20,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "231",
+    "institution": "ΕΜΠ",
+    "name": "ΑΡΧΙΤΕΚΤΟΝΩΝ ΜΗΧΑΝΙΚΩΝ (ΑΘΗΝΑ) ΕΦΑΡΜΟΣΜΕΝΩΝ ΜΑΘΗΜΑΤΙΚΩΝ",
+    "city": null,
+    "fields": {
+      "2": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 10,
+    "special2": 10,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "246",
+    "institution": "ΕΜΠ",
+    "name": "ΚΑΙ ΦΥΣΙΚΩΝ ΕΠΙΣΤΗΜΩΝ (ΑΘΗΝΑ) ΗΛΕΚΤΡΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ ΚΑΙ",
+    "city": null,
+    "fields": {
+      "2": [
+        20,
+        30,
+        20,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "217",
+    "institution": "ΕΜΠ",
+    "name": "ΜΗΧΑΝΙΚΩΝ ΥΠΟΛΟΓΙΣΤΩΝ (ΑΘΗΝΑ) ΜΕΤΑΛΛΕΙΟΛΟΓΩΝ -",
+    "city": null,
+    "fields": {
+      "2": [
+        20,
+        30,
+        20,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "241",
+    "institution": "ΕΜΠ",
+    "name": "ΜΕΤΑΛΛΟΥΡΓΩΝ ΜΗΧΑΝΙΚΩΝ",
+    "city": "ΑΘΗΝΑ",
+    "fields": {
+      "2": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "209",
+    "institution": "ΕΜΠ",
+    "name": "ΜΗΧΑΝΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ",
+    "city": "ΑΘΗΝΑ",
+    "fields": {
+      "2": [
+        22,
+        26,
+        20,
+        32
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "229",
+    "institution": "ΕΜΠ",
+    "name": "ΝΑΥΠΗΓΩΝ ΜΗΧΑΝΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ",
+    "city": "ΑΘΗΝΑ",
+    "fields": {
+      "2": [
+        20,
+        30,
+        20,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "201",
+    "institution": "ΕΜΠ",
+    "name": "ΠΟΛΙΤΙΚΩΝ ΜΗΧΑΝΙΚΩΝ",
+    "city": "ΑΘΗΝΑ",
+    "fields": {
+      "2": [
+        20,
+        27,
+        20,
+        33
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "235",
+    "institution": "ΕΜΠ",
+    "name": "ΧΗΜΙΚΩΝ ΜΗΧΑΝΙΚΩΝ",
+    "city": "ΑΘΗΝΑ",
+    "fields": {
+      "2": [
+        20,
+        25,
+        25,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1452",
+    "institution": "ΙΟΝΙΟ ΠΑΝ/ΜΙΟ",
+    "name": "ΕΠΙΣΤΗΜΗΣ ΚΑΙ ΤΕΧΝΟΛΟΓΙΑΣ ΤΡΟΦΙΜΩΝ",
+    "city": "ΑΡΓΟΣΤΟΛΙ",
+    "fields": {
+      "2": [
+        24,
+        24,
+        28,
+        24
+      ],
+      "3": [
+        23,
+        23,
+        28,
+        26
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "342",
+    "institution": "ΙΟΝΙΟ ΠΑΝ/ΜΙΟ",
+    "name": "ΤΜΗΜΑΤΟΣ ΑΡΧΕΙΟΝΟΜΙΑΣ, ΒΙΒΛΙΟΘΗΚΟΝΟΜΙΑΣ ΚΑΙ ΜΟΥΣΕΙΟΛΟΓΙΑΣ) ΙΣΤΟΡΙΑΣ ΚΑΙ ΨΗΦΙΑΚΩΝ",
+    "city": null,
+    "fields": {
+      "1": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "4": [
+        25,
+        20,
+        30,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "145",
+    "institution": "ΙΟΝΙΟ ΠΑΝ/ΜΙΟ",
+    "name": "ΑΝΘΡΩΠΙΣΤΙΚΩΝ ΕΠΙΣΤΗΜΩΝ",
+    "city": "ΚΕΡΚΥΡΑ",
+    "fields": {
+      "1": [
+        20,
+        20,
+        40,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "407",
+    "institution": "ΙΟΝΙΟ ΠΑΝ/ΜΙΟ",
+    "name": "ΜΟΥΣΙΚΩΝ ΣΠΟΥΔΩΝ",
+    "city": "ΚΕΡΚΥΡΑ",
+    "fields": {
+      "1": [
+        20,
+        0,
+        20,
+        0
+      ],
+      "2": [
+        20,
+        0,
+        0,
+        20
+      ],
+      "3": [
+        20,
+        20,
+        0,
+        0
+      ],
+      "4": [
+        20,
+        0,
+        20,
+        0
+      ]
+    },
+    "special1": 30,
+    "special2": 30,
+    "practical": 0,
+    "musicIncluded": true
+  },
+  {
+    "code": "385",
+    "institution": "ΙΟΝΙΟ ΠΑΝ/ΜΙΟ",
+    "name": "ΞΕΝΩΝ ΓΛΩΣΣΩΝ ΜΕΤΑΦΡΑΣΗΣ ΚΑΙ ΔΙΕΡΜΗΝΕΙΑΣ",
+    "city": "ΚΕΡΚΥΡΑ",
+    "fields": {
+      "1": [
+        40,
+        20,
+        20,
+        20
+      ]
+    },
+    "special1": 20,
+    "special2": 20,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1453",
+    "institution": "ΙΟΝΙΟ ΠΑΝ/ΜΙΟ",
+    "name": "ΠΕΡΙΒΑΛΛΟΝΤΟΣ",
+    "city": "ΖΑΚΥΝΘΟΣ",
+    "fields": {
+      "2": [
+        20,
+        30,
+        30,
+        20
+      ],
+      "3": [
+        20,
+        25,
+        25,
+        30
+      ],
+      "4": [
+        20,
+        20,
+        30,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "366",
+    "institution": "ΙΟΝΙΟ ΠΑΝ/ΜΙΟ",
+    "name": "ΠΛΗΡΟΦΟΡΙΚΗΣ",
+    "city": "ΚΕΡΚΥΡΑ",
+    "fields": {
+      "2": [
+        20,
+        25,
+        25,
+        30
+      ],
+      "4": [
+        20,
+        30,
+        30,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "367",
+    "institution": "ΙΟΝΙΟ ΠΑΝ/ΜΙΟ",
+    "name": "ΤΕΧΝΩΝ ΗΧΟΥ ΚΑΙ ΕΙΚΟΝΑΣ",
+    "city": "ΚΕΡΚΥΡΑ",
+    "fields": {
+      "1": [
+        30,
+        20,
+        30,
+        20
+      ],
+      "2": [
+        30,
+        20,
+        20,
+        30
+      ],
+      "3": [
+        30,
+        25,
+        20,
+        25
+      ],
+      "4": [
+        20,
+        30,
+        30,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1455",
+    "institution": "ΙΟΝΙΟ ΠΑΝ/ΜΙΟ",
+    "name": "ΤΟΥΡΙΣΜΟΥ",
+    "city": "ΚΕΡΚΥΡΑ",
+    "fields": {
+      "4": [
+        20,
+        20,
+        30,
+        30
+      ]
+    },
+    "special1": 10,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1456",
+    "institution": "ΙΟΝΙΟ ΠΑΝ/ΜΙΟ",
+    "name": "ΨΗΦΙΑΚΩΝ ΜΕΣΩΝ ΚΑΙ ΕΠΙΚΟΙΝΩΝΙΑΣ (ΑΡΓΟΣΤΟΛΙ) ΣΧΟΛΗ ΔΟΚΙΜΩΝ",
+    "city": null,
+    "fields": {
+      "1": [
+        30,
+        20,
+        30,
+        20
+      ],
+      "4": [
+        30,
+        20,
+        30,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "882",
+    "institution": "Λ.Σ. - ΕΛ. ΑΚΤ.",
+    "name": "ΛΙΜΕΝΟΦΥΛΑΚΩΝ (ΜΟΝΟ ΓΙΑ ΠΟΛΙΤΕΣ) ΣΧΟΛΗ ΔΟΚΙΜΩΝ ΣΗΜΑΙΟΦΟΡΩΝ ΛΙΜΕΝΙΚΟΥ ΣΩΜΑΤΟΣ -",
+    "city": null,
+    "fields": {
+      "1": [
+        40,
+        20,
+        20,
+        20
+      ],
+      "2": [
+        30,
+        20,
+        20,
+        30
+      ],
+      "3": [
+        30,
+        30,
+        20,
+        20
+      ],
+      "4": [
+        30,
+        30,
+        20,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "883",
+    "institution": "Λ.Σ. - ΕΛ. ΑΚΤ.",
+    "name": "ΕΛΛΗΝΙΚΗΣ ΑΚΤΟΦΥΛΑΚΗΣ (Σ.Δ.Σ.Λ.Σ. - ΕΛ.ΑΚΤ.) (ΜΟΝΟ ΓΙΑ ΕΝ ΕΝΕΡΓΕΙΑ ΣΤΕΛΕΧΗ ΛΣ - Ε Λ.ΑΚΤ.) ΣΧΟΛΗ ΔΟΚΙΜΩΝ ΣΗΜΑΙΟΦΟΡΩΝ ΛΙΜΕΝΙΚΟΥ ΣΩΜΑΤΟΣ -",
+    "city": null,
+    "fields": {
+      "1": [
+        40,
+        20,
+        20,
+        20
+      ],
+      "2": [
+        30,
+        20,
+        20,
+        30
+      ],
+      "3": [
+        30,
+        30,
+        20,
+        20
+      ],
+      "4": [
+        30,
+        30,
+        20,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "881",
+    "institution": "Λ.Σ. - ΕΛ. ΑΚΤ.",
+    "name": "ΕΛΛΗΝΙΚΗΣ ΑΚΤΟΦΥΛΑΚΗΣ (Σ.Δ.Σ.Λ.Σ. - ΕΛ.ΑΚΤ.) (ΜΟΝΟ ΓΙΑ ΠΟΛΙΤΕΣ) ΔΙΕΘΝΩΝ ΚΑΙ ΕΥΡΩΠΑΪΚΩΝ",
+    "city": null,
+    "fields": {
+      "1": [
+        40,
+        20,
+        20,
+        20
+      ],
+      "2": [
+        30,
+        20,
+        20,
+        30
+      ],
+      "3": [
+        30,
+        30,
+        20,
+        20
+      ],
+      "4": [
+        30,
+        30,
+        20,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "150",
+    "institution": "ΟΠΑ",
+    "name": "ΟΙΚΟΝΟΜΙΚΩΝ ΣΠΟΥΔΩΝ",
+    "city": "ΑΘΗΝΑ",
+    "fields": {
+      "4": [
+        20,
+        30,
+        20,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "240",
+    "institution": "ΟΠΑ",
+    "name": "ΔΙΟΙΚΗΤΙΚΗΣ ΕΠΙΣΤΗΜΗΣ ΚΑΙ ΤΕΧΝΟΛΟΓΙΑΣ",
+    "city": "ΑΘΗΝΑ",
+    "fields": {
+      "2": [
+        30,
+        20,
+        20,
+        30
+      ],
+      "4": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "347",
+    "institution": "ΟΠΑ",
+    "name": "ΛΟΓΙΣΤΙΚΗΣ ΚΑΙ ΧΡΗΜΑΤΟΟΙΚΟΝΟΜΙΚΗΣ",
+    "city": "ΑΘΗΝΑ",
+    "fields": {
+      "4": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "314",
+    "institution": "ΟΠΑ",
+    "name": "ΜΑΡΚΕΤΙΝΓΚ ΚΑΙ ΕΠΙΚΟΙΝΩΝΙΑΣ",
+    "city": "ΑΘΗΝΑ",
+    "fields": {
+      "4": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "312",
+    "institution": "ΟΠΑ",
+    "name": "ΟΙΚΟΝΟΜΙΚΗΣ ΕΠΙΣΤΗΜΗΣ",
+    "city": "ΑΘΗΝΑ",
+    "fields": {
+      "4": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "313",
+    "institution": "ΟΠΑ",
+    "name": "ΟΡΓΑΝΩΣΗΣ ΚΑΙ ΔΙΟΙΚΗΣΗΣ ΕΠΙΧΕΙΡΗΣΕΩΝ",
+    "city": "ΑΘΗΝΑ",
+    "fields": {
+      "4": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "333",
+    "institution": "ΟΠΑ",
+    "name": "ΠΛΗΡΟΦΟΡΙΚΗΣ",
+    "city": "ΑΘΗΝΑ",
+    "fields": {
+      "2": [
+        20,
+        30,
+        20,
+        30
+      ],
+      "4": [
+        20,
+        30,
+        30,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "329",
+    "institution": "ΟΠΑ",
+    "name": "ΣΤΑΤΙΣΤΙΚΗΣ (ΑΘΗΝΑ) ΒΑΛΚΑΝΙΚΩΝ, ΣΛΑΒΙΚΩΝ ΚΑΙ",
+    "city": null,
+    "fields": {
+      "2": [
+        22,
+        22,
+        22,
+        34
+      ],
+      "4": [
+        22,
+        34,
+        22,
+        22
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "176",
+    "institution": "ΠΑ. ΜΑΚ.",
+    "name": "ΑΝΑΤΟΛΙΚΩΝ ΣΠΟΥΔΩΝ",
+    "city": "ΘΕΣΣΑΛΟΝΙΚΗ",
+    "fields": {
+      "1": [
+        30,
+        20,
+        30,
+        20
+      ],
+      "4": [
+        20,
+        20,
+        30,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "161",
+    "institution": "ΠΑ. ΜΑΚ.",
+    "name": "ΔΙΕΘΝΩΝ ΚΑΙ ΕΥΡΩΠΑΪΚΩΝ ΣΠΟΥΔΩΝ",
+    "city": "ΘΕΣΣΑΛΟΝΙΚΗ",
+    "fields": {
+      "1": [
+        20,
+        25,
+        35,
+        20
+      ],
+      "4": [
+        20,
+        25,
+        20,
+        35
+      ]
+    },
+    "special1": 20,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "174",
+    "institution": "ΠΑ. ΜΑΚ.",
+    "name": "ΕΚΠΑΙΔΕΥΤΙΚΗΣ ΚΑΙ ΚΟΙΝΩΝΙΚΗΣ ΠΟΛΙΤΙΚΗΣ",
+    "city": "ΘΕΣΣΑΛΟΝΙΚΗ",
+    "fields": {
+      "1": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1211",
+    "institution": "ΠΑ. ΜΑΚ.",
+    "name": "ΕΦΑΡΜΟΣΜΕΝΗΣ ΠΛΗΡΟΦΟΡΙΚΗΣ - ΕΠΙΣΤΗΜΗ ΚΑΙ ΤΕΧΝΟΛΟΓΙΑ ΥΠΟΛΟΓΙΣΤΩΝ (ΘΕΣΣΑΛΟΝΙΚΗ) ΕΦΑΡΜΟΣΜΕΝΗΣ ΠΛΗΡΟΦΟΡΙΚΗΣ",
+    "city": null,
+    "fields": {
+      "2": [
+        25,
+        25,
+        20,
+        30
+      ],
+      "4": [
+        25,
+        30,
+        25,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1212",
+    "institution": "ΠΑ. ΜΑΚ.",
+    "name": "- ΠΛΗΡΟΦΟΡΙΑΚΑ ΣΥΣΤΗΜΑΤΑ (ΘΕΣΣΑΛΟΝΙΚΗ) ΛΟΓΙΣΤΙΚΗΣ ΚΑΙ",
+    "city": null,
+    "fields": {
+      "2": [
+        25,
+        25,
+        20,
+        30
+      ],
+      "4": [
+        25,
+        30,
+        25,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "337",
+    "institution": "ΠΑ. ΜΑΚ.",
+    "name": "ΧΡΗΜΑΤΟΟΙΚΟΝΟΜΙΚΗΣ",
+    "city": "ΘΕΣΣΑΛΟΝΙΚΗ",
+    "fields": {
+      "4": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "409",
+    "institution": "ΠΑ. ΜΑΚ.",
+    "name": "ΜΟΥΣΙΚΗΣ ΕΠΙΣΤΗΜΗΣ ΚΑΙ ΤΕΧΝΗΣ",
+    "city": "ΘΕΣΣΑΛΟΝΙΚΗ",
+    "fields": {
+      "1": [
+        20,
+        0,
+        20,
+        0
+      ],
+      "2": [
+        20,
+        0,
+        0,
+        20
+      ],
+      "3": [
+        20,
+        20,
+        0,
+        0
+      ],
+      "4": [
+        20,
+        0,
+        20,
+        0
+      ]
+    },
+    "special1": 40,
+    "special2": 20,
+    "practical": 0,
+    "musicIncluded": true
+  },
+  {
+    "code": "317",
+    "institution": "ΠΑ. ΜΑΚ.",
+    "name": "ΟΙΚΟΝΟΜΙΚΩΝ ΕΠΙΣΤΗΜΩΝ (ΘΕΣΣΑΛΟΝΙΚΗ) - ΠΑΝ. ΜΑΚΕΔ.",
+    "city": null,
+    "fields": {
+      "4": [
+        30,
+        30,
+        20,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "322",
+    "institution": "ΠΑ. ΜΑΚ.",
+    "name": "ΟΡΓΑΝΩΣΗΣ ΚΑΙ ΔΙΟΙΚΗΣΗΣ ΕΠΙΧΕΙΡΗΣΕΩΝ",
+    "city": "ΘΕΣΣΑΛΟΝΙΚΗ",
+    "fields": {
+      "4": [
+        23,
+        30,
+        22,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "416",
+    "institution": "ΠΑΕΑ ΚΡΗΤΗΣ",
+    "name": "ΠΡΟΓΡΑΜΜΑ ΙΕΡΑΤΙΚΩΝ ΣΠΟΥΔΩΝ ΗΡΑΚΛΕΙΟΥ ΚΡΗΤΗΣ",
+    "city": null,
+    "fields": {
+      "1": [
+        25,
+        20,
+        30,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "310",
+    "institution": "ΠΑΝ. ΑΙΓΑΙΟΥ",
+    "name": "ΓΕΩΓΡΑΦΙΑΣ",
+    "city": "ΜΥΤΙΛΗΝΗ",
+    "fields": {
+      "2": [
+        20,
+        30,
+        20,
+        30
+      ],
+      "4": [
+        20,
+        30,
+        20,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "320",
+    "institution": "ΠΑΝ. ΑΙΓΑΙΟΥ",
+    "name": "ΔΙΟΙΚΗΣΗΣ ΕΠΙΧΕΙΡΗΣΕΩΝ",
+    "city": "ΧΙΟΣ",
+    "fields": {
+      "4": [
+        25,
+        25,
+        20,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "372",
+    "institution": "ΠΑΝ. ΑΙΓΑΙΟΥ",
+    "name": "ΕΠΙΣΤΗΜΗΣ ΤΡΟΦΙΜΩΝ ΚΑΙ ΔΙΑΤΡΟΦΗΣ (ΛΗΜΝΟΣ) ΕΠΙΣΤΗΜΩΝ ΤΗΣ ΠΡΟΣΧΟΛΙΚΗΣ",
+    "city": null,
+    "fields": {
+      "2": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "3": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "162",
+    "institution": "ΠΑΝ. ΑΙΓΑΙΟΥ",
+    "name": "ΑΓΩΓΗΣ ΚΑΙ ΕΚΠΑΙΔΕΥΤΙΚΟΥ ΣΧΕΔΙΑΣΜΟΥ",
+    "city": "ΡΟΔΟΣ",
+    "fields": {
+      "1": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "2": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "3": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "4": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "167",
+    "institution": "ΠΑΝ. ΑΙΓΑΙΟΥ",
+    "name": "ΚΟΙΝΩΝΙΚΗΣ ΑΝΘΡΩΠΟΛΟΓΙΑΣ ΚΑΙ ΙΣΤΟΡΙΑΣ",
+    "city": "ΜΥΤΙΛΗΝΗ",
+    "fields": {
+      "1": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "348",
+    "institution": "ΠΑΝ. ΑΙΓΑΙΟΥ",
+    "name": "ΚΟΙΝΩΝΙΟΛΟΓΙΑΣ",
+    "city": "ΜΥΤΙΛΗΝΗ",
+    "fields": {
+      "1": [
+        30,
+        20,
+        30,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "252",
+    "institution": "ΠΑΝ. ΑΙΓΑΙΟΥ",
+    "name": "ΜΑΘΗΜΑΤΙΚΩΝ",
+    "city": "ΣΑΜΟΣ",
+    "fields": {
+      "2": [
+        20,
+        25,
+        20,
+        35
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "181",
+    "institution": "ΠΑΝ. ΑΙΓΑΙΟΥ",
+    "name": "ΜΕΣΟΓΕΙΑΚΩΝ ΣΠΟΥΔΩΝ: ΑΡΧΑΙΟΛΟΓΙΑ, ΓΛΩΣΣΟΛΟΓΙΑ, ΔΙΕΘΝΕΙΣ ΣΧΕΣΕΙΣ",
+    "city": "ΡΟΔΟΣ",
+    "fields": {
+      "1": [
+        30,
+        22,
+        24,
+        24
+      ],
+      "4": [
+        30,
+        20,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "222",
+    "institution": "ΠΑΝ. ΑΙΓΑΙΟΥ",
+    "name": "ΜΗΧΑΝΙΚΩΝ ΟΙΚΟΝΟΜΙΑΣ ΚΑΙ ΔΙΟΙΚΗΣΗΣ (ΧΙΟΣ) ΜΗΧΑΝΙΚΩΝ ΠΛΗΡΟΦΟΡΙΑΚΩΝ",
+    "city": null,
+    "fields": {
+      "2": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "4": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "344",
+    "institution": "ΠΑΝ. ΑΙΓΑΙΟΥ",
+    "name": "ΚΑΙ ΕΠΙΚΟΙΝΩΝΙΑΚΩΝ ΣΥΣΤΗΜΑΤΩΝ (ΣΑΜΟΣ) ΜΗΧΑΝΙΚΩΝ ΣΧΕΔΙΑΣΗΣ",
+    "city": null,
+    "fields": {
+      "2": [
+        25,
+        25,
+        20,
+        30
+      ],
+      "4": [
+        25,
+        25,
+        30,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "238",
+    "institution": "ΠΑΝ. ΑΙΓΑΙΟΥ",
+    "name": "ΠΡΟΪΟΝΤΩΝ ΚΑΙ ΣΥΣΤΗΜΑΤΩΝ",
+    "city": "ΣΥΡΟΣ",
+    "fields": {
+      "2": [
+        25,
+        25,
+        20,
+        30
+      ],
+      "4": [
+        20,
+        30,
+        30,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "180",
+    "institution": "ΠΑΝ. ΑΙΓΑΙΟΥ",
+    "name": "ΝΑΥΤΙΛΙΑΣ ΚΑΙ ΕΠΙΧΕΙΡΗΜΑΤΙΚΩΝ ΥΠΗΡΕΣΙΩΝ",
+    "city": "ΧΙΟΣ",
+    "fields": {
+      "4": [
+        30,
+        30,
+        20,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "612",
+    "institution": "ΠΑΝ. ΑΙΓΑΙΟΥ",
+    "name": "ΟΙΚΟΝΟΜΙΚΗΣ ΚΑΙ ΔΙΟΙΚΗΣΗΣ ΤΟΥΡΙΣΜΟΥ",
+    "city": "ΧΙΟΣ",
+    "fields": {
+      "4": [
+        25,
+        25,
+        20,
+        30
+      ]
+    },
+    "special1": 20,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "143",
+    "institution": "ΠΑΝ. ΑΙΓΑΙΟΥ",
+    "name": "ΠΑΙΔΑΓΩΓΙΚΟ ΔΗΜΟΤΙΚΗΣ ΕΚΠΑΙΔΕΥΣΗΣ",
+    "city": "ΡΟΔΟΣ",
+    "fields": {
+      "1": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "2": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "3": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "4": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "276",
+    "institution": "ΠΑΝ. ΑΙΓΑΙΟΥ",
+    "name": "ΠΕΡΙΒΑΛΛΟΝΤΟΣ",
+    "city": "ΜΥΤΙΛΗΝΗ",
+    "fields": {
+      "2": [
+        20,
+        30,
+        30,
+        20
+      ],
+      "3": [
+        20,
+        30,
+        30,
+        20
+      ],
+      "4": [
+        20,
+        20,
+        30,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "354",
+    "institution": "ΠΑΝ. ΑΙΓΑΙΟΥ",
+    "name": "ΠΟΛΙΤΙΣΜΙΚΗΣ ΤΕΧΝΟΛΟΓΙΑΣ ΚΑΙ ΕΠΙΚΟΙΝΩΝΙΑΣ (ΜΥΤΙΛΗΝΗ) ΣΤΑΤΙΣΤΙΚΗΣ ΚΑΙ ΑΝΑΛΟΓΙΣΤΙΚΩΝ -",
+    "city": null,
+    "fields": {
+      "1": [
+        25,
+        20,
+        30,
+        25
+      ],
+      "4": [
+        25,
+        25,
+        30,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "218",
+    "institution": "ΠΑΝ. ΑΙΓΑΙΟΥ",
+    "name": "ΧΡΗΜΑΤΟΟΙΚΟΝΟΜΙΚΩΝ ΜΑΘΗΜΑΤΙΚΩΝ",
+    "city": "ΣΑΜΟΣ",
+    "fields": {
+      "2": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "4": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1391",
+    "institution": "ΠΑΝ. ΑΙΓΑΙΟΥ",
+    "name": "ΩΚΕΑΝΟΓΡΑΦΙΑΣ ΚΑΙ ΘΑΛΑΣΣΙΩΝ ΒΙΟΕΠΙΣΤΗΜΩΝ",
+    "city": "ΜΥΤΙΛΗΝΗ",
+    "fields": {
+      "2": [
+        20,
+        25,
+        25,
+        30
+      ],
+      "3": [
+        20,
+        25,
+        25,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "673",
+    "institution": "ΠΑΝ. ΔΥΤ. ΑΤΤΙΚΗΣ",
+    "name": "ΑΓΩΓΗΣ ΚΑΙ ΦΡΟΝΤΙΔΑΣ ΣΤΗΝ ΠΡΩΙΜΗ ΠΑΙΔΙΚΗ ΗΛΙΚΙΑ",
+    "city": "ΑΙΓΑΛΕΩ",
+    "fields": {
+      "1": [
+        40,
+        20,
+        20,
+        20
+      ],
+      "2": [
+        40,
+        20,
+        20,
+        20
+      ],
+      "3": [
+        40,
+        20,
+        20,
+        20
+      ],
+      "4": [
+        40,
+        20,
+        20,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "668",
+    "institution": "ΠΑΝ. ΔΥΤ. ΑΤΤΙΚΗΣ",
+    "name": "ΑΡΧΕΙΟΝΟΜΙΑΣ, ΒΙΒΛΙΟΘΗΚΟΝΟΜΙΑΣ ΚΑΙ",
+    "city": null,
+    "fields": {
+      "1": [
+        30,
+        20,
+        30,
+        20
+      ],
+      "4": [
+        30,
+        20,
+        30,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "678",
+    "institution": "ΠΑΝ. ΔΥΤ. ΑΤΤΙΚΗΣ",
+    "name": "(ΑΙΓΑΛΕΩ) ΒΙΟΪΑΤΡΙΚΩΝ ΕΠΙΣΤΗΜΩΝ",
+    "city": "ΑΙΓΑΛΕΩ",
+    "fields": {
+      "3": [
+        20,
+        25,
+        25,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "674",
+    "institution": "ΠΑΝ. ΔΥΤ. ΑΤΤΙΚΗΣ",
+    "name": "ΓΡΑΦΙΣΤΙΚΗΣ ΚΑΙ ΟΠΤΙΚΗΣ ΕΠΙΚΟΙΝΩΝΙΑΣ",
+    "city": "ΑΙΓΑΛΕΩ",
+    "fields": {
+      "2": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "4": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 10,
+    "special2": 10,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "679",
+    "institution": "ΠΑΝ. ΔΥΤ. ΑΤΤΙΚΗΣ",
+    "name": "ΔΗΜΟΣΙΑΣ ΚΑΙ ΚΟΙΝΟΤΙΚΗΣ ΥΓΕΙΑΣ",
+    "city": "ΑΘΗΝΑ",
+    "fields": {
+      "3": [
+        25,
+        20,
+        20,
+        35
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "669",
+    "institution": "ΠΑΝ. ΔΥΤ. ΑΤΤΙΚΗΣ",
+    "name": "ΔΙΟΙΚΗΣΗΣ ΕΠΙΧΕΙΡΗΣΕΩΝ",
+    "city": "ΑΙΓΑΛΕΩ",
+    "fields": {
+      "4": [
+        30,
+        30,
+        20,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "670",
+    "institution": "ΠΑΝ. ΔΥΤ. ΑΤΤΙΚΗΣ",
+    "name": "ΔΙΟΙΚΗΣΗΣ ΤΟΥΡΙΣΜΟΥ",
+    "city": "ΑΙΓΑΛΕΩ",
+    "fields": {
+      "4": [
+        30,
+        20,
+        20,
+        30
+      ]
+    },
+    "special1": 20,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "684",
+    "institution": "ΠΑΝ. ΔΥΤ. ΑΤΤΙΚΗΣ",
+    "name": "ΕΠΙΣΤΗΜΗΣ ΚΑΙ ΤΕΧΝΟΛΟΓΙΑΣ ΤΡΟΦΙΜΩΝ",
+    "city": "ΑΙΓΑΛΕΩ",
+    "fields": {
+      "2": [
+        20,
+        20,
+        30,
+        30
+      ],
+      "3": [
+        20,
+        20,
+        30,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "685",
+    "institution": "ΠΑΝ. ΔΥΤ. ΑΤΤΙΚΗΣ",
+    "name": "ΕΠΙΣΤΗΜΩΝ ΟΙΝΟΥ, ΑΜΠΕΛΟΥ ΚΑΙ ΠΟΤΩΝ",
+    "city": "ΑΙΓΑΛΕΩ",
+    "fields": {
+      "2": [
+        20,
+        20,
+        40,
+        20
+      ],
+      "3": [
+        20,
+        20,
+        30,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "680",
+    "institution": "ΠΑΝ. ΔΥΤ. ΑΤΤΙΚΗΣ",
+    "name": "ΕΡΓΟΘΕΡΑΠΕΙΑΣ",
+    "city": "ΑΙΓΑΛΕΩ",
+    "fields": {
+      "3": [
+        30,
+        20,
+        20,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "675",
+    "institution": "ΠΑΝ. ΔΥΤ. ΑΤΤΙΚΗΣ",
+    "name": "ΕΣΩΤΕΡΙΚΗΣ ΑΡΧΙΤΕΚΤΟΝΙΚΗΣ (ΑΙΓΑΛΕΩ) ΗΛΕΚΤΡΟΛΟΓΩΝ ΚΑΙ",
+    "city": null,
+    "fields": {
+      "2": [
+        35,
+        20,
+        20,
+        25
+      ],
+      "4": [
+        35,
+        25,
+        20,
+        20
+      ]
+    },
+    "special1": 10,
+    "special2": 10,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "387",
+    "institution": "ΠΑΝ. ΔΥΤ. ΑΤΤΙΚΗΣ",
+    "name": "ΗΛΕΚΤΡΟΝΙΚΩΝ ΜΗΧΑΝΙΚΩΝ",
+    "city": "ΑΙΓΑΛΕΩ",
+    "fields": {
+      "2": [
+        20,
+        30,
+        20,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "671",
+    "institution": "ΠΑΝ. ΔΥΤ. ΑΤΤΙΚΗΣ",
+    "name": "ΚΟΙΝΩΝΙΚΗΣ ΕΡΓΑΣΙΑΣ (ΑΙΓΑΛΕΩ) ΛΟΓΙΣΤΙΚΗΣ ΚΑΙ",
+    "city": null,
+    "fields": {
+      "1": [
+        30,
+        20,
+        30,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "672",
+    "institution": "ΠΑΝ. ΔΥΤ. ΑΤΤΙΚΗΣ",
+    "name": "ΧΡΗΜΑΤΟΟΙΚΟΝΟΜΙΚΗΣ",
+    "city": "ΑΙΓΑΛΕΩ",
+    "fields": {
+      "4": [
+        20,
+        33,
+        20,
+        27
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "681",
+    "institution": "ΠΑΝ. ΔΥΤ. ΑΤΤΙΚΗΣ",
+    "name": "ΜΑΙΕΥΤΙΚΗΣ",
+    "city": "ΑΙΓΑΛΕΩ",
+    "fields": {
+      "3": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "388",
+    "institution": "ΠΑΝ. ΔΥΤ. ΑΤΤΙΚΗΣ",
+    "name": "ΜΗΧΑΝΙΚΩΝ ΒΙΟΪΑΤΡΙΚΗΣ (ΑΙΓΑΛΕΩ) ΜΗΧΑΝΙΚΩΝ ΒΙΟΜΗΧΑΝΙΚΗΣ",
+    "city": null,
+    "fields": {
+      "2": [
+        20,
+        30,
+        25,
+        25
+      ],
+      "3": [
+        20,
+        30,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "389",
+    "institution": "ΠΑΝ. ΔΥΤ. ΑΤΤΙΚΗΣ",
+    "name": "ΣΧΕΔΙΑΣΗΣ ΚΑΙ ΠΑΡΑΓΩΓΗΣ",
+    "city": "ΑΙΓΑΛΕΩ",
+    "fields": {
+      "2": [
+        24,
+        28,
+        20,
+        28
+      ],
+      "4": [
+        22,
+        28,
+        28,
+        22
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "390",
+    "institution": "ΠΑΝ. ΔΥΤ. ΑΤΤΙΚΗΣ",
+    "name": "ΜΗΧΑΝΙΚΩΝ ΠΛΗΡΟΦΟΡΙΚΗΣ ΚΑΙ ΥΠΟΛΟΓΙΣΤΩΝ",
+    "city": "ΑΙΓΑΛΕΩ",
+    "fields": {
+      "2": [
+        24,
+        28,
+        20,
+        28
+      ],
+      "4": [
+        24,
+        28,
+        28,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "391",
+    "institution": "ΠΑΝ. ΔΥΤ. ΑΤΤΙΚΗΣ",
+    "name": "ΜΗΧΑΝΙΚΩΝ ΤΟΠΟΓΡΑΦΙΑΣ ΚΑΙ ΓΕΩΠΛΗΡΟΦΟΡΙΚΗΣ",
+    "city": "ΑΙΓΑΛΕΩ",
+    "fields": {
+      "2": [
+        20,
+        30,
+        20,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "392",
+    "institution": "ΠΑΝ. ΔΥΤ. ΑΤΤΙΚΗΣ",
+    "name": "ΜΗΧΑΝΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ",
+    "city": "ΑΙΓΑΛΕΩ",
+    "fields": {
+      "2": [
+        25,
+        28,
+        20,
+        27
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "393",
+    "institution": "ΠΑΝ. ΔΥΤ. ΑΤΤΙΚΗΣ",
+    "name": "ΝΑΥΠΗΓΩΝ ΜΗΧΑΝΙΚΩΝ",
+    "city": "ΑΙΓΑΛΕΩ",
+    "fields": {
+      "2": [
+        20,
+        30,
+        20,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "682",
+    "institution": "ΠΑΝ. ΔΥΤ. ΑΤΤΙΚΗΣ",
+    "name": "ΝΟΣΗΛΕΥΤΙΚΗΣ",
+    "city": "ΑΙΓΑΛΕΩ",
+    "fields": {
+      "3": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "394",
+    "institution": "ΠΑΝ. ΔΥΤ. ΑΤΤΙΚΗΣ",
+    "name": "ΠΟΛΙΤΙΚΩΝ ΜΗΧΑΝΙΚΩΝ",
+    "city": "ΑΙΓΑΛΕΩ",
+    "fields": {
+      "2": [
+        25,
+        25,
+        20,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "676",
+    "institution": "ΠΑΝ. ΔΥΤ. ΑΤΤΙΚΗΣ",
+    "name": "ΣΥΝΤΗΡΗΣΗΣ ΑΡΧΑΙΟΤΗΤΩΝ ΚΑΙ ΕΡΓΩΝ ΤΕΧΝΗΣ",
+    "city": "ΑΙΓΑΛΕΩ",
+    "fields": {
+      "2": [
+        20,
+        20,
+        40,
+        20
+      ]
+    },
+    "special1": 10,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "683",
+    "institution": "ΠΑΝ. ΔΥΤ. ΑΤΤΙΚΗΣ",
+    "name": "ΦΥΣΙΚΟΘΕΡΑΠΕΙΑΣ (ΑΙΓΑΛΕΩ) ΦΩΤΟΓΡΑΦΙΑΣ ΚΑΙ",
+    "city": null,
+    "fields": {
+      "3": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "677",
+    "institution": "ΠΑΝ. ΔΥΤ. ΑΤΤΙΚΗΣ",
+    "name": "ΟΠΤΙΚΟΑΚΟΥΣΤΙΚΩΝ ΤΕΧΝΩΝ",
+    "city": "ΑΙΓΑΛΕΩ",
+    "fields": {
+      "1": [
+        35,
+        20,
+        25,
+        20
+      ],
+      "2": [
+        35,
+        25,
+        20,
+        20
+      ],
+      "4": [
+        35,
+        20,
+        25,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1552",
+    "institution": "ΠΑΝ. ΔΥΤ. ΜΑΚ.",
+    "name": "ΓΕΩΠΟΝΙΑΣ (ΦΛΩΡΙΝΑ) ΔΙΕΘΝΩΝ ΚΑΙ ΕΥΡΩΠΑΪΚΩΝ",
+    "city": null,
+    "fields": {
+      "2": [
+        20,
+        20,
+        30,
+        30
+      ],
+      "3": [
+        20,
+        20,
+        30,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1549",
+    "institution": "ΠΑΝ. ΔΥΤ. ΜΑΚ.",
+    "name": "ΟΙΚΟΝΟΜΙΚΩΝ ΣΠΟΥΔΩΝ",
+    "city": "ΚΟΖΑΝΗ",
+    "fields": {
+      "4": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1544",
+    "institution": "ΠΑΝ. ΔΥΤ. ΜΑΚ.",
+    "name": "ΔΙΟΙΚΗΤΙΚΗΣ ΕΠΙΣΤΗΜΗΣ ΚΑΙ ΤΕΧΝΟΛΟΓΙΑΣ",
+    "city": "ΚΟΖΑΝΗ",
+    "fields": {
+      "2": [
+        20,
+        25,
+        25,
+        30
+      ],
+      "4": [
+        20,
+        20,
+        30,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1551",
+    "institution": "ΠΑΝ. ΔΥΤ. ΜΑΚ.",
+    "name": "ΕΠΙΚΟΙΝΩΝΙΑΣ ΚΑΙ ΨΗΦΙΑΚΩΝ ΜΕΣΩΝ",
+    "city": "ΚΑΣΤΟΡΙΑ",
+    "fields": {
+      "1": [
+        40,
+        20,
+        20,
+        20
+      ],
+      "4": [
+        30,
+        20,
+        30,
+        20
+      ]
+    },
+    "special1": 10,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1558",
+    "institution": "ΠΑΝ. ΔΥΤ. ΜΑΚ.",
+    "name": "ΕΡΓΟΘΕΡΑΠΕΙΑΣ (ΠΤΟΛΕΜΑΪΔΑ) ΗΛΕΚΤΡΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ ΚΑΙ",
+    "city": null,
+    "fields": {
+      "3": [
+        22,
+        22,
+        27,
+        29
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1564",
+    "institution": "ΠΑΝ. ΔΥΤ. ΜΑΚ.",
+    "name": "ΜΗΧΑΝΙΚΩΝ ΥΠΟΛΟΓΙΣΤΩΝ (ΚΟΖΑΝΗ) ΛΟΓΙΣΤΙΚΗΣ ΚΑΙ",
+    "city": null,
+    "fields": {
+      "2": [
+        25,
+        25,
+        20,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1545",
+    "institution": "ΠΑΝ. ΔΥΤ. ΜΑΚ.",
+    "name": "ΧΡΗΜΑΤΟΟΙΚΟΝΟΜΙΚΗΣ",
+    "city": "ΚΟΖΑΝΗ",
+    "fields": {
+      "4": [
+        20,
+        30,
+        20,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1555",
+    "institution": "ΠΑΝ. ΔΥΤ. ΜΑΚ.",
+    "name": "ΜΑΘΗΜΑΤΙΚΩΝ",
+    "city": "ΚΑΣΤΟΡΙΑ",
+    "fields": {
+      "2": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1553",
+    "institution": "ΠΑΝ. ΔΥΤ. ΜΑΚ.",
+    "name": "ΜΑΙΕΥΤΙΚΗΣ",
+    "city": "ΠΤΟΛΕΜΑΪΔΑ",
+    "fields": {
+      "3": [
+        22,
+        23,
+        25,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1541",
+    "institution": "ΠΑΝ. ΔΥΤ. ΜΑΚ.",
+    "name": "ΜΗΧΑΝΙΚΩΝ ΟΡΥΚΤΩΝ ΠΟΡΩΝ (ΚΟΖΑΝΗ) ΜΗΧΑΝΙΚΩΝ ΣΧΕΔΙΑΣΗΣ",
+    "city": null,
+    "fields": {
+      "2": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1542",
+    "institution": "ΠΑΝ. ΔΥΤ. ΜΑΚ.",
+    "name": "ΠΡΟΪΟΝΤΩΝ ΚΑΙ ΣΥΣΤΗΜΑΤΩΝ",
+    "city": "ΚΟΖΑΝΗ",
+    "fields": {
+      "2": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "4": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "210",
+    "institution": "ΠΑΝ. ΔΥΤ. ΜΑΚ.",
+    "name": "ΜΗΧΑΝΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ",
+    "city": "ΚΟΖΑΝΗ",
+    "fields": {
+      "2": [
+        24,
+        26,
+        24,
+        26
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1548",
+    "institution": "ΠΑΝ. ΔΥΤ. ΜΑΚ.",
+    "name": "ΟΙΚΟΝΟΜΙΚΩΝ ΕΠΙΣΤΗΜΩΝ",
+    "city": "ΚΑΣΤΟΡΙΑ",
+    "fields": {
+      "4": [
+        20,
+        20,
+        25,
+        35
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1546",
+    "institution": "ΠΑΝ. ΔΥΤ. ΜΑΚ.",
+    "name": "ΟΡΓΑΝΩΣΗΣ ΚΑΙ ΔΙΟΙΚΗΣΗΣ ΕΠΙΧΕΙΡΗΣΕΩΝ",
+    "city": "ΓΡΕΒΕΝΑ",
+    "fields": {
+      "4": [
+        20,
+        20,
+        25,
+        35
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "334",
+    "institution": "ΠΑΝ. ΔΥΤ. ΜΑΚ.",
+    "name": "ΠΑΙΔΑΓΩΓΙΚΟ ΔΗΜΟΤΙΚΗΣ ΕΚΠΑΙΔΕΥΣΗΣ",
+    "city": "ΦΛΩΡΙΝΑ",
+    "fields": {
+      "1": [
+        30,
+        20,
+        30,
+        20
+      ],
+      "2": [
+        25,
+        25,
+        20,
+        30
+      ],
+      "3": [
+        30,
+        30,
+        20,
+        20
+      ],
+      "4": [
+        30,
+        25,
+        25,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "341",
+    "institution": "ΠΑΝ. ΔΥΤ. ΜΑΚ.",
+    "name": "ΠΑΙΔΑΓΩΓΙΚΟ ΝΗΠΙΑΓΩΓΩΝ",
+    "city": "ΦΛΩΡΙΝΑ",
+    "fields": {
+      "1": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "2": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "3": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "4": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1554",
+    "institution": "ΠΑΝ. ΔΥΤ. ΜΑΚ.",
+    "name": "ΠΛΗΡΟΦΟΡΙΚΗΣ",
+    "city": "ΚΑΣΤΟΡΙΑ",
+    "fields": {
+      "2": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "4": [
+        20,
+        20,
+        40,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1547",
+    "institution": "ΠΑΝ. ΔΥΤ. ΜΑΚ.",
+    "name": "ΣΤΑΤΙΣΤΙΚΗΣ",
+    "city": "ΓΡΕΒΕΝΑ",
+    "fields": {
+      "2": [
+        20,
+        20,
+        20,
+        40
+      ],
+      "4": [
+        20,
+        35,
+        20,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1563",
+    "institution": "ΠΑΝ. ΔΥΤ. ΜΑΚ.",
+    "name": "ΧΗΜΙΚΩΝ ΜΗΧΑΝΙΚΩΝ",
+    "city": "ΚΟΖΑΝΗ",
+    "fields": {
+      "2": [
+        20,
+        25,
+        25,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1550",
+    "institution": "ΠΑΝ. ΔΥΤ. ΜΑΚ.",
+    "name": "ΨΥΧΟΛΟΓΙΑΣ",
+    "city": "ΦΛΩΡΙΝΑ",
+    "fields": {
+      "1": [
+        35,
+        25,
+        20,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "236",
+    "institution": "ΠΑΝ. ΘΕΣΣΑΛΙΑΣ",
+    "name": "ΑΡΧΙΤΕΚΤΟΝΩΝ ΜΗΧΑΝΙΚΩΝ",
+    "city": "ΒΟΛΟΣ",
+    "fields": {
+      "2": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 10,
+    "special2": 10,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "284",
+    "institution": "ΠΑΝ. ΘΕΣΣΑΛΙΑΣ",
+    "name": "ΒΙΟΧΗΜΕΙΑΣ ΚΑΙ ΒΙΟΤΕΧΝΟΛΟΓΙΑΣ",
+    "city": "ΛΑΡΙΣΑ",
+    "fields": {
+      "2": [
+        25,
+        20,
+        30,
+        25
+      ],
+      "3": [
+        20,
+        20,
+        30,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1422",
+    "institution": "ΠΑΝ. ΘΕΣΣΑΛΙΑΣ",
+    "name": "ΓΕΩΠΟΝΙΑΣ - ΑΓΡΟΤΕΧΝΟΛΟΓΙΑΣ (ΛΑΡΙΣΑ) ΓΕΩΠΟΝΙΑΣ, ΙΧΘΥΟΛΟΓΙΑΣ ΚΑΙ",
+    "city": null,
+    "fields": {
+      "2": [
+        20,
+        25,
+        25,
+        30
+      ],
+      "3": [
+        20,
+        25,
+        30,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "360",
+    "institution": "ΠΑΝ. ΘΕΣΣΑΛΙΑΣ",
+    "name": "ΥΔΑΤΙΝΟΥ ΠΕΡΙΒΑΛΛΟΝΤΟΣ (ΒΟΛΟΣ) ΓΕΩΠΟΝΙΑΣ, ΦΥΤΙΚΗΣ ΠΑΡΑΓΩΓΗΣ",
+    "city": null,
+    "fields": {
+      "2": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "3": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "274",
+    "institution": "ΠΑΝ. ΘΕΣΣΑΛΙΑΣ",
+    "name": "ΚΑΙ ΑΓΡΟΤΙΚΟΥ ΠΕΡΙΒΑΛΛΟΝΤΟΣ",
+    "city": "ΒΟΛΟΣ",
+    "fields": {
+      "2": [
+        20,
+        30,
+        30,
+        20
+      ],
+      "3": [
+        20,
+        20,
+        30,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1423",
+    "institution": "ΠΑΝ. ΘΕΣΣΑΛΙΑΣ",
+    "name": "ΓΛΩΣΣΙΚΩΝ ΚΑΙ ΔΙΑΠΟΛΙΤΙΣΜΙΚΩΝ ΣΠΟΥΔΩΝ",
+    "city": "ΒΟΛΟΣ",
+    "fields": {
+      "1": [
+        30,
+        20,
+        30,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1424",
+    "institution": "ΠΑΝ. ΘΕΣΣΑΛΙΑΣ",
+    "name": "ΔΑΣΟΛΟΓΙΑΣ, ΕΠΙΣΤΗΜΩΝ ΞΥΛΟΥ ΚΑΙ ΣΧΕΔΙΑΣΜΟΥ",
+    "city": "ΚΑΡΔΙΤΣΑ",
+    "fields": {
+      "2": [
+        25,
+        25,
+        30,
+        20
+      ],
+      "3": [
+        25,
+        20,
+        25,
+        30
+      ],
+      "4": [
+        25,
+        20,
+        30,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1425",
+    "institution": "ΠΑΝ. ΘΕΣΣΑΛΙΑΣ",
+    "name": "ΔΗΜΟΣΙΑΣ ΚΑΙ ΕΝΙΑΙΑΣ ΥΓΕΙΑΣ",
+    "city": "ΚΑΡΔΙΤΣΑ",
+    "fields": {
+      "3": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1426",
+    "institution": "ΠΑΝ. ΘΕΣΣΑΛΙΑΣ",
+    "name": "ΔΙΑΙΤΟΛΟΓΙΑΣ ΚΑΙ ΔΙΑΤΡΟΦΟΛΟΓΙΑΣ",
+    "city": "ΤΡΙΚΑΛΑ",
+    "fields": {
+      "3": [
+        25,
+        20,
+        25,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1427",
+    "institution": "ΠΑΝ. ΘΕΣΣΑΛΙΑΣ",
+    "name": "ΔΙΟΙΚΗΣΗΣ ΕΠΙΧΕΙΡΗΣΕΩΝ",
+    "city": "ΛΑΡΙΣΑ",
+    "fields": {
+      "4": [
+        20,
+        25,
+        25,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1428",
+    "institution": "ΠΑΝ. ΘΕΣΣΑΛΙΑΣ",
+    "name": "ΕΠΙΣΤΗΜΗΣ ΖΩΙΚΗΣ ΠΑΡΑΓΩΓΗΣ",
+    "city": "ΛΑΡΙΣΑ",
+    "fields": {
+      "2": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "3": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1429",
+    "institution": "ΠΑΝ. ΘΕΣΣΑΛΙΑΣ",
+    "name": "ΕΠΙΣΤΗΜΗΣ ΤΡΟΦΙΜΩΝ ΚΑΙ ΔΙΑΤΡΟΦΗΣ",
+    "city": "ΚΑΡΔΙΤΣΑ",
+    "fields": {
+      "2": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "3": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "405",
+    "institution": "ΠΑΝ. ΘΕΣΣΑΛΙΑΣ",
+    "name": "ΕΠΙΣΤΗΜΗΣ ΦΥΣΙΚΗΣ ΑΓΩΓΗΣ ΚΑΙ ΑΘΛΗΤΙΣΜΟΥ",
+    "city": "ΤΡΙΚΑΛΑ",
+    "fields": {
+      "1": [
+        30,
+        25,
+        25,
+        20
+      ],
+      "2": [
+        30,
+        25,
+        20,
+        25
+      ],
+      "3": [
+        30,
+        25,
+        20,
+        25
+      ],
+      "4": [
+        30,
+        25,
+        25,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 20,
+    "musicIncluded": false
+  },
+  {
+    "code": "220",
+    "institution": "ΠΑΝ. ΘΕΣΣΑΛΙΑΣ",
+    "name": "ΗΛΕΚΤΡΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ ΚΑΙ ΜΗΧΑΝΙΚΩΝ ΥΠΟΛΟΓΙΣΤΩΝ",
+    "city": "ΒΟΛΟΣ",
+    "fields": {
+      "2": [
+        25,
+        25,
+        20,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "300",
+    "institution": "ΠΑΝ. ΘΕΣΣΑΛΙΑΣ",
+    "name": "ΙΑΤΡΙΚΗΣ (ΛΑΡΙΣΑ) ΙΣΤΟΡΙΑΣ, ΑΡΧΑΙΟΛΟΓΙΑΣ ΚΑΙ",
+    "city": null,
+    "fields": {
+      "3": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "177",
+    "institution": "ΠΑΝ. ΘΕΣΣΑΛΙΑΣ",
+    "name": "ΚΟΙΝΩΝΙΚΗΣ ΑΝΘΡΩΠΟΛΟΓΙΑΣ",
+    "city": "ΒΟΛΟΣ",
+    "fields": {
+      "1": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "308",
+    "institution": "ΠΑΝ. ΘΕΣΣΑΛΙΑΣ",
+    "name": "ΚΤΗΝΙΑΤΡΙΚΗΣ",
+    "city": "ΚΑΡΔΙΤΣΑ",
+    "fields": {
+      "3": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1430",
+    "institution": "ΠΑΝ. ΘΕΣΣΑΛΙΑΣ",
+    "name": "ΛΟΓΙΣΤΙΚΗΣ ΚΑΙ ΧΡΗΜΑΤΟΟΙΚΟΝΟΜΙΚΗΣ",
+    "city": "ΛΑΡΙΣΑ",
+    "fields": {
+      "4": [
+        24,
+        24,
+        25,
+        27
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1432",
+    "institution": "ΠΑΝ. ΘΕΣΣΑΛΙΑΣ",
+    "name": "ΜΑΘΗΜΑΤΙΚΩΝ (ΛΑΜΙΑ) ΜΗΧΑΝΙΚΩΝ ΧΩΡΟΤΑΞΙΑΣ,",
+    "city": null,
+    "fields": {
+      "2": [
+        20,
+        25,
+        20,
+        35
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "228",
+    "institution": "ΠΑΝ. ΘΕΣΣΑΛΙΑΣ",
+    "name": "ΠΟΛΕΟΔΟΜΙΑΣ ΚΑΙ ΠΕΡΙΦΕΡΕΙΑΚΗΣ ΑΝΑΠΤΥΞΗΣ",
+    "city": "ΒΟΛΟΣ",
+    "fields": {
+      "2": [
+        25,
+        20,
+        20,
+        35
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "332",
+    "institution": "ΠΑΝ. ΘΕΣΣΑΛΙΑΣ",
+    "name": "ΜΗΧΑΝΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ",
+    "city": "ΒΟΛΟΣ",
+    "fields": {
+      "2": [
+        20,
+        30,
+        20,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1433",
+    "institution": "ΠΑΝ. ΘΕΣΣΑΛΙΑΣ",
+    "name": "ΝΟΣΗΛΕΥΤΙΚΗΣ",
+    "city": "ΛΑΡΙΣΑ",
+    "fields": {
+      "3": [
+        20,
+        25,
+        25,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "350",
+    "institution": "ΠΑΝ. ΘΕΣΣΑΛΙΑΣ",
+    "name": "ΟΙΚΟΝΟΜΙΚΩΝ ΕΠΙΣΤΗΜΩΝ",
+    "city": "ΒΟΛΟΣ",
+    "fields": {
+      "4": [
+        27,
+        25,
+        25,
+        23
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "164",
+    "institution": "ΠΑΝ. ΘΕΣΣΑΛΙΑΣ",
+    "name": "ΠΑΙΔΑΓΩΓΙΚΟ ΔΗΜΟΤΙΚΗΣ ΕΚΠΑΙΔΕΥΣΗΣ",
+    "city": "ΒΟΛΟΣ",
+    "fields": {
+      "1": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "2": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "3": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "4": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "178",
+    "institution": "ΠΑΝ. ΘΕΣΣΑΛΙΑΣ",
+    "name": "ΠΑΙΔΑΓΩΓΙΚΟ ΕΙΔΙΚΗΣ ΑΓΩΓΗΣ",
+    "city": "ΒΟΛΟΣ",
+    "fields": {
+      "1": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "2": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "3": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "4": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "166",
+    "institution": "ΠΑΝ. ΘΕΣΣΑΛΙΑΣ",
+    "name": "ΠΑΙΔΑΓΩΓΙΚΟ ΠΡΟΣΧΟΛΙΚΗΣ ΕΚΠΑΙΔΕΥΣΗΣ",
+    "city": "ΒΟΛΟΣ",
+    "fields": {
+      "1": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "2": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "3": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "4": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1434",
+    "institution": "ΠΑΝ. ΘΕΣΣΑΛΙΑΣ",
+    "name": "ΠΕΡΙΒΑΛΛΟΝΤΟΣ",
+    "city": "ΛΑΡΙΣΑ",
+    "fields": {
+      "2": [
+        25,
+        20,
+        25,
+        30
+      ],
+      "3": [
+        25,
+        20,
+        25,
+        30
+      ],
+      "4": [
+        25,
+        30,
+        20,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "99",
+    "institution": "ΠΑΝ. ΘΕΣΣΑΛΙΑΣ",
+    "name": "ΠΛΗΡΟΦΟΡΙΚΗΣ ΚΑΙ ΤΗΛΕΠΙΚΟΙΝΩΝΙΩΝ",
+    "city": "ΛΑΜΙΑ",
+    "fields": {
+      "2": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "4": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "369",
+    "institution": "ΠΑΝ. ΘΕΣΣΑΛΙΑΣ",
+    "name": "ΠΛΗΡΟΦΟΡΙΚΗΣ ΜΕ ΕΦΑΡΜΟΓΕΣ ΣΤΗ ΒΙΟΪΑΤΡΙΚΗ",
+    "city": "ΛΑΜΙΑ",
+    "fields": {
+      "2": [
+        25,
+        27,
+        21,
+        27
+      ],
+      "3": [
+        25,
+        27,
+        21,
+        27
+      ],
+      "4": [
+        25,
+        27,
+        28,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "208",
+    "institution": "ΠΑΝ. ΘΕΣΣΑΛΙΑΣ",
+    "name": "ΠΟΛΙΤΙΚΩΝ ΜΗΧΑΝΙΚΩΝ (ΒΟΛΟΣ) ΠΟΛΙΤΙΣΜΟΥ ΚΑΙ ΔΗΜΙΟΥΡΓΙΚΩΝ",
+    "city": null,
+    "fields": {
+      "2": [
+        20,
+        25,
+        20,
+        35
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1435",
+    "institution": "ΠΑΝ. ΘΕΣΣΑΛΙΑΣ",
+    "name": "ΜΕΣΩΝ ΚΑΙ ΒΙΟΜΗΧΑΝΙΩΝ",
+    "city": "ΒΟΛΟΣ",
+    "fields": {
+      "1": [
+        30,
+        20,
+        30,
+        20
+      ],
+      "4": [
+        30,
+        20,
+        20,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1436",
+    "institution": "ΠΑΝ. ΘΕΣΣΑΛΙΑΣ",
+    "name": "ΣΥΣΤΗΜΑΤΩΝ ΕΝΕΡΓΕΙΑΣ",
+    "city": "ΛΑΡΙΣΑ",
+    "fields": {
+      "2": [
+        20,
+        30,
+        30,
+        20
+      ],
+      "4": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1437",
+    "institution": "ΠΑΝ. ΘΕΣΣΑΛΙΑΣ",
+    "name": "ΦΥΣΙΚΗΣ",
+    "city": "ΛΑΜΙΑ",
+    "fields": {
+      "2": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1438",
+    "institution": "ΠΑΝ. ΘΕΣΣΑΛΙΑΣ",
+    "name": "ΦΥΣΙΚΟΘΕΡΑΠΕΙΑΣ",
+    "city": "ΛΑΜΙΑ",
+    "fields": {
+      "3": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1439",
+    "institution": "ΠΑΝ. ΘΕΣΣΑΛΙΑΣ",
+    "name": "ΨΗΦΙΑΚΩΝ ΣΥΣΤΗΜΑΤΩΝ (ΛΑΡΙΣΑ) ΑΓΩΓΗΣ ΚΑΙ ΦΡΟΝΤΙΔΑΣ ΣΤΗΝ",
+    "city": null,
+    "fields": {
+      "2": [
+        20,
+        30,
+        20,
+        30
+      ],
+      "4": [
+        20,
+        25,
+        30,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1241",
+    "institution": "ΠΑΝ. ΙΩΑΝΝΙΝΩΝ",
+    "name": "ΠΡΩΙΜΗ ΠΑΙΔΙΚΗ ΗΛΙΚΙΑ",
+    "city": "ΙΩΑΝΝΙΝΑ",
+    "fields": {
+      "1": [
+        34,
+        22,
+        22,
+        22
+      ],
+      "2": [
+        34,
+        22,
+        22,
+        22
+      ],
+      "3": [
+        34,
+        22,
+        22,
+        22
+      ],
+      "4": [
+        34,
+        22,
+        22,
+        22
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "779",
+    "institution": "ΠΑΝ. ΙΩΑΝΝΙΝΩΝ",
+    "name": "ΑΡΧΙΤΕΚΤΟΝΩΝ ΜΗΧΑΝΙΚΩΝ",
+    "city": "ΙΩΑΝΝΙΝΑ",
+    "fields": {
+      "2": [
+        35,
+        25,
+        20,
+        20
+      ]
+    },
+    "special1": 10,
+    "special2": 10,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "280",
+    "institution": "ΠΑΝ. ΙΩΑΝΝΙΝΩΝ",
+    "name": "ΒΙΟΛΟΓΙΚΩΝ ΕΦΑΡΜΟΓΩΝ ΚΑΙ ΤΕΧΝΟΛΟΓΙΩΝ",
+    "city": "ΙΩΑΝΝΙΝΑ",
+    "fields": {
+      "2": [
+        20,
+        20,
+        30,
+        30
+      ],
+      "3": [
+        20,
+        20,
+        25,
+        35
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1242",
+    "institution": "ΠΑΝ. ΙΩΑΝΝΙΝΩΝ",
+    "name": "ΓΕΩΠΟΝΙΑΣ",
+    "city": "ΑΡΤΑ",
+    "fields": {
+      "2": [
+        25,
+        20,
+        25,
+        30
+      ],
+      "3": [
+        25,
+        25,
+        20,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "301",
+    "institution": "ΠΑΝ. ΙΩΑΝΝΙΝΩΝ",
+    "name": "ΙΑΤΡΙΚΗΣ",
+    "city": "ΙΩΑΝΝΙΝΑ",
+    "fields": {
+      "3": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "114",
+    "institution": "ΠΑΝ. ΙΩΑΝΝΙΝΩΝ",
+    "name": "ΙΣΤΟΡΙΑΣ ΚΑΙ ΑΡΧΑΙΟΛΟΓΙΑΣ (ΙΩΑΝΝΙΝΑ) ΛΟΓΙΣΤΙΚΗΣ ΚΑΙ",
+    "city": null,
+    "fields": {
+      "1": [
+        25,
+        25,
+        30,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1244",
+    "institution": "ΠΑΝ. ΙΩΑΝΝΙΝΩΝ",
+    "name": "ΧΡΗΜΑΤΟΟΙΚΟΝΟΜΙΚΗΣ",
+    "city": "ΠΡΕΒΕΖΑ",
+    "fields": {
+      "4": [
+        20,
+        30,
+        20,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1245",
+    "institution": "ΠΑΝ. ΙΩΑΝΝΙΝΩΝ",
+    "name": "ΛΟΓΟΘΕΡΑΠΕΙΑΣ",
+    "city": "ΙΩΑΝΝΙΝΑ",
+    "fields": {
+      "3": [
+        35,
+        20,
+        20,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "249",
+    "institution": "ΠΑΝ. ΙΩΑΝΝΙΝΩΝ",
+    "name": "ΜΑΘΗΜΑΤΙΚΩΝ",
+    "city": "ΙΩΑΝΝΙΝΑ",
+    "fields": {
+      "2": [
+        20,
+        25,
+        20,
+        35
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "272",
+    "institution": "ΠΑΝ. ΙΩΑΝΝΙΝΩΝ",
+    "name": "ΜΗΧΑΝΙΚΩΝ ΕΠΙΣΤΗΜΗΣ ΥΛΙΚΩΝ (ΙΩΑΝΝΙΝΑ) ΜΗΧΑΝΙΚΩΝ ΗΛΕΚΤΡΟΝΙΚΩΝ",
+    "city": null,
+    "fields": {
+      "2": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "340",
+    "institution": "ΠΑΝ. ΙΩΑΝΝΙΝΩΝ",
+    "name": "ΥΠΟΛΟΓΙΣΤΩΝ ΚΑΙ ΠΛΗΡΟΦΟΡΙΚΗΣ",
+    "city": "ΙΩΑΝΝΙΝΑ",
+    "fields": {
+      "2": [
+        26,
+        26,
+        20,
+        28
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1248",
+    "institution": "ΠΑΝ. ΙΩΑΝΝΙΝΩΝ",
+    "name": "ΜΟΥΣΙΚΩΝ ΣΠΟΥΔΩΝ",
+    "city": "ΑΡΤΑ",
+    "fields": {
+      "1": [
+        30,
+        0,
+        20,
+        0
+      ],
+      "2": [
+        30,
+        0,
+        0,
+        20
+      ],
+      "3": [
+        30,
+        20,
+        0,
+        0
+      ],
+      "4": [
+        30,
+        0,
+        20,
+        0
+      ]
+    },
+    "special1": 30,
+    "special2": 20,
+    "practical": 0,
+    "musicIncluded": true
+  },
+  {
+    "code": "1249",
+    "institution": "ΠΑΝ. ΙΩΑΝΝΙΝΩΝ",
+    "name": "ΝΟΣΗΛΕΥΤΙΚΗΣ",
+    "city": "ΙΩΑΝΝΙΝΑ",
+    "fields": {
+      "3": [
+        25,
+        20,
+        25,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "345",
+    "institution": "ΠΑΝ. ΙΩΑΝΝΙΝΩΝ",
+    "name": "ΟΙΚΟΝΟΜΙΚΩΝ ΕΠΙΣΤΗΜΩΝ",
+    "city": "ΙΩΑΝΝΙΝΑ",
+    "fields": {
+      "4": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "130",
+    "institution": "ΠΑΝ. ΙΩΑΝΝΙΝΩΝ",
+    "name": "ΠΑΙΔΑΓΩΓΙΚΟ ΔΗΜΟΤΙΚΗΣ ΕΚΠΑΙΔΕΥΣΗΣ",
+    "city": "ΙΩΑΝΝΙΝΑ",
+    "fields": {
+      "1": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "2": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "3": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "4": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "156",
+    "institution": "ΠΑΝ. ΙΩΑΝΝΙΝΩΝ",
+    "name": "ΠΑΙΔΑΓΩΓΙΚΟ ΝΗΠΙΑΓΩΓΩΝ",
+    "city": "ΙΩΑΝΝΙΝΑ",
+    "fields": {
+      "1": [
+        30,
+        25,
+        25,
+        20
+      ],
+      "2": [
+        30,
+        20,
+        20,
+        30
+      ],
+      "3": [
+        30,
+        30,
+        20,
+        20
+      ],
+      "4": [
+        30,
+        20,
+        30,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1250",
+    "institution": "ΠΑΝ. ΙΩΑΝΝΙΝΩΝ",
+    "name": "ΠΛΗΡΟΦΟΡΙΚΗΣ ΚΑΙ ΤΗΛΕΠΙΚΟΙΝΩΝΙΩΝ",
+    "city": "ΑΡΤΑ",
+    "fields": {
+      "2": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "4": [
+        23,
+        23,
+        31,
+        23
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "113",
+    "institution": "ΠΑΝ. ΙΩΑΝΝΙΝΩΝ",
+    "name": "ΦΙΛΟΛΟΓΙΑΣ",
+    "city": "ΙΩΑΝΝΙΝΑ",
+    "fields": {
+      "1": [
+        25,
+        29,
+        21,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "122",
+    "institution": "ΠΑΝ. ΙΩΑΝΝΙΝΩΝ",
+    "name": "ΦΙΛΟΣΟΦΙΑΣ",
+    "city": "ΙΩΑΝΝΙΝΑ",
+    "fields": {
+      "1": [
+        40,
+        20,
+        20,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "259",
+    "institution": "ΠΑΝ. ΙΩΑΝΝΙΝΩΝ",
+    "name": "ΦΥΣΙΚΗΣ",
+    "city": "ΙΩΑΝΝΙΝΑ",
+    "fields": {
+      "2": [
+        20,
+        33,
+        20,
+        27
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "269",
+    "institution": "ΠΑΝ. ΙΩΑΝΝΙΝΩΝ",
+    "name": "ΧΗΜΕΙΑΣ",
+    "city": "ΙΩΑΝΝΙΝΑ",
+    "fields": {
+      "2": [
+        20,
+        25,
+        35,
+        20
+      ],
+      "3": [
+        20,
+        25,
+        35,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1251",
+    "institution": "ΠΑΝ. ΙΩΑΝΝΙΝΩΝ",
+    "name": "ΨΥΧΟΛΟΓΙΑΣ",
+    "city": "ΙΩΑΝΝΙΝΑ",
+    "fields": {
+      "1": [
+        30,
+        25,
+        25,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "282",
+    "institution": "ΠΑΝ. ΚΡΗΤΗΣ",
+    "name": "ΒΙΟΛΟΓΙΑΣ",
+    "city": "ΗΡΑΚΛΕΙΟ",
+    "fields": {
+      "2": [
+        24,
+        24,
+        28,
+        24
+      ],
+      "3": [
+        24,
+        24,
+        25,
+        27
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "200",
+    "institution": "ΠΑΝ. ΚΡΗΤΗΣ",
+    "name": "ΕΠΙΣΤΗΜΗΣ ΚΑΙ ΜΗΧΑΝΙΚΗΣ ΥΛΙΚΩΝ",
+    "city": "ΗΡΑΚΛΕΙΟ",
+    "fields": {
+      "2": [
+        25,
+        25,
+        30,
+        20
+      ],
+      "3": [
+        20,
+        20,
+        30,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "216",
+    "institution": "ΠΑΝ. ΚΡΗΤΗΣ",
+    "name": "ΕΠΙΣΤΗΜΗΣ ΥΠΟΛΟΓΙΣΤΩΝ",
+    "city": "ΗΡΑΚΛΕΙΟ",
+    "fields": {
+      "2": [
+        26,
+        27,
+        20,
+        27
+      ],
+      "4": [
+        26,
+        27,
+        27,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "304",
+    "institution": "ΠΑΝ. ΚΡΗΤΗΣ",
+    "name": "ΙΑΤΡΙΚΗΣ",
+    "city": "ΗΡΑΚΛΕΙΟ",
+    "fields": {
+      "3": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "116",
+    "institution": "ΠΑΝ. ΚΡΗΤΗΣ",
+    "name": "ΙΣΤΟΡΙΑΣ ΚΑΙ ΑΡΧΑΙΟΛΟΓΙΑΣ",
+    "city": "ΡΕΘΥΜΝΟ",
+    "fields": {
+      "1": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "149",
+    "institution": "ΠΑΝ. ΚΡΗΤΗΣ",
+    "name": "ΚΟΙΝΩΝΙΟΛΟΓΙΑΣ (ΡΕΘΥΜΝΟ) ΜΑΘΗΜΑΤΙΚΩΝ KAI",
+    "city": null,
+    "fields": {
+      "1": [
+        30,
+        20,
+        30,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "248",
+    "institution": "ΠΑΝ. ΚΡΗΤΗΣ",
+    "name": "ΕΦΑΡΜΟΣΜΕΝΩΝ ΜΑΘΗΜΑΤΙΚΩΝ (ΗΡΑΚΛΕΙΟ) - ΕΦΑΡΜΟΣΜΕΝΩΝ ΜΑΘΗΜΑΤΙΚΩΝ ΜΑΘΗΜΑΤΙΚΩΝ KAI",
+    "city": null,
+    "fields": {
+      "2": [
+        20,
+        25,
+        20,
+        35
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "251",
+    "institution": "ΠΑΝ. ΚΡΗΤΗΣ",
+    "name": "ΕΦΑΡΜΟΣΜΕΝΩΝ ΜΑΘΗΜΑΤΙΚΩΝ (ΗΡΑΚΛΕΙΟ) - ΜΑΘΗΜΑΤΙΚΩΝ",
+    "city": null,
+    "fields": {
+      "2": [
+        20,
+        25,
+        20,
+        35
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "321",
+    "institution": "ΠΑΝ. ΚΡΗΤΗΣ",
+    "name": "ΟΙΚΟΝΟΜΙΚΩΝ ΕΠΙΣΤΗΜΩΝ",
+    "city": "ΡΕΘΥΜΝΟ",
+    "fields": {
+      "4": [
+        25,
+        30,
+        20,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "132",
+    "institution": "ΠΑΝ. ΚΡΗΤΗΣ",
+    "name": "ΠΑΙΔΑΓΩΓΙΚΟ ΔΗΜΟΤΙΚΗΣ ΕΚΠΑΙΔΕΥΣΗΣ",
+    "city": "ΡΕΘΥΜΝΟ",
+    "fields": {
+      "1": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "2": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "3": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "4": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "158",
+    "institution": "ΠΑΝ. ΚΡΗΤΗΣ",
+    "name": "ΠΑΙΔΑΓΩΓΙΚΟ ΠΡΟΣΧΟΛΙΚΗΣ ΕΚΠΑΙΔΕΥΣΗΣ",
+    "city": "ΡΕΘΥΜΝΟ",
+    "fields": {
+      "1": [
+        40,
+        20,
+        20,
+        20
+      ],
+      "2": [
+        40,
+        20,
+        20,
+        20
+      ],
+      "3": [
+        40,
+        20,
+        20,
+        20
+      ],
+      "4": [
+        40,
+        20,
+        20,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "351",
+    "institution": "ΠΑΝ. ΚΡΗΤΗΣ",
+    "name": "ΠΟΛΙΤΙΚΗΣ ΕΠΙΣΤΗΜΗΣ",
+    "city": "ΡΕΘΥΜΝΟ",
+    "fields": {
+      "1": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "115",
+    "institution": "ΠΑΝ. ΚΡΗΤΗΣ",
+    "name": "ΦΙΛΟΛΟΓΙΑΣ",
+    "city": "ΡΕΘΥΜΝΟ",
+    "fields": {
+      "1": [
+        26,
+        26,
+        22,
+        26
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "138",
+    "institution": "ΠΑΝ. ΚΡΗΤΗΣ",
+    "name": "ΦΙΛΟΣΟΦΙΑΣ",
+    "city": "ΡΕΘΥΜΝΟ",
+    "fields": {
+      "1": [
+        30,
+        25,
+        25,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "261",
+    "institution": "ΠΑΝ. ΚΡΗΤΗΣ",
+    "name": "ΦΥΣΙΚΗΣ",
+    "city": "ΗΡΑΚΛΕΙΟ",
+    "fields": {
+      "2": [
+        20,
+        27,
+        20,
+        33
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "270",
+    "institution": "ΠΑΝ. ΚΡΗΤΗΣ",
+    "name": "ΧΗΜΕΙΑΣ",
+    "city": "ΗΡΑΚΛΕΙΟ",
+    "fields": {
+      "2": [
+        20,
+        26,
+        27,
+        27
+      ],
+      "3": [
+        20,
+        27,
+        27,
+        26
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "151",
+    "institution": "ΠΑΝ. ΚΡΗΤΗΣ",
+    "name": "ΨΥΧΟΛΟΓΙΑΣ",
+    "city": "ΡΕΘΥΜΝΟ",
+    "fields": {
+      "1": [
+        35,
+        25,
+        20,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1288",
+    "institution": "ΠΑΝ. ΠΑΤΡΩΝ",
+    "name": "ΑΕΙΦΟΡΙΚΗΣ ΓΕΩΡΓΙΑΣ",
+    "city": "ΑΓΡΙΝΙΟ",
+    "fields": {
+      "2": [
+        20,
+        25,
+        25,
+        30
+      ],
+      "3": [
+        20,
+        25,
+        25,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1276",
+    "institution": "ΠΑΝ. ΠΑΤΡΩΝ",
+    "name": "ΑΛΙΕΙΑΣ ΚΑΙ ΥΔΑΤΟΚΑΛΛΙΕΡΓΕΙΩΝ",
+    "city": "ΜΕΣΟΛΟΓΓΙ",
+    "fields": {
+      "2": [
+        20,
+        23,
+        30,
+        27
+      ],
+      "3": [
+        20,
+        23,
+        25,
+        32
+      ],
+      "4": [
+        20,
+        27,
+        27,
+        26
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "232",
+    "institution": "ΠΑΝ. ΠΑΤΡΩΝ",
+    "name": "ΑΡΧΙΤΕΚΤΟΝΩΝ ΜΗΧΑΝΙΚΩΝ",
+    "city": "ΠΑΤΡΑ",
+    "fields": {
+      "2": [
+        30,
+        20,
+        20,
+        30
+      ]
+    },
+    "special1": 8,
+    "special2": 12,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "281",
+    "institution": "ΠΑΝ. ΠΑΤΡΩΝ",
+    "name": "ΒΙΟΛΟΓΙΑΣ",
+    "city": "ΠΑΤΡΑ",
+    "fields": {
+      "2": [
+        24,
+        24,
+        28,
+        24
+      ],
+      "3": [
+        22,
+        22,
+        28,
+        28
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "287",
+    "institution": "ΠΑΝ. ΠΑΤΡΩΝ",
+    "name": "ΓΕΩΛΟΓΙΑΣ",
+    "city": "ΠΑΤΡΑ",
+    "fields": {
+      "2": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1289",
+    "institution": "ΠΑΝ. ΠΑΤΡΩΝ",
+    "name": "ΓΕΩΠΟΝΙΑΣ",
+    "city": "ΜΕΣΟΛΟΓΓΙ",
+    "fields": {
+      "2": [
+        20,
+        25,
+        30,
+        25
+      ],
+      "3": [
+        20,
+        25,
+        25,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "352",
+    "institution": "ΠΑΝ. ΠΑΤΡΩΝ",
+    "name": "ΔΙΟΙΚΗΣΗΣ ΕΠΙΧΕΙΡΗΣΕΩΝ",
+    "city": "ΠΑΤΡΑ",
+    "fields": {
+      "4": [
+        28,
+        28,
+        22,
+        22
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1283",
+    "institution": "ΠΑΝ. ΠΑΤΡΩΝ",
+    "name": "ΔΙΟΙΚΗΣΗΣ ΤΟΥΡΙΣΜΟΥ",
+    "city": "ΠΑΤΡΑ",
+    "fields": {
+      "4": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 20,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1282",
+    "institution": "ΠΑΝ. ΠΑΤΡΩΝ",
+    "name": "ΔΙΟΙΚΗΤΙΚΗΣ ΕΠΙΣΤΗΜΗΣ ΚΑΙ ΤΕΧΝΟΛΟΓΙΑΣ",
+    "city": "ΠΑΤΡΑ",
+    "fields": {
+      "2": [
+        30,
+        20,
+        20,
+        30
+      ],
+      "4": [
+        20,
+        20,
+        30,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1278",
+    "institution": "ΠΑΝ. ΠΑΤΡΩΝ",
+    "name": "ΕΠΙΣΤΗΜΗΣ ΚΑΙ ΤΕΧΝΟΛΟΓΙΑΣ ΤΡΟΦΙΜΩΝ",
+    "city": "ΑΓΡΙΝΙΟ",
+    "fields": {
+      "2": [
+        20,
+        20,
+        40,
+        20
+      ],
+      "3": [
+        20,
+        20,
+        30,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "288",
+    "institution": "ΠΑΝ. ΠΑΤΡΩΝ",
+    "name": "ΕΠΙΣΤΗΜΗΣ ΤΩΝ ΥΛΙΚΩΝ",
+    "city": "ΠΑΤΡΑ",
+    "fields": {
+      "2": [
+        22,
+        27,
+        28,
+        23
+      ],
+      "3": [
+        22,
+        27,
+        28,
+        23
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1286",
+    "institution": "ΠΑΝ. ΠΑΤΡΩΝ",
+    "name": "ΕΠΙΣΤΗΜΩΝ ΤΗΣ ΕΚΠΑΙΔΕΥΣΗΣ ΚΑΙ ΚΟΙΝΩΝΙΚΗΣ ΕΡΓΑΣΙΑΣ (ΠΑΤΡΑ) ΕΠΙΣΤΗΜΩΝ ΤΗΣ ΕΚΠΑΙΔΕΥΣΗΣ ΚΑΙ",
+    "city": null,
+    "fields": {
+      "1": [
+        35,
+        20,
+        25,
+        20
+      ],
+      "2": [
+        35,
+        20,
+        20,
+        25
+      ],
+      "3": [
+        35,
+        25,
+        20,
+        20
+      ],
+      "4": [
+        35,
+        25,
+        20,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "136",
+    "institution": "ΠΑΝ. ΠΑΤΡΩΝ",
+    "name": "ΤΗΣ ΑΓΩΓΗΣ ΣΤΗΝ ΠΡΟΣΧΟΛΙΚΗ ΗΛΙΚΙΑ",
+    "city": "ΠΑΤΡΑ",
+    "fields": {
+      "1": [
+        40,
+        20,
+        20,
+        20
+      ],
+      "2": [
+        40,
+        20,
+        20,
+        20
+      ],
+      "3": [
+        40,
+        20,
+        20,
+        20
+      ],
+      "4": [
+        40,
+        20,
+        20,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "221",
+    "institution": "ΠΑΝ. ΠΑΤΡΩΝ",
+    "name": "ΗΛΕΚΤΡΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ ΚΑΙ ΤΕΧΝΟΛΟΓΙΑΣ ΥΠΟΛΟΓΙΣΤΩΝ (ΠΑΤΡΑ) - ΠΑΝ. ΠΑΤΡΩΝ",
+    "city": null,
+    "fields": {
+      "2": [
+        25,
+        25,
+        20,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "169",
+    "institution": "ΠΑΝ. ΠΑΤΡΩΝ",
+    "name": "ΘΕΑΤΡΙΚΩΝ ΣΠΟΥΔΩΝ",
+    "city": "ΠΑΤΡΑ",
+    "fields": {
+      "1": [
+        30,
+        25,
+        25,
+        20
+      ],
+      "2": [
+        30,
+        25,
+        20,
+        25
+      ],
+      "3": [
+        30,
+        25,
+        20,
+        25
+      ],
+      "4": [
+        30,
+        25,
+        25,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "299",
+    "institution": "ΠΑΝ. ΠΑΤΡΩΝ",
+    "name": "ΙΑΤΡΙΚΗΣ",
+    "city": "ΠΑΤΡΑ",
+    "fields": {
+      "3": [
+        20,
+        25,
+        25,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1284",
+    "institution": "ΠΑΝ. ΠΑΤΡΩΝ",
+    "name": "ΙΣΤΟΡΙΑΣ - ΑΡΧΑΙΟΛΟΓΙΑΣ",
+    "city": "ΠΑΤΡΑ",
+    "fields": {
+      "1": [
+        25,
+        25,
+        30,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1274",
+    "institution": "ΠΑΝ. ΠΑΤΡΩΝ",
+    "name": "ΛΟΓΟΘΕΡΑΠΕΙΑΣ",
+    "city": "ΠΑΤΡΑ",
+    "fields": {
+      "3": [
+        26,
+        28,
+        20,
+        26
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "247",
+    "institution": "ΠΑΝ. ΠΑΤΡΩΝ",
+    "name": "ΜΑΘΗΜΑΤΙΚΩΝ (ΠΑΤΡΑ) ΜΗΧΑΝΙΚΩΝ ΗΛΕΚΤΡΟΝΙΚΩΝ",
+    "city": null,
+    "fields": {
+      "2": [
+        20,
+        27,
+        20,
+        33
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "215",
+    "institution": "ΠΑΝ. ΠΑΤΡΩΝ",
+    "name": "ΥΠΟΛΟΓΙΣΤΩΝ ΚΑΙ ΠΛΗΡΟΦΟΡΙΚΗΣ (ΠΑΤΡΑ) ΜΗΧΑΝΟΛΟΓΩΝ ΚΑΙ",
+    "city": null,
+    "fields": {
+      "2": [
+        21,
+        27,
+        20,
+        32
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "213",
+    "institution": "ΠΑΝ. ΠΑΤΡΩΝ",
+    "name": "ΑΕΡΟΝΑΥΠΗΓΩΝ ΜΗΧΑΝΙΚΩΝ",
+    "city": "ΠΑΤΡΑ",
+    "fields": {
+      "2": [
+        20,
+        30,
+        20,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1272",
+    "institution": "ΠΑΝ. ΠΑΤΡΩΝ",
+    "name": "ΝΟΣΗΛΕΥΤΙΚΗΣ",
+    "city": "ΠΑΤΡΑ",
+    "fields": {
+      "3": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "319",
+    "institution": "ΠΑΝ. ΠΑΤΡΩΝ",
+    "name": "ΟΙΚΟΝΟΜΙΚΩΝ ΕΠΙΣΤΗΜΩΝ",
+    "city": "ΠΑΤΡΑ",
+    "fields": {
+      "4": [
+        26,
+        26,
+        20,
+        28
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "205",
+    "institution": "ΠΑΝ. ΠΑΤΡΩΝ",
+    "name": "ΠΟΛΙΤΙΚΩΝ ΜΗΧΑΝΙΚΩΝ (ΠΑΤΡΑ) - ΠΑΝ. ΠΑΤΡΩΝ",
+    "city": null,
+    "fields": {
+      "2": [
+        20,
+        25,
+        20,
+        35
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "293",
+    "institution": "ΠΑΝ. ΠΑΤΡΩΝ",
+    "name": "ΦΑΡΜΑΚΕΥΤΙΚΗΣ",
+    "city": "ΠΑΤΡΑ",
+    "fields": {
+      "3": [
+        20,
+        20,
+        30,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "175",
+    "institution": "ΠΑΝ. ΠΑΤΡΩΝ",
+    "name": "ΦΙΛΟΛΟΓΙΑΣ",
+    "city": "ΠΑΤΡΑ",
+    "fields": {
+      "1": [
+        30,
+        30,
+        20,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "102",
+    "institution": "ΠΑΝ. ΠΑΤΡΩΝ",
+    "name": "ΦΙΛΟΣΟΦΙΑΣ",
+    "city": "ΠΑΤΡΑ",
+    "fields": {
+      "1": [
+        40,
+        20,
+        20,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "257",
+    "institution": "ΠΑΝ. ΠΑΤΡΩΝ",
+    "name": "ΦΥΣΙΚΗΣ",
+    "city": "ΠΑΤΡΑ",
+    "fields": {
+      "2": [
+        20,
+        30,
+        20,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1273",
+    "institution": "ΠΑΝ. ΠΑΤΡΩΝ",
+    "name": "ΦΥΣΙΚΟΘΕΡΑΠΕΙΑΣ",
+    "city": "ΠΑΤΡΑ",
+    "fields": {
+      "3": [
+        20,
+        25,
+        25,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "267",
+    "institution": "ΠΑΝ. ΠΑΤΡΩΝ",
+    "name": "ΧΗΜΕΙΑΣ",
+    "city": "ΠΑΤΡΑ",
+    "fields": {
+      "2": [
+        20,
+        20,
+        40,
+        20
+      ],
+      "3": [
+        20,
+        20,
+        40,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "239",
+    "institution": "ΠΑΝ. ΠΑΤΡΩΝ",
+    "name": "ΧΗΜΙΚΩΝ ΜΗΧΑΝΙΚΩΝ",
+    "city": "ΠΑΤΡΑ",
+    "fields": {
+      "2": [
+        20,
+        25,
+        25,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "336",
+    "institution": "ΠΑΝ. ΠΕΙΡΑΙΑ",
+    "name": "ΒΙΟΜΗΧΑΝΙΚΗΣ ΔΙΟΙΚΗΣΗΣ ΚΑΙ ΤΕΧΝΟΛΟΓΙΑΣ",
+    "city": "ΠΕΙΡΑΙΑΣ",
+    "fields": {
+      "2": [
+        20,
+        25,
+        20,
+        35
+      ],
+      "4": [
+        20,
+        35,
+        25,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "355",
+    "institution": "ΠΑΝ. ΠΕΙΡΑΙΑ",
+    "name": "ΔΙΕΘΝΩΝ ΚΑΙ ΕΥΡΩΠΑΪΚΩΝ ΣΠΟΥΔΩΝ",
+    "city": "ΠΕΙΡΑΙΑΣ",
+    "fields": {
+      "1": [
+        30,
+        20,
+        30,
+        20
+      ],
+      "4": [
+        30,
+        20,
+        20,
+        30
+      ]
+    },
+    "special1": 20,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "157",
+    "institution": "ΠΑΝ. ΠΕΙΡΑΙΑ",
+    "name": "ΝΑΥΤΙΛΙΑΚΩΝ ΣΠΟΥΔΩΝ",
+    "city": "ΠΕΙΡΑΙΑΣ",
+    "fields": {
+      "4": [
+        20,
+        30,
+        20,
+        30
+      ]
+    },
+    "special1": 20,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "315",
+    "institution": "ΠΑΝ. ΠΕΙΡΑΙΑ",
+    "name": "ΟΙΚΟΝΟΜΙΚΗΣ ΕΠΙΣΤΗΜΗΣ",
+    "city": "ΠΕΙΡΑΙΑΣ",
+    "fields": {
+      "4": [
+        20,
+        30,
+        20,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "316",
+    "institution": "ΠΑΝ. ΠΕΙΡΑΙΑ",
+    "name": "ΟΡΓΑΝΩΣΗΣ ΚΑΙ ΔΙΟΙΚΗΣΗΣ ΕΠΙΧΕΙΡΗΣΕΩΝ",
+    "city": "ΠΕΙΡΑΙΑΣ",
+    "fields": {
+      "4": [
+        20,
+        20,
+        30,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "339",
+    "institution": "ΠΑΝ. ΠΕΙΡΑΙΑ",
+    "name": "ΠΛΗΡΟΦΟΡΙΚΗΣ",
+    "city": "ΠΕΙΡΑΙΑΣ",
+    "fields": {
+      "2": [
+        25,
+        25,
+        20,
+        30
+      ],
+      "4": [
+        25,
+        25,
+        30,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "318",
+    "institution": "ΠΑΝ. ΠΕΙΡΑΙΑ",
+    "name": "ΣΤΑΤΙΣΤΙΚΗΣ ΚΑΙ ΑΣΦΑΛΙΣΤΙΚΗΣ ΕΠΙΣΤΗΜΗΣ",
+    "city": "ΠΕΙΡΑΙΑΣ",
+    "fields": {
+      "2": [
+        20,
+        25,
+        25,
+        30
+      ],
+      "4": [
+        20,
+        30,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "375",
+    "institution": "ΠΑΝ. ΠΕΙΡΑΙΑ",
+    "name": "ΤΟΥΡΙΣΤΙΚΩΝ ΣΠΟΥΔΩΝ (ΠΕΙΡΑΙΑΣ) ΧΡΗΜΑΤΟΟΙΚΟΝΟΜΙΚΗΣ ΚΑΙ",
+    "city": null,
+    "fields": {
+      "4": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 10,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "155",
+    "institution": "ΠΑΝ. ΠΕΙΡΑΙΑ",
+    "name": "ΤΡΑΠΕΖΙΚΗΣ ΔΙΟΙΚΗΤΙΚΗΣ",
+    "city": "ΠΕΙΡΑΙΑΣ",
+    "fields": {
+      "2": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "4": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "262",
+    "institution": "ΠΑΝ. ΠΕΙΡΑΙΑ",
+    "name": "ΨΗΦΙΑΚΩΝ ΣΥΣΤΗΜΑΤΩΝ",
+    "city": "ΠΕΙΡΑΙΑΣ",
+    "fields": {
+      "2": [
+        20,
+        30,
+        20,
+        30
+      ],
+      "4": [
+        20,
+        30,
+        30,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1511",
+    "institution": "ΠΑΝ. ΠΕΛ/ΝΗΣΟΥ",
+    "name": "ΓΕΩΠΟΝΙΑΣ",
+    "city": "ΚΑΛΑΜΑΤΑ",
+    "fields": {
+      "2": [
+        24,
+        24,
+        28,
+        24
+      ],
+      "3": [
+        24,
+        24,
+        28,
+        24
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1514",
+    "institution": "ΠΑΝ. ΠΕΛ/ΝΗΣΟΥ",
+    "name": "ΔΙΟΙΚΗΣΗΣ ΕΠΙΧΕΙΡΗΣΕΩΝ ΚΑΙ ΟΡΓΑΝΙΣΜΩΝ",
+    "city": "ΚΑΛΑΜΑΤΑ",
+    "fields": {
+      "4": [
+        20,
+        20,
+        25,
+        35
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1518",
+    "institution": "ΠΑΝ. ΠΕΛ/ΝΗΣΟΥ",
+    "name": "ΔΙΟΙΚΗΤΙΚΗΣ ΕΠΙΣΤΗΜΗΣ ΚΑΙ ΤΕΧΝΟΛΟΓΙΑΣ",
+    "city": "ΤΡΙΠΟΛΗ",
+    "fields": {
+      "2": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "4": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1516",
+    "institution": "ΠΑΝ. ΠΕΛ/ΝΗΣΟΥ",
+    "name": "ΕΠΙΣΤΗΜΗΣ ΔΙΑΤΡΟΦΗΣ ΚΑΙ ΔΙΑΙΤΟΛΟΓΙΑΣ",
+    "city": "ΚΑΛΑΜΑΤΑ",
+    "fields": {
+      "3": [
+        20,
+        20,
+        30,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1512",
+    "institution": "ΠΑΝ. ΠΕΛ/ΝΗΣΟΥ",
+    "name": "ΕΠΙΣΤΗΜΗΣ ΚΑΙ ΤΕΧΝΟΛΟΓΙΑΣ ΤΡΟΦΙΜΩΝ",
+    "city": "ΚΑΛΑΜΑΤΑ",
+    "fields": {
+      "2": [
+        20,
+        30,
+        30,
+        20
+      ],
+      "3": [
+        20,
+        20,
+        30,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1522",
+    "institution": "ΠΑΝ. ΠΕΛ/ΝΗΣΟΥ",
+    "name": "ΗΛΕΚΤΡΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ ΚΑΙ ΜΗΧΑΝΙΚΩΝ ΥΠΟΛΟΓΙΣΤΩΝ (ΠΑΤΡΑ) - ΠΑΝ. ΠΕΛ/ΝΗΣΟΥ",
+    "city": null,
+    "fields": {
+      "2": [
+        25,
+        27,
+        20,
+        28
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "362",
+    "institution": "ΠΑΝ. ΠΕΛ/ΝΗΣΟΥ",
+    "name": "ΘΕΑΤΡΙΚΩΝ ΣΠΟΥΔΩΝ (ΝΑΥΠΛΙΟ) ΙΣΤΟΡΙΑΣ, ΑΡΧΑΙΟΛΟΓΙΑΣ ΚΑΙ",
+    "city": null,
+    "fields": {
+      "1": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "2": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "3": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "4": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "104",
+    "institution": "ΠΑΝ. ΠΕΛ/ΝΗΣΟΥ",
+    "name": "ΔΙΑΧΕΙΡΙΣΗΣ ΠΟΛΙΤΙΣΜΙΚΩΝ ΑΓΑΘΩΝ",
+    "city": "ΚΑΛΑΜΑΤΑ",
+    "fields": {
+      "1": [
+        25,
+        25,
+        30,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "187",
+    "institution": "ΠΑΝ. ΠΕΛ/ΝΗΣΟΥ",
+    "name": "ΚΟΙΝΩΝΙΚΗΣ ΚΑΙ ΕΚΠΑΙΔΕΥΤΙΚΗΣ ΠΟΛΙΤΙΚΗΣ",
+    "city": "ΚΟΡΙΝΘΟΣ",
+    "fields": {
+      "1": [
+        30,
+        20,
+        30,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1513",
+    "institution": "ΠΑΝ. ΠΕΛ/ΝΗΣΟΥ",
+    "name": "ΛΟΓΙΣΤΙΚΗΣ ΚΑΙ ΧΡΗΜΑΤΟΟΙΚΟΝΟΜΙΚΗΣ",
+    "city": "ΚΑΛΑΜΑΤΑ",
+    "fields": {
+      "4": [
+        20,
+        25,
+        25,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1515",
+    "institution": "ΠΑΝ. ΠΕΛ/ΝΗΣΟΥ",
+    "name": "ΛΟΓΟΘΕΡΑΠΕΙΑΣ",
+    "city": "ΚΑΛΑΜΑΤΑ",
+    "fields": {
+      "3": [
+        30,
+        20,
+        20,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1523",
+    "institution": "ΠΑΝ. ΠΕΛ/ΝΗΣΟΥ",
+    "name": "ΜΗΧΑΝΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ (ΠΑΤΡΑ) - ΠΑΝ. ΠΕΛ/ΝΗΣΟΥ",
+    "city": null,
+    "fields": {
+      "2": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "190",
+    "institution": "ΠΑΝ. ΠΕΛ/ΝΗΣΟΥ",
+    "name": "ΝΟΣΗΛΕΥΤΙΚΗΣ",
+    "city": "ΤΡΙΠΟΛΗ",
+    "fields": {
+      "3": [
+        25,
+        20,
+        20,
+        35
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "361",
+    "institution": "ΠΑΝ. ΠΕΛ/ΝΗΣΟΥ",
+    "name": "ΟΙΚΟΝΟΜΙΚΩΝ ΕΠΙΣΤΗΜΩΝ",
+    "city": "ΤΡΙΠΟΛΗ",
+    "fields": {
+      "4": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "400",
+    "institution": "ΠΑΝ. ΠΕΛ/ΝΗΣΟΥ",
+    "name": "ΟΡΓΑΝΩΣΗΣ ΚΑΙ ΔΙΑΧΕΙΡΙΣΗΣ ΑΘΛΗΤΙΣΜΟΥ",
+    "city": "ΣΠΑΡΤΗ",
+    "fields": {
+      "4": [
+        20,
+        20,
+        30,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1517",
+    "institution": "ΠΑΝ. ΠΕΛ/ΝΗΣΟΥ",
+    "name": "ΠΑΡΑΣΤΑΤΙΚΩΝ ΚΑΙ ΨΗΦΙΑΚΩΝ ΤΕΧΝΩΝ",
+    "city": "ΝΑΥΠΛΙΟ",
+    "fields": {
+      "1": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "2": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "3": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "4": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "98",
+    "institution": "ΠΑΝ. ΠΕΛ/ΝΗΣΟΥ",
+    "name": "ΠΛΗΡΟΦΟΡΙΚΗΣ ΚΑΙ ΤΗΛΕΠΙΚΟΙΝΩΝΙΩΝ",
+    "city": "ΤΡΙΠΟΛΗ",
+    "fields": {
+      "2": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "4": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "411",
+    "institution": "ΠΑΝ. ΠΕΛ/ΝΗΣΟΥ",
+    "name": "ΠΟΛΙΤΙΚΗΣ ΕΠΙΣΤΗΜΗΣ ΚΑΙ ΔΙΕΘΝΩΝ ΣΧΕΣΕΩΝ",
+    "city": "ΚΟΡΙΝΘΟΣ",
+    "fields": {
+      "1": [
+        30,
+        20,
+        30,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1524",
+    "institution": "ΠΑΝ. ΠΕΛ/ΝΗΣΟΥ",
+    "name": "ΠΟΛΙΤΙΚΩΝ ΜΗΧΑΝΙΚΩΝ (ΠΑΤΡΑ) - ΠΑΝ. ΠΕΛ/ΝΗΣΟΥ",
+    "city": null,
+    "fields": {
+      "2": [
+        25,
+        27,
+        20,
+        28
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "189",
+    "institution": "ΠΑΝ. ΠΕΛ/ΝΗΣΟΥ",
+    "name": "ΦΙΛΟΛΟΓΙΑΣ",
+    "city": "ΚΑΛΑΜΑΤΑ",
+    "fields": {
+      "1": [
+        30,
+        30,
+        20,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1520",
+    "institution": "ΠΑΝ. ΠΕΛ/ΝΗΣΟΥ",
+    "name": "ΦΥΣΙΚΟΘΕΡΑΠΕΙΑΣ",
+    "city": "ΣΠΑΡΤΗ",
+    "fields": {
+      "3": [
+        20,
+        30,
+        20,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "1519",
+    "institution": "ΠΑΝ. ΠΕΛ/ΝΗΣΟΥ",
+    "name": "ΨΗΦΙΑΚΩΝ ΣΥΣΤΗΜΑΤΩΝ",
+    "city": "ΣΠΑΡΤΗ",
+    "fields": {
+      "2": [
+        28,
+        22,
+        22,
+        28
+      ],
+      "4": [
+        22,
+        22,
+        28,
+        28
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "124",
+    "institution": "ΠΑΝΤΕΙΟ",
+    "name": "ΔΗΜΟΣΙΑΣ ΔΙΟΙΚΗΣΗΣ",
+    "city": "ΑΘΗΝΑ",
+    "fields": {
+      "1": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "4": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "179",
+    "institution": "ΠΑΝΤΕΙΟ",
+    "name": "ΔΙΕΘΝΩΝ ΚΑΙ ΕΥΡΩΠΑΪΚΩΝ ΣΠΟΥΔΩΝ",
+    "city": "ΑΘΗΝΑ",
+    "fields": {
+      "1": [
+        30,
+        20,
+        30,
+        20
+      ],
+      "4": [
+        30,
+        20,
+        20,
+        30
+      ]
+    },
+    "special1": 10,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "153",
+    "institution": "ΠΑΝΤΕΙΟ",
+    "name": "ΕΠΙΚΟΙΝΩΝΙΑΣ, ΜΕΣΩΝ ΚΑΙ ΠΟΛΙΤΙΣΜΟΥ",
+    "city": "ΑΘΗΝΑ",
+    "fields": {
+      "1": [
+        30,
+        20,
+        30,
+        20
+      ]
+    },
+    "special1": 10,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "165",
+    "institution": "ΠΑΝΤΕΙΟ",
+    "name": "ΚΟΙΝΩΝΙΚΗΣ ΑΝΘΡΩΠΟΛΟΓΙΑΣ",
+    "city": "ΑΘΗΝΑ",
+    "fields": {
+      "1": [
+        30,
+        20,
+        30,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "159",
+    "institution": "ΠΑΝΤΕΙΟ",
+    "name": "ΚΟΙΝΩΝΙΚΗΣ ΠΟΛΙΤΙΚΗΣ",
+    "city": "ΑΘΗΝΑ",
+    "fields": {
+      "1": [
+        30,
+        20,
+        30,
+        20
+      ],
+      "4": [
+        30,
+        20,
+        20,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "126",
+    "institution": "ΠΑΝΤΕΙΟ",
+    "name": "ΚΟΙΝΩΝΙΟΛΟΓΙΑΣ (ΑΘΗΝΑ) - ΠΑΝΤΕΙΟ",
+    "city": null,
+    "fields": {
+      "1": [
+        30,
+        20,
+        30,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "152",
+    "institution": "ΠΑΝΤΕΙΟ",
+    "name": "ΟΙΚΟΝΟΜΙΚΗΣ ΚΑΙ ΠΕΡΙΦΕΡΕΙΑΚΗΣ ΑΝΑΠΤΥΞΗΣ",
+    "city": "ΑΘΗΝΑ",
+    "fields": {
+      "4": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "125",
+    "institution": "ΠΑΝΤΕΙΟ",
+    "name": "ΠΟΛΙΤΙΚΗΣ ΕΠΙΣΤΗΜΗΣ ΚΑΙ ΙΣΤΟΡΙΑΣ",
+    "city": "ΑΘΗΝΑ",
+    "fields": {
+      "1": [
+        30,
+        20,
+        30,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "170",
+    "institution": "ΠΑΝΤΕΙΟ",
+    "name": "ΨΥΧΟΛΟΓΙΑΣ (ΑΘΗΝΑ) - ΠΑΝΤΕΙΟ",
+    "city": null,
+    "fields": {
+      "1": [
+        30,
+        20,
+        30,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "370",
+    "institution": "ΠΟΛ/ΧΝΕΙΟ ΚΡΗΤΗΣ",
+    "name": "ΑΡΧΙΤΕΚΤΟΝΩΝ ΜΗΧΑΝΙΚΩΝ (ΧΑΝΙΑ) ΗΛΕΚΤΡΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ ΚΑΙ",
+    "city": null,
+    "fields": {
+      "2": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 10,
+    "special2": 10,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "331",
+    "institution": "ΠΟΛ/ΧΝΕΙΟ ΚΡΗΤΗΣ",
+    "name": "ΜΗΧΑΝΙΚΩΝ ΥΠΟΛΟΓΙΣΤΩΝ",
+    "city": "ΧΑΝΙΑ",
+    "fields": {
+      "2": [
+        20,
+        30,
+        20,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "242",
+    "institution": "ΠΟΛ/ΧΝΕΙΟ ΚΡΗΤΗΣ",
+    "name": "ΜΗΧΑΝΙΚΩΝ ΟΡΥΚΤΩΝ ΠΟΡΩΝ",
+    "city": "ΧΑΝΙΑ",
+    "fields": {
+      "2": [
+        20,
+        25,
+        25,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "230",
+    "institution": "ΠΟΛ/ΧΝΕΙΟ ΚΡΗΤΗΣ",
+    "name": "ΜΗΧΑΝΙΚΩΝ ΠΑΡΑΓΩΓΗΣ ΚΑΙ ΔΙΟΙΚΗΣΗΣ (ΧΑΝΙΑ) ΧΗΜΙΚΩΝ ΜΗΧΑΝΙΚΩΝ ΚΑΙ",
+    "city": null,
+    "fields": {
+      "2": [
+        20,
+        30,
+        20,
+        30
+      ],
+      "4": [
+        20,
+        30,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "214",
+    "institution": "ΠΟΛ/ΧΝΕΙΟ ΚΡΗΤΗΣ",
+    "name": "ΜΗΧΑΝΙΚΩΝ ΠΕΡΙΒΑΛΛΟΝΤΟΣ",
+    "city": "ΧΑΝΙΑ",
+    "fields": {
+      "2": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "877",
+    "institution": "Σ.Π.Α.",
+    "name": "ΑΞΙΩΜΑΤΙΚΩΝ ΠΥΡΟΣΒΕΣΤΙΚΗΣ ΑΚΑΔΗΜΙΑΣ (ΜΟΝΟ ΓΙΑ ΠΟΛΙΤΕΣ) ΑΞΙΩΜΑΤΙΚΩΝ ΠΥΡΟΣΒΕΣΤΙΚΗΣ",
+    "city": null,
+    "fields": {
+      "1": [
+        20,
+        30,
+        30,
+        20
+      ],
+      "2": [
+        20,
+        20,
+        30,
+        30
+      ],
+      "3": [
+        20,
+        30,
+        20,
+        30
+      ],
+      "4": [
+        20,
+        30,
+        20,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "871",
+    "institution": "Σ.Π.Α.",
+    "name": "ΑΚΑΔΗΜΙΑΣ",
+    "city": "ΜΟΝΟ ΓΙΑ ΠΥΡΟΣΒΕΣΤΕΣ",
+    "fields": {
+      "1": [
+        20,
+        30,
+        30,
+        20
+      ],
+      "2": [
+        20,
+        20,
+        30,
+        30
+      ],
+      "3": [
+        20,
+        30,
+        20,
+        30
+      ],
+      "4": [
+        20,
+        30,
+        20,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "876",
+    "institution": "Σ.Π.Α.",
+    "name": "ΣΧΟΛΗ ΠΥΡΟΣΒΕΣΤΩΝ",
+    "city": "ΜΟΝΟ ΓΙΑ ΠΟΛΙΤΕΣ",
+    "fields": {
+      "1": [
+        20,
+        30,
+        30,
+        20
+      ],
+      "2": [
+        20,
+        20,
+        30,
+        30
+      ],
+      "3": [
+        20,
+        30,
+        20,
+        30
+      ],
+      "4": [
+        20,
+        30,
+        20,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "851",
+    "institution": "ΣΑΝ",
+    "name": "ΑΞΙΩΜΑΤΙΚΩΝ ΝΟΣΗΛΕΥΤΙΚΗΣ",
+    "city": "ΣΑΝ",
+    "fields": {
+      "2": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "3": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "886",
+    "institution": "ΣΙ",
+    "name": "ΙΚΑΡΩΝ (ΣΙ) ΔΙΟΙΚΗΤΙΚΩΝ",
+    "city": null,
+    "fields": {
+      "4": [
+        35,
+        20,
+        25,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "827",
+    "institution": "ΣΙ",
+    "name": "ΙΚΑΡΩΝ (ΣΙ) ΕΛΕΓΚΤΕΣ ΑΕΡΑΜΥΝΑΣ",
+    "city": null,
+    "fields": {
+      "2": [
+        25,
+        25,
+        20,
+        30
+      ],
+      "3": [
+        25,
+        35,
+        20,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "887",
+    "institution": "ΣΙ",
+    "name": "ΙΚΑΡΩΝ (ΣΙ) ΕΦΟΔΙΑΣΤΩΝ",
+    "city": null,
+    "fields": {
+      "4": [
+        25,
+        20,
+        25,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "821",
+    "institution": "ΣΙ",
+    "name": "ΙΚΑΡΩΝ (ΣΙ) ΙΠΤΑΜΕΝΟΙ",
+    "city": null,
+    "fields": {
+      "2": [
+        25,
+        25,
+        20,
+        30
+      ],
+      "3": [
+        25,
+        35,
+        20,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "884",
+    "institution": "ΣΙ",
+    "name": "ΙΚΑΡΩΝ (ΣΙ) ΜΕΤΕΩΡΟΛΟΓΩΝ",
+    "city": null,
+    "fields": {
+      "2": [
+        25,
+        25,
+        20,
+        30
+      ],
+      "3": [
+        25,
+        35,
+        20,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "826",
+    "institution": "ΣΙ",
+    "name": "ΙΚΑΡΩΝ (ΣΙ) ΜΗΧΑΝΙΚΟΙ",
+    "city": "ΣΜΑ",
+    "fields": {
+      "2": [
+        25,
+        25,
+        20,
+        30
+      ],
+      "3": [
+        25,
+        35,
+        20,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "862",
+    "institution": "ΣΜΥ",
+    "name": "ΜΟΝΙΜΩΝ ΥΠΑΞΙΩΜΑΤΙΚΩΝ ΣΤΡΑΤΟΥ (Σ.Μ.Υ.) - ΟΠΛΑ",
+    "city": null,
+    "fields": {
+      "2": [
+        20,
+        30,
+        20,
+        30
+      ],
+      "3": [
+        30,
+        30,
+        20,
+        20
+      ],
+      "4": [
+        20,
+        30,
+        30,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "863",
+    "institution": "ΣΜΥ",
+    "name": "ΜΟΝΙΜΩΝ ΥΠΑΞΙΩΜΑΤΙΚΩΝ ΣΤΡΑΤΟΥ (Σ.Μ.Υ.) - ΣΩΜΑΤΑ",
+    "city": null,
+    "fields": {
+      "2": [
+        20,
+        30,
+        20,
+        30
+      ],
+      "3": [
+        30,
+        30,
+        20,
+        20
+      ],
+      "4": [
+        20,
+        30,
+        30,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "880",
+    "institution": "ΣΜΥΑ",
+    "name": "ΑΕΡΟΠΟΡΙΑΣ (ΣΜΥΑ) - ΚΑΤΕΥΘΥΝΣΗ ΔΙΟΙΚΗΤΙΚΗΣ ΚΑΙ ΕΦΟΔΙΑΣΤΙΚΗΣ ΥΠΟΣΤΗΡΙΞΗΣ ΜΟΝΙΜΩΝ ΥΠΑΞΙΩΜΑΤΙΚΩΝ",
+    "city": null,
+    "fields": {
+      "2": [
+        25,
+        25,
+        20,
+        30
+      ],
+      "3": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "4": [
+        25,
+        30,
+        25,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "879",
+    "institution": "ΣΜΥΑ",
+    "name": "ΑΕΡΟΠΟΡΙΑΣ (ΣΜΥΑ) - ΚΑΤΕΥΘΥΝΣΗ ΕΠΙΧΕΙΡΗΣΙΑΚΗΣ ΥΠΟΣΤΗΡΙΞΗΣ ΜΟΝΙΜΩΝ ΥΠΑΞΙΩΜΑΤΙΚΩΝ",
+    "city": null,
+    "fields": {
+      "2": [
+        25,
+        25,
+        20,
+        30
+      ],
+      "4": [
+        25,
+        30,
+        25,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "888",
+    "institution": "ΣΜΥΑ",
+    "name": "ΑΕΡΟΠΟΡΙΑΣ (ΣΜΥΑ) - ΚΑΤΕΥΘΥΝΣΗ ΕΠΙΧΕΙΡΗΣΙΑΚΗΣ ΥΠΟΣΤΗΡΙΞΗΣ - ΡΑΔΙΟΝΑΥΤΙΛΟΙ ΜΟΝΙΜΩΝ ΥΠΑΞΙΩΜΑΤΙΚΩΝ",
+    "city": null,
+    "fields": {
+      "2": [
+        25,
+        25,
+        20,
+        30
+      ],
+      "4": [
+        25,
+        30,
+        25,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "878",
+    "institution": "ΣΜΥΑ",
+    "name": "ΑΕΡΟΠΟΡΙΑΣ (ΣΜΥΑ) - ΚΑΤΕΥΘΥΝΣΗ ΤΕΧΝΟΛΟΓΙΚΗΣ ΥΠΟΣΤΗΡΙΞΗΣ",
+    "city": null,
+    "fields": {
+      "2": [
+        25,
+        25,
+        20,
+        30
+      ],
+      "3": [
+        25,
+        30,
+        25,
+        20
+      ],
+      "4": [
+        25,
+        30,
+        25,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "864",
+    "institution": "ΣΜΥΝ",
+    "name": "ΜΟΝΙΜΩΝ ΥΠΑΞΙΩΜΑΤΙΚΩΝ ΝΑΥΤΙΚΟΥ",
+    "city": "Σ.Μ.Υ.Ν.",
+    "fields": {
+      "2": [
+        30,
+        20,
+        20,
+        30
+      ],
+      "3": [
+        30,
+        30,
+        20,
+        20
+      ],
+      "4": [
+        30,
+        30,
+        20,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "811",
+    "institution": "ΣΝΔ",
+    "name": "ΝΑΥΤΙΚΩΝ ΔΟΚΙΜΩΝ (ΣΝΔ) ΜΑΧΙΜΟΙ",
+    "city": null,
+    "fields": {
+      "2": [
+        22,
+        25,
+        20,
+        33
+      ],
+      "3": [
+        25,
+        30,
+        25,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "816",
+    "institution": "ΣΝΔ",
+    "name": "ΝΑΥΤΙΚΩΝ ΔΟΚΙΜΩΝ (ΣΝΔ) ΜΗΧΑΝΙΚΟΙ",
+    "city": null,
+    "fields": {
+      "2": [
+        22,
+        25,
+        20,
+        33
+      ],
+      "3": [
+        25,
+        30,
+        25,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "831",
+    "institution": "ΣΣΑΣ",
+    "name": "ΙΑΤΡΙΚΟ (ΣΣΑΣ) ΘΕΣ/ΝΙΚΗΣ",
+    "city": null,
+    "fields": {
+      "3": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "841",
+    "institution": "ΣΣΑΣ",
+    "name": "ΚΤΗΝΙΑΤΡΙΚΟ (ΣΣΑΣ) ΘΕΣ/ΝΙΚΗΣ",
+    "city": null,
+    "fields": {
+      "3": [
+        20,
+        20,
+        27,
+        33
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "866",
+    "institution": "ΣΣΑΣ",
+    "name": "ΝΟΜΙΚΟ (ΣΣΑΣ) ΘΕΣ/ΝΙΚΗ",
+    "city": null,
+    "fields": {
+      "1": [
+        30,
+        30,
+        20,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "836",
+    "institution": "ΣΣΑΣ",
+    "name": "ΟΔΟΝΤΙΑΤΡΙΚΟ (ΣΣΑΣ) ΘΕΣ/ΝΙΚΗΣ",
+    "city": null,
+    "fields": {
+      "3": [
+        20,
+        25,
+        25,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "867",
+    "institution": "ΣΣΑΣ",
+    "name": "ΟΙΚΟΝΟΜΙΚΟ (ΣΣΑΣ) ΘΕΣ/ΝΙΚΗ",
+    "city": null,
+    "fields": {
+      "4": [
+        25,
+        25,
+        20,
+        30
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "889",
+    "institution": "ΣΣΑΣ",
+    "name": "ΠΛΗΡΟΦΟΡΙΚΗΣ (ΣΣΑΣ) ΘΕΣ/ΝΙΚΗ",
+    "city": null,
+    "fields": {
+      "2": [
+        20,
+        30,
+        20,
+        30
+      ],
+      "4": [
+        25,
+        20,
+        35,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "846",
+    "institution": "ΣΣΑΣ",
+    "name": "ΦΑΡΜΑΚΕΥΤΙΚΟ (ΣΣΑΣ) ΘΕΣ/ΝΙΚΗΣ",
+    "city": null,
+    "fields": {
+      "3": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "875",
+    "institution": "ΣΣΑΣ",
+    "name": "ΨΥΧΟΛΟΓΩΝ (ΣΣΑΣ) ΘΕΣ/ΝΙΚΗ",
+    "city": null,
+    "fields": {
+      "1": [
+        35,
+        25,
+        20,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "801",
+    "institution": "ΣΣΕ",
+    "name": "ΕΥΕΛΠΙΔΩΝ (ΣΣΕ) - ΟΠΛΑ",
+    "city": null,
+    "fields": {
+      "2": [
+        20,
+        25,
+        20,
+        35
+      ],
+      "3": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "4": [
+        20,
+        35,
+        25,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "806",
+    "institution": "ΣΣΕ",
+    "name": "ΕΥΕΛΠΙΔΩΝ (ΣΣΕ) - ΣΩΜΑΤΑ",
+    "city": null,
+    "fields": {
+      "2": [
+        20,
+        25,
+        20,
+        35
+      ],
+      "3": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "4": [
+        20,
+        35,
+        25,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "356",
+    "institution": "ΧΑΡΟΚΟΠΕΙΟ",
+    "name": "ΓΕΩΓΡΑΦΙΑΣ",
+    "city": "ΑΘΗΝΑ",
+    "fields": {
+      "2": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "4": [
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "294",
+    "institution": "ΧΑΡΟΚΟΠΕΙΟ",
+    "name": "ΕΠΙΣΤΗΜΗΣ ΔΙΑΙΤΟΛΟΓΙΑΣ ΚΑΙ ΔΙΑΤΡΟΦΗΣ",
+    "city": "ΑΘΗΝΑ",
+    "fields": {
+      "3": [
+        24,
+        24,
+        26,
+        26
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "144",
+    "institution": "ΧΑΡΟΚΟΠΕΙΟ",
+    "name": "ΟΙΚΟΝΟΜΙΑΣ ΚΑΙ ΒΙΩΣΙΜΗΣ ΑΝΑΠΤΥΞΗΣ",
+    "city": "ΑΘΗΝΑ",
+    "fields": {
+      "4": [
+        23,
+        30,
+        20,
+        27
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  },
+  {
+    "code": "412",
+    "institution": "ΧΑΡΟΚΟΠΕΙΟ",
+    "name": "ΠΛΗΡΟΦΟΡΙΚΗΣ ΚΑΙ ΤΗΛΕΜΑΤΙΚΗΣ",
+    "city": "ΑΘΗΝΑ",
+    "fields": {
+      "2": [
+        20,
+        30,
+        20,
+        30
+      ],
+      "4": [
+        20,
+        30,
+        30,
+        20
+      ]
+    },
+    "special1": 0,
+    "special2": 0,
+    "practical": 0,
+    "musicIncluded": false
+  }
+]

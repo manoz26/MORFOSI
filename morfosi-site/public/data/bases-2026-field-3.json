@@ -1,0 +1,3286 @@
+[
+ {
+  "code": "295",
+  "name": "Ιατρικής",
+  "institution": "ΕΚΠΑ",
+  "institutionFull": "ΕΘΝΙΚΟ & ΚΑΠΟΔΙΣΤΡΙΑΚΟ ΠΑΝΕΠΙΣΤΗΜΙΟ ΑΘΗΝΩΝ",
+  "city": "Αθήνα",
+  "type": "ΑΕΙ",
+  "base": 18900,
+  "ebe": 14.78,
+  "coeffs": [
+   0.25,
+   0.25,
+   0.25,
+   0.25
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "297",
+  "name": "Ιατρικής",
+  "institution": "ΑΠΘ",
+  "institutionFull": "ΑΡΙΣΤΟΤΕΛΕΙΟ ΠΑΝΕΠΙΣΤΗΜΙΟ ΘΕΣΣΑΛΟΝΙΚΗΣ",
+  "city": "Θεσσαλονίκη",
+  "type": "ΑΕΙ",
+  "base": 18750,
+  "ebe": 14.78,
+  "coeffs": [
+   0.25,
+   0.25,
+   0.25,
+   0.25
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "299",
+  "name": "Ιατρικής",
+  "institution": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΠΑΤΡΩΝ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΠΑΤΡΩΝ",
+  "city": "Πάτρα",
+  "type": "ΑΕΙ",
+  "base": 18745,
+  "ebe": 14.78,
+  "coeffs": [
+   0.2,
+   0.25,
+   0.25,
+   0.3
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "836",
+  "name": "Οδοντιατρικό (ΣΣΑΣ)",
+  "institution": "ΣΣΑΣ",
+  "institutionFull": "ΣΤΡΑΤΙΩΤΙΚΗ ΣΧΟΛΗ ΑΞΙΩΜΑΤΙΚΩΝ ΣΩΜΑΤΩΝ",
+  "city": "Θεσσαλονίκη",
+  "type": "ΣΤΡΑΤΙΩΤΙΚΕΣ",
+  "base": 18535,
+  "ebe": 14.78,
+  "coeffs": [
+   0.2,
+   0.25,
+   0.25,
+   0.3
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": "Ισχύουν επιπλέον προϋποθέσεις εισαγωγής"
+ },
+ {
+  "code": "301",
+  "name": "Ιατρικής",
+  "institution": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΙΩΑΝΝΙΝΩΝ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΙΩΑΝΝΙΝΩΝ",
+  "city": "Ιωάννινα",
+  "type": "ΑΕΙ",
+  "base": 18525,
+  "ebe": 14.78,
+  "coeffs": [
+   0.25,
+   0.25,
+   0.25,
+   0.25
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "300",
+  "name": "Ιατρικής",
+  "institution": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΘΕΣΣΑΛΙΑΣ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΘΕΣΣΑΛΙΑΣ",
+  "city": "Λάρισα",
+  "type": "ΑΕΙ",
+  "base": 18475,
+  "ebe": 14.78,
+  "coeffs": [
+   0.25,
+   0.25,
+   0.25,
+   0.25
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "304",
+  "name": "Ιατρικής",
+  "institution": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΚΡΗΤΗΣ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΚΡΗΤΗΣ",
+  "city": "Ηράκλειο",
+  "type": "ΑΕΙ",
+  "base": 18425,
+  "ebe": 14.78,
+  "coeffs": [
+   0.25,
+   0.25,
+   0.25,
+   0.25
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "302",
+  "name": "Ιατρικής",
+  "institution": "ΔΠΘ",
+  "institutionFull": "ΔΗΜΟΚΡΙΤΕΙΟ ΠΑΝΕΠΙΣΤΗΜΙΟ ΘΡΑΚΗΣ",
+  "city": "Αλεξ/πολη",
+  "type": "ΑΕΙ",
+  "base": 18350,
+  "ebe": 14.78,
+  "coeffs": [
+   0.25,
+   0.25,
+   0.25,
+   0.25
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "305",
+  "name": "Οδοντιατρικής",
+  "institution": "ΑΠΘ",
+  "institutionFull": "ΑΡΙΣΤΟΤΕΛΕΙΟ ΠΑΝΕΠΙΣΤΗΜΙΟ ΘΕΣΣΑΛΟΝΙΚΗΣ",
+  "city": "Θεσσαλονίκη",
+  "type": "ΑΕΙ",
+  "base": 18310,
+  "ebe": 12.32,
+  "coeffs": [
+   0.2,
+   0.25,
+   0.25,
+   0.3
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "303",
+  "name": "Οδοντιατρικής",
+  "institution": "ΕΚΠΑ",
+  "institutionFull": "ΕΘΝΙΚΟ & ΚΑΠΟΔΙΣΤΡΙΑΚΟ ΠΑΝΕΠΙΣΤΗΜΙΟ ΑΘΗΝΩΝ",
+  "city": "Αθήνα",
+  "type": "ΑΕΙ",
+  "base": 18250,
+  "ebe": 14.78,
+  "coeffs": [
+   0.25,
+   0.25,
+   0.25,
+   0.25
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "289",
+  "name": "Φαρμακευτικής",
+  "institution": "ΕΚΠΑ",
+  "institutionFull": "ΕΘΝΙΚΟ & ΚΑΠΟΔΙΣΤΡΙΑΚΟ ΠΑΝΕΠΙΣΤΗΜΙΟ ΑΘΗΝΩΝ",
+  "city": "Αθήνα",
+  "type": "ΑΕΙ",
+  "base": 18100,
+  "ebe": 14.78,
+  "coeffs": [
+   0.2,
+   0.2,
+   0.3,
+   0.3
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "291",
+  "name": "Φαρμακευτικής",
+  "institution": "ΑΠΘ",
+  "institutionFull": "ΑΡΙΣΤΟΤΕΛΕΙΟ ΠΑΝΕΠΙΣΤΗΜΙΟ ΘΕΣΣΑΛΟΝΙΚΗΣ",
+  "city": "Θεσσαλονίκη",
+  "type": "ΑΕΙ",
+  "base": 18075,
+  "ebe": 14.78,
+  "coeffs": [
+   0.25,
+   0.25,
+   0.25,
+   0.25
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "831",
+  "name": "Ιατρικό (ΣΣΑΣ)",
+  "institution": "ΣΣΑΣ",
+  "institutionFull": "ΣΤΡΑΤΙΩΤΙΚΗ ΣΧΟΛΗ ΑΞΙΩΜΑΤΙΚΩΝ ΣΩΜΑΤΩΝ",
+  "city": "Θεσσαλονίκη",
+  "type": "ΣΤΡΑΤΙΩΤΙΚΕΣ",
+  "base": 18050,
+  "ebe": 14.78,
+  "coeffs": [
+   0.25,
+   0.25,
+   0.25,
+   0.25
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": "Ισχύουν επιπλέον προϋποθέσεις εισαγωγής"
+ },
+ {
+  "code": "846",
+  "name": "Φαρμακευτικό (ΣΣΑΣ)",
+  "institution": "ΣΣΑΣ",
+  "institutionFull": "ΣΤΡΑΤΙΩΤΙΚΗ ΣΧΟΛΗ ΑΞΙΩΜΑΤΙΚΩΝ ΣΩΜΑΤΩΝ",
+  "city": "Θεσσαλονίκη",
+  "type": "ΣΤΡΑΤΙΩΤΙΚΕΣ",
+  "base": 17975,
+  "ebe": 14.78,
+  "coeffs": [
+   0.25,
+   0.25,
+   0.25,
+   0.25
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": "Ισχύουν επιπλέον προϋποθέσεις εισαγωγής"
+ },
+ {
+  "code": "293",
+  "name": "Φαρμακευτικής",
+  "institution": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΠΑΤΡΩΝ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΠΑΤΡΩΝ",
+  "city": "Πάτρα",
+  "type": "ΑΕΙ",
+  "base": 17920,
+  "ebe": 14.78,
+  "coeffs": [
+   0.2,
+   0.2,
+   0.3,
+   0.3
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "307",
+  "name": "Κτηνιατρικής",
+  "institution": "ΑΠΘ",
+  "institutionFull": "ΑΡΙΣΤΟΤΕΛΕΙΟ ΠΑΝΕΠΙΣΤΗΜΙΟ ΘΕΣΣΑΛΟΝΙΚΗΣ",
+  "city": "Θεσσαλονίκη",
+  "type": "ΑΕΙ",
+  "base": 17867,
+  "ebe": 14.78,
+  "coeffs": [
+   0.2,
+   0.2,
+   0.27,
+   0.33
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "841",
+  "name": "Κτηνιατρικό (ΣΣΑΣ)",
+  "institution": "ΣΣΑΣ",
+  "institutionFull": "ΣΤΡΑΤΙΩΤΙΚΗ ΣΧΟΛΗ ΑΞΙΩΜΑΤΙΚΩΝ ΣΩΜΑΤΩΝ",
+  "city": "Θεσσαλονίκη",
+  "type": "ΣΤΡΑΤΙΩΤΙΚΕΣ",
+  "base": 17856,
+  "ebe": 14.78,
+  "coeffs": [
+   0.2,
+   0.2,
+   0.27,
+   0.33
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": "Ισχύουν επιπλέον προϋποθέσεις εισαγωγής"
+ },
+ {
+  "code": "263",
+  "name": "Χημείας",
+  "institution": "ΕΚΠΑ",
+  "institutionFull": "ΕΘΝΙΚΟ & ΚΑΠΟΔΙΣΤΡΙΑΚΟ ΠΑΝΕΠΙΣΤΗΜΙΟ ΑΘΗΝΩΝ",
+  "city": "Αθήνα",
+  "type": "ΑΕΙ",
+  "base": 17750,
+  "ebe": 14.78,
+  "coeffs": [
+   0.2,
+   0.25,
+   0.35,
+   0.2
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "277",
+  "name": "Βιολογίας",
+  "institution": "ΕΚΠΑ",
+  "institutionFull": "ΕΘΝΙΚΟ & ΚΑΠΟΔΙΣΤΡΙΑΚΟ ΠΑΝΕΠΙΣΤΗΜΙΟ ΑΘΗΝΩΝ",
+  "city": "Αθήνα",
+  "type": "ΑΕΙ",
+  "base": 17695,
+  "ebe": 14.78,
+  "coeffs": [
+   0.22,
+   0.2,
+   0.25,
+   0.33
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "877",
+  "name": "Αξιωματικών Πυροσβεστικής Ακαδημίας (Μόνο για Πολίτες)",
+  "institution": "ΣΠΑ",
+  "institutionFull": "ΠΥΡΟΣΒΕΣΤΙΚΗ ΑΚΑΔΗΜΙΑ",
+  "city": "(μη προσδιορισμένη)",
+  "type": "ΑΚΑΔΗΜΙΕΣ ΠΥΡΟΣΒΕΣΤΙΚΗΣ",
+  "base": 17630,
+  "ebe": 8.26,
+  "coeffs": [
+   0.2,
+   0.3,
+   0.2,
+   0.3
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": "Ισχύουν επιπλέον προϋποθέσεις εισαγωγής"
+ },
+ {
+  "code": "308",
+  "name": "Κτηνιατρικής",
+  "institution": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΘΕΣΣΑΛΙΑΣ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΘΕΣΣΑΛΙΑΣ",
+  "city": "Καρδίτσα",
+  "type": "ΑΕΙ",
+  "base": 17575,
+  "ebe": 14.78,
+  "coeffs": [
+   0.25,
+   0.25,
+   0.25,
+   0.25
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "279",
+  "name": "Βιολογίας",
+  "institution": "ΑΠΘ",
+  "institutionFull": "ΑΡΙΣΤΟΤΕΛΕΙΟ ΠΑΝΕΠΙΣΤΗΜΙΟ ΘΕΣΣΑΛΟΝΙΚΗΣ",
+  "city": "Θεσσαλονίκη",
+  "type": "ΑΕΙ",
+  "base": 17551,
+  "ebe": 14.78,
+  "coeffs": [
+   0.2,
+   0.2,
+   0.27,
+   0.33
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "871",
+  "name": "Αξιωματικών Πυροσβεστικής Ακαδημίας (Μόνο για Πυροσβέστες)",
+  "institution": "ΣΠΑ",
+  "institutionFull": "ΠΥΡΟΣΒΕΣΤΙΚΗ ΑΚΑΔΗΜΙΑ",
+  "city": "(μη προσδιορισμένη)",
+  "type": "ΑΚΑΔΗΜΙΕΣ ΠΥΡΟΣΒΕΣΤΙΚΗΣ",
+  "base": 17510,
+  "ebe": 8.26,
+  "coeffs": [
+   0.2,
+   0.3,
+   0.2,
+   0.3
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": "Ισχύουν επιπλέον προϋποθέσεις εισαγωγής"
+ },
+ {
+  "code": "826",
+  "name": "Ικάρων (ΣΙ) Μηχανικοί (ΣΜΑ)",
+  "institution": "ΣΙ",
+  "institutionFull": "ΣΧΟΛΗ ΙΚΑΡΩΝ",
+  "city": "(μη προσδιορισμένη)",
+  "type": "ΣΤΡΑΤΙΩΤΙΚΕΣ",
+  "base": 17295,
+  "ebe": 14.78,
+  "coeffs": [
+   0.25,
+   0.35,
+   0.2,
+   0.2
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": "Ισχύουν επιπλέον προϋποθέσεις εισαγωγής"
+ },
+ {
+  "code": "401",
+  "name": "Επιστήμης Φυσικής Αγωγής και Αθλητισμού",
+  "institution": "ΕΚΠΑ",
+  "institutionFull": "ΕΘΝΙΚΟ & ΚΑΠΟΔΙΣΤΡΙΑΚΟ ΠΑΝΕΠΙΣΤΗΜΙΟ ΑΘΗΝΩΝ",
+  "city": "Αθήνα",
+  "type": "ΑΕΙ",
+  "base": 17226,
+  "ebe": 8.47,
+  "coeffs": [
+   0.3,
+   0.25,
+   0.2,
+   0.25
+  ],
+  "specials": [
+   {
+    "kind": "athletics",
+    "label": "Αγωνίσματα (ΤΕΦΑΑ)",
+    "coeff": 0.2,
+    "choose": 1,
+    "options": null,
+    "ebe": 7.78
+   }
+  ],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "265",
+  "name": "Χημείας",
+  "institution": "ΑΠΘ",
+  "institutionFull": "ΑΡΙΣΤΟΤΕΛΕΙΟ ΠΑΝΕΠΙΣΤΗΜΙΟ ΘΕΣΣΑΛΟΝΙΚΗΣ",
+  "city": "Θεσσαλονίκη",
+  "type": "ΑΕΙ",
+  "base": 17215,
+  "ebe": 9.86,
+  "coeffs": [
+   0.2,
+   0.25,
+   0.35,
+   0.2
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "884",
+  "name": "Ικάρων (ΣΙ) Μετεωρολόγων (ΜΤ)",
+  "institution": "ΣΙ",
+  "institutionFull": "ΣΧΟΛΗ ΙΚΑΡΩΝ",
+  "city": "(μη προσδιορισμένη)",
+  "type": "ΣΤΡΑΤΙΩΤΙΚΕΣ",
+  "base": 17200,
+  "ebe": 14.78,
+  "coeffs": [
+   0.25,
+   0.35,
+   0.2,
+   0.2
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": "Ισχύουν επιπλέον προϋποθέσεις εισαγωγής"
+ },
+ {
+  "code": "281",
+  "name": "Βιολογίας",
+  "institution": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΠΑΤΡΩΝ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΠΑΤΡΩΝ",
+  "city": "Πάτρα",
+  "type": "ΑΕΙ",
+  "base": 17138,
+  "ebe": 12.32,
+  "coeffs": [
+   0.22,
+   0.22,
+   0.28,
+   0.28
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "403",
+  "name": "Επιστήμης Φυσικής Αγωγής και Αθλητισμού",
+  "institution": "ΑΠΘ",
+  "institutionFull": "ΑΡΙΣΤΟΤΕΛΕΙΟ ΠΑΝΕΠΙΣΤΗΜΙΟ ΘΕΣΣΑΛΟΝΙΚΗΣ",
+  "city": "Θεσσαλονίκη",
+  "type": "ΑΕΙ",
+  "base": 17060,
+  "ebe": 8.47,
+  "coeffs": [
+   0.3,
+   0.25,
+   0.2,
+   0.25
+  ],
+  "specials": [
+   {
+    "kind": "athletics",
+    "label": "Αγωνίσματα (ΤΕΦΑΑ)",
+    "coeff": 0.2,
+    "choose": 1,
+    "options": null,
+    "ebe": 8.89
+   }
+  ],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "282",
+  "name": "Βιολογίας",
+  "institution": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΚΡΗΤΗΣ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΚΡΗΤΗΣ",
+  "city": "Ηράκλειο",
+  "type": "ΑΕΙ",
+  "base": 16908,
+  "ebe": 12.32,
+  "coeffs": [
+   0.24,
+   0.24,
+   0.25,
+   0.27
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "290",
+  "name": "Μοριακής Βιολογίας και Γενετικής",
+  "institution": "ΔΠΘ",
+  "institutionFull": "ΔΗΜΟΚΡΙΤΕΙΟ ΠΑΝΕΠΙΣΤΗΜΙΟ ΘΡΑΚΗΣ",
+  "city": "Αλεξ/πολη",
+  "type": "ΑΕΙ",
+  "base": 16895,
+  "ebe": 14.78,
+  "coeffs": [
+   0.2,
+   0.25,
+   0.25,
+   0.3
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "881",
+  "name": "Σχολή Δοκίμων Σημαιοφόρων Λιμενικού Σώματος - Ελληνικής Ακτοφυλακής (Σ.Δ.Σ.Λ.Σ. - ΕΛ.ΑΚΤ.)",
+  "institution": "ΛΣ-ΕΛΑΚΤ",
+  "institutionFull": "ΛΙΜΕΝΙΚΟ ΣΩΜΑ. - ΕΛΛΗΝΙΚΗ ΑΚΤΟΦΥΛΑΚΗ",
+  "city": "(μη προσδιορισμένη)",
+  "type": "ΛΙΜΕΝΙΚΟ - ΑΚΤΟΦΥΛΑΚΗ",
+  "base": 16870,
+  "ebe": 9.3,
+  "coeffs": [
+   0.3,
+   0.3,
+   0.2,
+   0.2
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": "Ισχύουν επιπλέον προϋποθέσεις εισαγωγής"
+ },
+ {
+  "code": "267",
+  "name": "Χημείας",
+  "institution": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΠΑΤΡΩΝ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΠΑΤΡΩΝ",
+  "city": "Πάτρα",
+  "type": "ΑΕΙ",
+  "base": 16740,
+  "ebe": 14.78,
+  "coeffs": [
+   0.2,
+   0.2,
+   0.4,
+   0.2
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "280",
+  "name": "Βιολογικών Εφαρμογών και Τεχνολογιών",
+  "institution": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΙΩΑΝΝΙΝΩΝ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΙΩΑΝΝΙΝΩΝ",
+  "city": "Ιωάννινα",
+  "type": "ΑΕΙ",
+  "base": 16625,
+  "ebe": 14.78,
+  "coeffs": [
+   0.2,
+   0.2,
+   0.25,
+   0.35
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "294",
+  "name": "Επιστήμης Διαιτολογίας και Διατροφής",
+  "institution": "ΧΑΡΟΚΟΠΕΙΟ",
+  "institutionFull": "ΧΑΡΟΚΟΠΕΙΟ ΠΑΝΕΠΙΣΤΗΜΙΟ",
+  "city": "Αθήνα",
+  "type": "ΑΕΙ",
+  "base": 16592,
+  "ebe": 14.78,
+  "coeffs": [
+   0.24,
+   0.24,
+   0.26,
+   0.26
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "269",
+  "name": "Χημείας",
+  "institution": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΙΩΑΝΝΙΝΩΝ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΙΩΑΝΝΙΝΩΝ",
+  "city": "Ιωάννινα",
+  "type": "ΑΕΙ",
+  "base": 16435,
+  "ebe": 12.32,
+  "coeffs": [
+   0.2,
+   0.25,
+   0.35,
+   0.2
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "827",
+  "name": "Ικάρων (ΣΙ) Ελεγκτές Αεράμυνας",
+  "institution": "ΣΙ",
+  "institutionFull": "ΣΧΟΛΗ ΙΚΑΡΩΝ",
+  "city": "(μη προσδιορισμένη)",
+  "type": "ΣΤΡΑΤΙΩΤΙΚΕΣ",
+  "base": 16420,
+  "ebe": 14.78,
+  "coeffs": [
+   0.25,
+   0.35,
+   0.2,
+   0.2
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": "Ισχύουν επιπλέον προϋποθέσεις εισαγωγής"
+ },
+ {
+  "code": "284",
+  "name": "Βιοχημείας και Βιοτεχνολογίας",
+  "institution": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΘΕΣΣΑΛΙΑΣ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΘΕΣΣΑΛΙΑΣ",
+  "city": "Λάρισα",
+  "type": "ΑΕΙ",
+  "base": 16380,
+  "ebe": 14.78,
+  "coeffs": [
+   0.2,
+   0.2,
+   0.3,
+   0.3
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "325",
+  "name": "Βιοτεχνολογίας",
+  "institution": "ΓΠΑ",
+  "institutionFull": "ΓΕΩΠΟΝΙΚΟ ΠΑΝΕΠΙΣΤΗΜΙΟ ΑΘΗΝΩΝ",
+  "city": "Αθήνα",
+  "type": "ΑΕΙ",
+  "base": 16285,
+  "ebe": 14.78,
+  "coeffs": [
+   0.2,
+   0.25,
+   0.25,
+   0.3
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "880",
+  "name": "Μονίμων Υπαξιωματικών Αεροπορίας (ΣΜΥΑ) - Κατεύθυνση Διοικητικής και Εφοδιαστικής Υποστήριξης",
+  "institution": "ΣΜΥΑ",
+  "institutionFull": "ΣΧΟΛΗ ΜΟΝΙΜΩΝ ΥΠΑΞΙΩΜΑΤΙΚΩΝ ΑΕΡΟΠΟΡΙΑΣ",
+  "city": "(μη προσδιορισμένη)",
+  "type": "ΣΤΡΑΤΙΩΤΙΚΕΣ",
+  "base": 16155,
+  "ebe": 10.33,
+  "coeffs": [
+   0.25,
+   0.25,
+   0.25,
+   0.25
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": "Ισχύουν επιπλέον προϋποθέσεις εισαγωγής"
+ },
+ {
+  "code": "270",
+  "name": "Χημείας",
+  "institution": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΚΡΗΤΗΣ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΚΡΗΤΗΣ",
+  "city": "Ηράκλειο",
+  "type": "ΑΕΙ",
+  "base": 16083,
+  "ebe": 14.78,
+  "coeffs": [
+   0.2,
+   0.27,
+   0.27,
+   0.26
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "683",
+  "name": "Φυσικοθεραπείας",
+  "institution": "ΠΑΔΑ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΔΥΤΙΚΗΣ ΑΤΤΙΚΗΣ",
+  "city": "Αιγάλεω",
+  "type": "ΑΕΙ",
+  "base": 16075,
+  "ebe": 14.78,
+  "coeffs": [
+   0.25,
+   0.25,
+   0.25,
+   0.25
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "821",
+  "name": "Ικάρων (ΣΙ) Ιπτάμενοι",
+  "institution": "ΣΙ",
+  "institutionFull": "ΣΧΟΛΗ ΙΚΑΡΩΝ",
+  "city": "(μη προσδιορισμένη)",
+  "type": "ΣΤΡΑΤΙΩΤΙΚΕΣ",
+  "base": 16000,
+  "ebe": 14.78,
+  "coeffs": [
+   0.25,
+   0.35,
+   0.2,
+   0.2
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": "Ισχύουν επιπλέον προϋποθέσεις εισαγωγής"
+ },
+ {
+  "code": "1616",
+  "name": "Φυσικοθεραπείας",
+  "institution": "ΔΙΠΑΕ",
+  "institutionFull": "ΔΙΕΘΝΕΣ ΠΑΝΕΠΙΣΤΗΜΙΟ ΕΛΛΑΔΑΣ",
+  "city": "Θεσσαλονίκη",
+  "type": "ΑΕΙ",
+  "base": 15955,
+  "ebe": 14.78,
+  "coeffs": [
+   0.2,
+   0.25,
+   0.25,
+   0.3
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "128",
+  "name": "Παιδαγωγικό Δημοτικής Εκπαίδευσης",
+  "institution": "ΕΚΠΑ",
+  "institutionFull": "ΕΘΝΙΚΟ & ΚΑΠΟΔΙΣΤΡΙΑΚΟ ΠΑΝΕΠΙΣΤΗΜΙΟ ΑΘΗΝΩΝ",
+  "city": "Αθήνα",
+  "type": "ΑΕΙ",
+  "base": 15950,
+  "ebe": 12.39,
+  "coeffs": [
+   0.25,
+   0.25,
+   0.25,
+   0.25
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "140",
+  "name": "Παιδαγωγικό Δημοτικής Εκπαίδευσης",
+  "institution": "ΑΠΘ",
+  "institutionFull": "ΑΡΙΣΤΟΤΕΛΕΙΟ ΠΑΝΕΠΙΣΤΗΜΙΟ ΘΕΣΣΑΛΟΝΙΚΗΣ",
+  "city": "Θεσσαλονίκη",
+  "type": "ΑΕΙ",
+  "base": 15800,
+  "ebe": 8.26,
+  "coeffs": [
+   0.25,
+   0.25,
+   0.25,
+   0.25
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "806",
+  "name": "Ευελπίδων (ΣΣΕ) - Σώματα",
+  "institution": "ΣΣΕ",
+  "institutionFull": "ΣΤΡΑΤΙΩΤΙΚΗ ΣΧΟΛΗ ΕΥΕΛΠΙΔΩΝ",
+  "city": "(μη προσδιορισμένη)",
+  "type": "ΣΤΡΑΤΙΩΤΙΚΕΣ",
+  "base": 15750,
+  "ebe": 9.3,
+  "coeffs": [
+   0.25,
+   0.25,
+   0.25,
+   0.25
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": "Ισχύουν επιπλέον προϋποθέσεις εισαγωγής"
+ },
+ {
+  "code": "1629",
+  "name": "Χημείας",
+  "institution": "ΔΠΘ",
+  "institutionFull": "ΔΗΜΟΚΡΙΤΕΙΟ ΠΑΝΕΠΙΣΤΗΜΙΟ ΘΡΑΚΗΣ",
+  "city": "Καβάλα",
+  "type": "ΑΕΙ",
+  "base": 15590,
+  "ebe": 14.78,
+  "coeffs": [
+   0.2,
+   0.26,
+   0.28,
+   0.26
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "409",
+  "name": "Μουσικής Επιστήμης και Τέχνης",
+  "institution": "ΠΑΜΑΚ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΜΑΚΕΔΟΝΙΑΣ",
+  "city": "Θεσσαλονίκη",
+  "type": "ΑΕΙ",
+  "base": 15540,
+  "ebe": 9.69,
+  "coeffs": [
+   0.2,
+   0.2,
+   0,
+   0
+  ],
+  "specials": [
+   {
+    "kind": "music-performance",
+    "label": "Μουσική Εκτέλεση και Ερμηνεία",
+    "coeff": 0.4,
+    "choose": 1,
+    "options": null,
+    "ebe": 13.46
+   },
+   {
+    "kind": "music-theory",
+    "label": "Μουσική Αντίληψη, Θεωρία και Αρμονία",
+    "coeff": 0.2,
+    "choose": 1,
+    "options": null,
+    "ebe": 8.42
+   }
+  ],
+  "musicIncluded": true,
+  "note": null
+ },
+ {
+  "code": "405",
+  "name": "Επιστήμης Φυσικής Αγωγής και Αθλητισμού",
+  "institution": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΘΕΣΣΑΛΙΑΣ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΘΕΣΣΑΛΙΑΣ",
+  "city": "Τρίκαλα",
+  "type": "ΑΕΙ",
+  "base": 15470,
+  "ebe": 8.47,
+  "coeffs": [
+   0.3,
+   0.25,
+   0.2,
+   0.25
+  ],
+  "specials": [
+   {
+    "kind": "athletics",
+    "label": "Αγωνίσματα (ΤΕΦΑΑ)",
+    "coeff": 0.2,
+    "choose": 1,
+    "options": null,
+    "ebe": 7.78
+   }
+  ],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "408",
+  "name": "Μουσικών Σπουδών",
+  "institution": "ΕΚΠΑ",
+  "institutionFull": "ΕΘΝΙΚΟ & ΚΑΠΟΔΙΣΤΡΙΑΚΟ ΠΑΝΕΠΙΣΤΗΜΙΟ ΑΘΗΝΩΝ",
+  "city": "Αθήνα",
+  "type": "ΑΕΙ",
+  "base": 15150,
+  "ebe": 10.9,
+  "coeffs": [
+   0.3,
+   0.2,
+   0,
+   0
+  ],
+  "specials": [
+   {
+    "kind": "music-performance",
+    "label": "Μουσική Εκτέλεση και Ερμηνεία",
+    "coeff": 0.2,
+    "choose": 1,
+    "options": null,
+    "ebe": 13.46
+   },
+   {
+    "kind": "music-theory",
+    "label": "Μουσική Αντίληψη, Θεωρία και Αρμονία",
+    "coeff": 0.3,
+    "choose": 1,
+    "options": null,
+    "ebe": 8.42
+   }
+  ],
+  "musicIncluded": true,
+  "note": null
+ },
+ {
+  "code": "876",
+  "name": "Πυροσβεστών (Μόνο για Πολίτες)",
+  "institution": "ΣΠΑ",
+  "institutionFull": "ΠΥΡΟΣΒΕΣΤΙΚΗ ΑΚΑΔΗΜΙΑ",
+  "city": "(μη προσδιορισμένη)",
+  "type": "ΑΚΑΔΗΜΙΕΣ ΠΥΡΟΣΒΕΣΤΙΚΗΣ",
+  "base": 15130,
+  "ebe": 8.26,
+  "coeffs": [
+   0.2,
+   0.3,
+   0.2,
+   0.3
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": "Ισχύουν επιπλέον προϋποθέσεις εισαγωγής"
+ },
+ {
+  "code": "680",
+  "name": "Εργοθεραπείας",
+  "institution": "ΠΑΔΑ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΔΥΤΙΚΗΣ ΑΤΤΙΚΗΣ",
+  "city": "Αιγάλεω",
+  "type": "ΑΕΙ",
+  "base": 14990,
+  "ebe": 14.78,
+  "coeffs": [
+   0.3,
+   0.2,
+   0.2,
+   0.3
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "1273",
+  "name": "Φυσικοθεραπείας",
+  "institution": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΠΑΤΡΩΝ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΠΑΤΡΩΝ",
+  "city": "Πάτρα",
+  "type": "ΑΕΙ",
+  "base": 14920,
+  "ebe": 14.17,
+  "coeffs": [
+   0.2,
+   0.25,
+   0.25,
+   0.3
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "306",
+  "name": "Νοσηλευτικής",
+  "institution": "ΕΚΠΑ",
+  "institutionFull": "ΕΘΝΙΚΟ & ΚΑΠΟΔΙΣΤΡΙΑΚΟ ΠΑΝΕΠΙΣΤΗΜΙΟ ΑΘΗΝΩΝ",
+  "city": "Αθήνα",
+  "type": "ΑΕΙ",
+  "base": 14800,
+  "ebe": 14.78,
+  "coeffs": [
+   0.25,
+   0.25,
+   0.25,
+   0.25
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "154",
+  "name": "Εκπαίδευσης και Αγωγής στην Προσχολική Ηλικία",
+  "institution": "ΕΚΠΑ",
+  "institutionFull": "ΕΘΝΙΚΟ & ΚΑΠΟΔΙΣΤΡΙΑΚΟ ΠΑΝΕΠΙΣΤΗΜΙΟ ΑΘΗΝΩΝ",
+  "city": "Αθήνα",
+  "type": "ΑΕΙ",
+  "base": 14800,
+  "ebe": 8.26,
+  "coeffs": [
+   0.25,
+   0.25,
+   0.25,
+   0.25
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "388",
+  "name": "Μηχανικών Βιοϊατρικής",
+  "institution": "ΠΑΔΑ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΔΥΤΙΚΗΣ ΑΤΤΙΚΗΣ",
+  "city": "Αιγάλεω",
+  "type": "ΑΕΙ",
+  "base": 14765,
+  "ebe": 9.86,
+  "coeffs": [
+   0.2,
+   0.3,
+   0.25,
+   0.25
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "678",
+  "name": "Βιοϊατρικών Επιστημών",
+  "institution": "ΠΑΔΑ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΔΥΤΙΚΗΣ ΑΤΤΙΚΗΣ",
+  "city": "Αιγάλεω",
+  "type": "ΑΕΙ",
+  "base": 14685,
+  "ebe": 12.32,
+  "coeffs": [
+   0.2,
+   0.25,
+   0.25,
+   0.3
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "1615",
+  "name": "Βιοϊατρικών Επιστημών",
+  "institution": "ΔΙΠΑΕ",
+  "institutionFull": "ΔΙΕΘΝΕΣ ΠΑΝΕΠΙΣΤΗΜΙΟ ΕΛΛΑΔΑΣ",
+  "city": "Θεσσαλονίκη",
+  "type": "ΑΕΙ",
+  "base": 14600,
+  "ebe": 13.55,
+  "coeffs": [
+   0.2,
+   0.2,
+   0.25,
+   0.35
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "1438",
+  "name": "Φυσικοθεραπείας",
+  "institution": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΘΕΣΣΑΛΙΑΣ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΘΕΣΣΑΛΙΑΣ",
+  "city": "Λαμία",
+  "type": "ΑΕΙ",
+  "base": 14600,
+  "ebe": 12.32,
+  "coeffs": [
+   0.25,
+   0.25,
+   0.25,
+   0.25
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "164",
+  "name": "Παιδαγωγικό Δημοτικής Εκπαίδευσης",
+  "institution": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΘΕΣΣΑΛΙΑΣ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΘΕΣΣΑΛΙΑΣ",
+  "city": "Βόλος",
+  "type": "ΑΕΙ",
+  "base": 14550,
+  "ebe": 8.26,
+  "coeffs": [
+   0.25,
+   0.25,
+   0.25,
+   0.25
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "1286",
+  "name": "Επιστημών της Εκπαίδευσης και Κοινωνικής Εργασίας",
+  "institution": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΠΑΤΡΩΝ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΠΑΤΡΩΝ",
+  "city": "Πάτρα",
+  "type": "ΑΕΙ",
+  "base": 14380,
+  "ebe": 12.39,
+  "coeffs": [
+   0.35,
+   0.25,
+   0.2,
+   0.2
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "328",
+  "name": "Επιστήμης Τροφίμων και Διατροφής του Ανθρώπου",
+  "institution": "ΓΠΑ",
+  "institutionFull": "ΓΕΩΠΟΝΙΚΟ ΠΑΝΕΠΙΣΤΗΜΙΟ ΑΘΗΝΩΝ",
+  "city": "Αθήνα",
+  "type": "ΑΕΙ",
+  "base": 14215,
+  "ebe": 14.78,
+  "coeffs": [
+   0.25,
+   0.2,
+   0.3,
+   0.25
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "681",
+  "name": "Μαιευτικής",
+  "institution": "ΠΑΔΑ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΔΥΤΙΚΗΣ ΑΤΤΙΚΗΣ",
+  "city": "Αιγάλεω",
+  "type": "ΑΕΙ",
+  "base": 14175,
+  "ebe": 14.17,
+  "coeffs": [
+   0.25,
+   0.25,
+   0.25,
+   0.25
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "134",
+  "name": "Επιστημών Προσχολικής Αγωγής και Εκπαίδευσης",
+  "institution": "ΑΠΘ",
+  "institutionFull": "ΑΡΙΣΤΟΤΕΛΕΙΟ ΠΑΝΕΠΙΣΤΗΜΙΟ ΘΕΣΣΑΛΟΝΙΚΗΣ",
+  "city": "Θεσσαλονίκη",
+  "type": "ΑΕΙ",
+  "base": 14175,
+  "ebe": 8.26,
+  "coeffs": [
+   0.25,
+   0.25,
+   0.25,
+   0.25
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "406",
+  "name": "Μουσικών Σπουδών",
+  "institution": "ΑΠΘ",
+  "institutionFull": "ΑΡΙΣΤΟΤΕΛΕΙΟ ΠΑΝΕΠΙΣΤΗΜΙΟ ΘΕΣΣΑΛΟΝΙΚΗΣ",
+  "city": "Θεσσαλονίκη",
+  "type": "ΑΕΙ",
+  "base": 14150,
+  "ebe": 9.69,
+  "coeffs": [
+   0.25,
+   0.2,
+   0,
+   0
+  ],
+  "specials": [
+   {
+    "kind": "music-performance",
+    "label": "Μουσική Εκτέλεση και Ερμηνεία",
+    "coeff": 0.25,
+    "choose": 1,
+    "options": null,
+    "ebe": 11.78
+   },
+   {
+    "kind": "music-theory",
+    "label": "Μουσική Αντίληψη, Θεωρία και Αρμονία",
+    "coeff": 0.3,
+    "choose": 1,
+    "options": null,
+    "ebe": 7.37
+   }
+  ],
+  "musicIncluded": true,
+  "note": null
+ },
+ {
+  "code": "130",
+  "name": "Παιδαγωγικό Δημοτικής Εκπαίδευσης",
+  "institution": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΙΩΑΝΝΙΝΩΝ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΙΩΑΝΝΙΝΩΝ",
+  "city": "Ιωάννινα",
+  "type": "ΑΕΙ",
+  "base": 14100,
+  "ebe": 10.33,
+  "coeffs": [
+   0.25,
+   0.25,
+   0.25,
+   0.25
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "1670",
+  "name": "Εργοθεραπείας",
+  "institution": "ΔΠΘ",
+  "institutionFull": "ΔΗΜΟΚΡΙΤΕΙΟ ΠΑΝΕΠΙΣΤΗΜΙΟ ΘΡΑΚΗΣ",
+  "city": "Κομοτηνή",
+  "type": "ΑΕΙ",
+  "base": 14004,
+  "ebe": 9.86,
+  "coeffs": [
+   0.22,
+   0.26,
+   0.26,
+   0.26
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "882",
+  "name": "Σχολή Δοκίμων Λιμενοφυλάκων",
+  "institution": "ΛΣ-ΕΛΑΚΤ",
+  "institutionFull": "ΛΙΜΕΝΙΚΟ ΣΩΜΑ. - ΕΛΛΗΝΙΚΗ ΑΚΤΟΦΥΛΑΚΗ",
+  "city": "(μη προσδιορισμένη)",
+  "type": "ΛΙΜΕΝΙΚΟ - ΑΚΤΟΦΥΛΑΚΗ",
+  "base": 13970,
+  "ebe": 9.3,
+  "coeffs": [
+   0.3,
+   0.3,
+   0.2,
+   0.2
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": "Ισχύουν επιπλέον προϋποθέσεις εισαγωγής"
+ },
+ {
+  "code": "684",
+  "name": "Επιστήμης και Τεχνολογίας Τροφίμων",
+  "institution": "ΠΑΔΑ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΔΥΤΙΚΗΣ ΑΤΤΙΚΗΣ",
+  "city": "Αιγάλεω",
+  "type": "ΑΕΙ",
+  "base": 13970,
+  "ebe": 13.55,
+  "coeffs": [
+   0.2,
+   0.2,
+   0.3,
+   0.3
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "1613",
+  "name": "Επιστημών Διατροφής και Διαιτολογίας",
+  "institution": "ΔΙΠΑΕ",
+  "institutionFull": "ΔΙΕΘΝΕΣ ΠΑΝΕΠΙΣΤΗΜΙΟ ΕΛΛΑΔΑΣ",
+  "city": "Θεσσαλονίκη",
+  "type": "ΑΕΙ",
+  "base": 13960,
+  "ebe": 9.86,
+  "coeffs": [
+   0.2,
+   0.2,
+   0.3,
+   0.3
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "1520",
+  "name": "Φυσικοθεραπείας",
+  "institution": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΠΕΛΟΠΟΝΝΗΣΟΥ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΠΕΛΟΠΟΝΝΗΣΟΥ",
+  "city": "Σπάρτη",
+  "type": "ΑΕΙ",
+  "base": 13880,
+  "ebe": 9.86,
+  "coeffs": [
+   0.2,
+   0.3,
+   0.2,
+   0.3
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "851",
+  "name": "Αξιωματικών Νοσηλευτικής (ΣΑΝ)",
+  "institution": "ΣΑΝ",
+  "institutionFull": "ΣΧΟΛΗ ΑΞΙΩΜΑΤΙΚΩΝ ΝΟΣΗΛΕΥΤΙΚΗΣ",
+  "city": "(μη προσδιορισμένη)",
+  "type": "ΣΤΡΑΤΙΩΤΙΚΕΣ",
+  "base": 13700,
+  "ebe": 12.32,
+  "coeffs": [
+   0.25,
+   0.25,
+   0.25,
+   0.25
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": "Ισχύουν επιπλέον προϋποθέσεις εισαγωγής"
+ },
+ {
+  "code": "682",
+  "name": "Νοσηλευτικής",
+  "institution": "ΠΑΔΑ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΔΥΤΙΚΗΣ ΑΤΤΙΚΗΣ",
+  "city": "Αιγάλεω",
+  "type": "ΑΕΙ",
+  "base": 13575,
+  "ebe": 13.55,
+  "coeffs": [
+   0.25,
+   0.25,
+   0.25,
+   0.25
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "1274",
+  "name": "Λογοθεραπείας",
+  "institution": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΠΑΤΡΩΝ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΠΑΤΡΩΝ",
+  "city": "Πάτρα",
+  "type": "ΑΕΙ",
+  "base": 13502,
+  "ebe": 12.32,
+  "coeffs": [
+   0.26,
+   0.28,
+   0.2,
+   0.26
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": "Ισχύουν επιπλέον προϋποθέσεις εισαγωγής"
+ },
+ {
+  "code": "402",
+  "name": "Επιστήμης Φυσικής Αγωγής και Αθλητισμού",
+  "institution": "ΑΠΘ",
+  "institutionFull": "ΑΡΙΣΤΟΤΕΛΕΙΟ ΠΑΝΕΠΙΣΤΗΜΙΟ ΘΕΣΣΑΛΟΝΙΚΗΣ",
+  "city": "Σέρρες",
+  "type": "ΑΕΙ",
+  "base": 13440,
+  "ebe": 8.47,
+  "coeffs": [
+   0.3,
+   0.25,
+   0.2,
+   0.25
+  ],
+  "specials": [
+   {
+    "kind": "athletics",
+    "label": "Αγωνίσματα (ΤΕΦΑΑ)",
+    "coeff": 0.2,
+    "choose": 1,
+    "options": null,
+    "ebe": 7.78
+   }
+  ],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "1245",
+  "name": "Λογοθεραπείας",
+  "institution": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΙΩΑΝΝΙΝΩΝ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΙΩΑΝΝΙΝΩΝ",
+  "city": "Ιωάννινα",
+  "type": "ΑΕΙ",
+  "base": 13435,
+  "ebe": 13.55,
+  "coeffs": [
+   0.35,
+   0.2,
+   0.2,
+   0.25
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": "Ισχύουν επιπλέον προϋποθέσεις εισαγωγής"
+ },
+ {
+  "code": "404",
+  "name": "Επιστήμης Φυσικής Αγωγής και Αθλητισμού",
+  "institution": "ΔΠΘ",
+  "institutionFull": "ΔΗΜΟΚΡΙΤΕΙΟ ΠΑΝΕΠΙΣΤΗΜΙΟ ΘΡΑΚΗΣ",
+  "city": "Κομοτηνή",
+  "type": "ΑΕΙ",
+  "base": 13425,
+  "ebe": 8.47,
+  "coeffs": [
+   0.3,
+   0.25,
+   0.2,
+   0.25
+  ],
+  "specials": [
+   {
+    "kind": "athletics",
+    "label": "Αγωνίσματα (ΤΕΦΑΑ)",
+    "coeff": 0.2,
+    "choose": 1,
+    "options": null,
+    "ebe": 7.78
+   }
+  ],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "1558",
+  "name": "Εργοθεραπείας",
+  "institution": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΔΥΤΙΚΗΣ ΜΑΚΕΔΟΝΙΑΣ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΔΥΤΙΚΗΣ ΜΑΚΕΔΟΝΙΑΣ",
+  "city": "Πτολεμαΐδα",
+  "type": "ΑΕΙ",
+  "base": 13348,
+  "ebe": 12.32,
+  "coeffs": [
+   0.22,
+   0.22,
+   0.27,
+   0.29
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "273",
+  "name": "Γεωπονίας",
+  "institution": "ΑΠΘ",
+  "institutionFull": "ΑΡΙΣΤΟΤΕΛΕΙΟ ΠΑΝΕΠΙΣΤΗΜΙΟ ΘΕΣΣΑΛΟΝΙΚΗΣ",
+  "city": "Θεσσαλονίκη",
+  "type": "ΑΕΙ",
+  "base": 13180,
+  "ebe": 13.55,
+  "coeffs": [
+   0.2,
+   0.2,
+   0.3,
+   0.3
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "673",
+  "name": "Αγωγής και Φροντίδας στην Πρώιμη Παιδική Ηλικία",
+  "institution": "ΠΑΔΑ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΔΥΤΙΚΗΣ ΑΤΤΙΚΗΣ",
+  "city": "Αιγάλεω",
+  "type": "ΑΕΙ",
+  "base": 13120,
+  "ebe": 10.33,
+  "coeffs": [
+   0.4,
+   0.2,
+   0.2,
+   0.2
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "801",
+  "name": "Ευελπίδων (ΣΣΕ) - Όπλα",
+  "institution": "ΣΣΕ",
+  "institutionFull": "ΣΤΡΑΤΙΩΤΙΚΗ ΣΧΟΛΗ ΕΥΕΛΠΙΔΩΝ",
+  "city": "(μη προσδιορισμένη)",
+  "type": "ΣΤΡΑΤΙΩΤΙΚΕΣ",
+  "base": 12990,
+  "ebe": 9.3,
+  "coeffs": [
+   0.25,
+   0.25,
+   0.25,
+   0.25
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": "Ισχύουν επιπλέον προϋποθέσεις εισαγωγής"
+ },
+ {
+  "code": "132",
+  "name": "Παιδαγωγικό Δημοτικής Εκπαίδευσης",
+  "institution": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΚΡΗΤΗΣ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΚΡΗΤΗΣ",
+  "city": "Ρέθυμνο",
+  "type": "ΑΕΙ",
+  "base": 12875,
+  "ebe": 10.33,
+  "coeffs": [
+   0.25,
+   0.25,
+   0.25,
+   0.25
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "1635",
+  "name": "Επιστήμης και Τεχνολογίας Τροφίμων",
+  "institution": "ΔΙΠΑΕ",
+  "institutionFull": "ΔΙΕΘΝΕΣ ΠΑΝΕΠΙΣΤΗΜΙΟ ΕΛΛΑΔΑΣ",
+  "city": "Θεσσαλονίκη",
+  "type": "ΑΕΙ",
+  "base": 12865,
+  "ebe": 12.32,
+  "coeffs": [
+   0.2,
+   0.25,
+   0.3,
+   0.25
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "878",
+  "name": "Μονίμων Υπαξιωματικών Αεροπορίας (ΣΜΥΑ) - Κατεύθυνση Τεχνολογικής Υποστήριξης",
+  "institution": "ΣΜΥΑ",
+  "institutionFull": "ΣΧΟΛΗ ΜΟΝΙΜΩΝ ΥΠΑΞΙΩΜΑΤΙΚΩΝ ΑΕΡΟΠΟΡΙΑΣ",
+  "city": "(μη προσδιορισμένη)",
+  "type": "ΣΤΡΑΤΙΩΤΙΚΕΣ",
+  "base": 12865,
+  "ebe": 9.3,
+  "coeffs": [
+   0.25,
+   0.3,
+   0.25,
+   0.2
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": "Ισχύουν επιπλέον προϋποθέσεις εισαγωγής"
+ },
+ {
+  "code": "1515",
+  "name": "Λογοθεραπείας",
+  "institution": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΠΕΛΟΠΟΝΝΗΣΟΥ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΠΕΛΟΠΟΝΝΗΣΟΥ",
+  "city": "Καλαμάτα",
+  "type": "ΑΕΙ",
+  "base": 12860,
+  "ebe": 11.7,
+  "coeffs": [
+   0.3,
+   0.2,
+   0.2,
+   0.3
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": "Ισχύουν επιπλέον προϋποθέσεις εισαγωγής"
+ },
+ {
+  "code": "136",
+  "name": "Επιστημών της Εκπαίδευσης και της Αγωγής στην Προσχολική Ηλικία",
+  "institution": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΠΑΤΡΩΝ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΠΑΤΡΩΝ",
+  "city": "Πάτρα",
+  "type": "ΑΕΙ",
+  "base": 12760,
+  "ebe": 10.33,
+  "coeffs": [
+   0.4,
+   0.2,
+   0.2,
+   0.2
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "369",
+  "name": "Πληροφορικής με Εφαρμογές στη Βιοϊατρική",
+  "institution": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΘΕΣΣΑΛΙΑΣ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΘΕΣΣΑΛΙΑΣ",
+  "city": "Λαμία",
+  "type": "ΑΕΙ",
+  "base": 12718,
+  "ebe": 10.33,
+  "coeffs": [
+   0.25,
+   0.27,
+   0.21,
+   0.27
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "163",
+  "name": "Κινηματογράφου",
+  "institution": "ΑΠΘ",
+  "institutionFull": "ΑΡΙΣΤΟΤΕΛΕΙΟ ΠΑΝΕΠΙΣΤΗΜΙΟ ΘΕΣΣΑΛΟΝΙΚΗΣ",
+  "city": "Θεσσαλονίκη",
+  "type": "ΑΕΙ",
+  "base": 12625,
+  "ebe": 12.39,
+  "coeffs": [
+   0.25,
+   0.25,
+   0.25,
+   0.25
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "334",
+  "name": "Παιδαγωγικό Δημοτικής Εκπαίδευσης",
+  "institution": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΔΥΤΙΚΗΣ ΜΑΚΕΔΟΝΙΑΣ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΔΥΤΙΚΗΣ ΜΑΚΕΔΟΝΙΑΣ",
+  "city": "Φλώρινα",
+  "type": "ΑΕΙ",
+  "base": 12430,
+  "ebe": 8.26,
+  "coeffs": [
+   0.3,
+   0.3,
+   0.2,
+   0.2
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "178",
+  "name": "Παιδαγωγικό Ειδικής Αγωγής",
+  "institution": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΘΕΣΣΑΛΙΑΣ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΘΕΣΣΑΛΙΑΣ",
+  "city": "Βόλος",
+  "type": "ΑΕΙ",
+  "base": 12425,
+  "ebe": 10.33,
+  "coeffs": [
+   0.25,
+   0.25,
+   0.25,
+   0.25
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "142",
+  "name": "Παιδαγωγικό Δημοτικής Εκπαίδευσης",
+  "institution": "ΔΠΘ",
+  "institutionFull": "ΔΗΜΟΚΡΙΤΕΙΟ ΠΑΝΕΠΙΣΤΗΜΙΟ ΘΡΑΚΗΣ",
+  "city": "Αλεξ/πολη",
+  "type": "ΑΕΙ",
+  "base": 12400,
+  "ebe": 8.26,
+  "coeffs": [
+   0.25,
+   0.25,
+   0.25,
+   0.25
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "1614",
+  "name": "Μαιευτικής",
+  "institution": "ΔΙΠΑΕ",
+  "institutionFull": "ΔΙΕΘΝΕΣ ΠΑΝΕΠΙΣΤΗΜΙΟ ΕΛΛΑΔΑΣ",
+  "city": "Θεσσαλονίκη",
+  "type": "ΑΕΙ",
+  "base": 12139,
+  "ebe": 12.32,
+  "coeffs": [
+   0.22,
+   0.22,
+   0.25,
+   0.31
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "326",
+  "name": "Αγροτικής Οικονομίας και Ανάπτυξης",
+  "institution": "ΓΠΑ",
+  "institutionFull": "ΓΕΩΠΟΝΙΚΟ ΠΑΝΕΠΙΣΤΗΜΙΟ ΑΘΗΝΩΝ",
+  "city": "Αθήνα",
+  "type": "ΑΕΙ",
+  "base": 12120,
+  "ebe": 8.78,
+  "coeffs": [
+   0.25,
+   0.25,
+   0.25,
+   0.25
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "166",
+  "name": "Παιδαγωγικό Προσχολικής Εκπαίδευσης",
+  "institution": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΘΕΣΣΑΛΙΑΣ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΘΕΣΣΑΛΙΑΣ",
+  "city": "Βόλος",
+  "type": "ΑΕΙ",
+  "base": 12075,
+  "ebe": 8.26,
+  "coeffs": [
+   0.25,
+   0.25,
+   0.25,
+   0.25
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "288",
+  "name": "Επιστήμης των Υλικών",
+  "institution": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΠΑΤΡΩΝ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΠΑΤΡΩΝ",
+  "city": "Πάτρα",
+  "type": "ΑΕΙ",
+  "base": 12020,
+  "ebe": 9.86,
+  "coeffs": [
+   0.22,
+   0.27,
+   0.28,
+   0.23
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "1618",
+  "name": "Νοσηλευτικής",
+  "institution": "ΔΙΠΑΕ",
+  "institutionFull": "ΔΙΕΘΝΕΣ ΠΑΝΕΠΙΣΤΗΜΙΟ ΕΛΛΑΔΑΣ",
+  "city": "Θεσσαλονίκη",
+  "type": "ΑΕΙ",
+  "base": 11990,
+  "ebe": 12.32,
+  "coeffs": [
+   0.25,
+   0.2,
+   0.25,
+   0.3
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "324",
+  "name": "Επιστήμης Ζωικής Παραγωγής",
+  "institution": "ΓΠΑ",
+  "institutionFull": "ΓΕΩΠΟΝΙΚΟ ΠΑΝΕΠΙΣΤΗΜΙΟ ΑΘΗΝΩΝ",
+  "city": "Αθήνα",
+  "type": "ΑΕΙ",
+  "base": 11980,
+  "ebe": 12.32,
+  "coeffs": [
+   0.2,
+   0.2,
+   0.3,
+   0.3
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "1426",
+  "name": "Διαιτολογίας και Διατροφολογίας",
+  "institution": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΘΕΣΣΑΛΙΑΣ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΘΕΣΣΑΛΙΑΣ",
+  "city": "Τρίκαλα",
+  "type": "ΑΕΙ",
+  "base": 11905,
+  "ebe": 12.32,
+  "coeffs": [
+   0.25,
+   0.2,
+   0.25,
+   0.3
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "327",
+  "name": "Αξιοποίησης Φυσικών Πόρων και Γεωργικής Μηχανικής",
+  "institution": "ΓΠΑ",
+  "institutionFull": "ΓΕΩΠΟΝΙΚΟ ΠΑΝΕΠΙΣΤΗΜΙΟ ΑΘΗΝΩΝ",
+  "city": "Αθήνα",
+  "type": "ΑΕΙ",
+  "base": 11770,
+  "ebe": 12.32,
+  "coeffs": [
+   0.2,
+   0.35,
+   0.25,
+   0.2
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "1516",
+  "name": "Επιστήμης Διατροφής και Διαιτολογίας",
+  "institution": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΠΕΛΟΠΟΝΝΗΣΟΥ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΠΕΛΟΠΟΝΝΗΣΟΥ",
+  "city": "Καλαμάτα",
+  "type": "ΑΕΙ",
+  "base": 11750,
+  "ebe": 11.09,
+  "coeffs": [
+   0.2,
+   0.2,
+   0.3,
+   0.3
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "1272",
+  "name": "Νοσηλευτικής",
+  "institution": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΠΑΤΡΩΝ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΠΑΤΡΩΝ",
+  "city": "Πάτρα",
+  "type": "ΑΕΙ",
+  "base": 11700,
+  "ebe": 11.7,
+  "coeffs": [
+   0.25,
+   0.25,
+   0.25,
+   0.25
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "156",
+  "name": "Παιδαγωγικό Νηπιαγωγών",
+  "institution": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΙΩΑΝΝΙΝΩΝ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΙΩΑΝΝΙΝΩΝ",
+  "city": "Ιωάννινα",
+  "type": "ΑΕΙ",
+  "base": 11640,
+  "ebe": 10.33,
+  "coeffs": [
+   0.3,
+   0.3,
+   0.2,
+   0.2
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "1610",
+  "name": "Αγωγής και Φροντίδας στην Πρώιμη Παιδική Ηλικία",
+  "institution": "ΔΙΠΑΕ",
+  "institutionFull": "ΔΙΕΘΝΕΣ ΠΑΝΕΠΙΣΤΗΜΙΟ ΕΛΛΑΔΑΣ",
+  "city": "Θεσσαλονίκη",
+  "type": "ΑΕΙ",
+  "base": 11450,
+  "ebe": 8.26,
+  "coeffs": [
+   0.25,
+   0.25,
+   0.25,
+   0.25
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "274",
+  "name": "Γεωπονίας, Φυτικής Παραγωγής και Αγροτικού Περιβάλλοντος",
+  "institution": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΘΕΣΣΑΛΙΑΣ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΘΕΣΣΑΛΙΑΣ",
+  "city": "Βόλος",
+  "type": "ΑΕΙ",
+  "base": 11400,
+  "ebe": 11.7,
+  "coeffs": [
+   0.2,
+   0.2,
+   0.3,
+   0.3
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "1248",
+  "name": "Μουσικών Σπουδών",
+  "institution": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΙΩΑΝΝΙΝΩΝ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΙΩΑΝΝΙΝΩΝ",
+  "city": "Άρτα",
+  "type": "ΑΕΙ",
+  "base": 11390,
+  "ebe": 10.9,
+  "coeffs": [
+   0.3,
+   0.2,
+   0,
+   0
+  ],
+  "specials": [
+   {
+    "kind": "music-performance",
+    "label": "Μουσική Εκτέλεση και Ερμηνεία",
+    "coeff": 0.3,
+    "choose": 1,
+    "options": null,
+    "ebe": 15.15
+   },
+   {
+    "kind": "music-theory",
+    "label": "Μουσική Αντίληψη, Θεωρία και Αρμονία",
+    "coeff": 0.2,
+    "choose": 1,
+    "options": null,
+    "ebe": 7.37
+   }
+  ],
+  "musicIncluded": true,
+  "note": null
+ },
+ {
+  "code": "816",
+  "name": "Ναυτικών Δοκίμων (ΣΝΔ) Μηχανικοί",
+  "institution": "ΣΝΔ",
+  "institutionFull": "ΣΧΟΛΗ ΝΑΥΤΙΚΩΝ ΔΟΚΙΜΩΝ",
+  "city": "(μη προσδιορισμένη)",
+  "type": "ΣΤΡΑΤΙΩΤΙΚΕΣ",
+  "base": 11316,
+  "ebe": 11.09,
+  "coeffs": [
+   0.25,
+   0.3,
+   0.25,
+   0.2
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": "Ισχύουν επιπλέον προϋποθέσεις εισαγωγής"
+ },
+ {
+  "code": "158",
+  "name": "Παιδαγωγικό Προσχολικής Εκπαίδευσης",
+  "institution": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΚΡΗΤΗΣ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΚΡΗΤΗΣ",
+  "city": "Ρέθυμνο",
+  "type": "ΑΕΙ",
+  "base": 11260,
+  "ebe": 10.33,
+  "coeffs": [
+   0.4,
+   0.2,
+   0.2,
+   0.2
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "168",
+  "name": "Θεάτρου",
+  "institution": "ΑΠΘ",
+  "institutionFull": "ΑΡΙΣΤΟΤΕΛΕΙΟ ΠΑΝΕΠΙΣΤΗΜΙΟ ΘΕΣΣΑΛΟΝΙΚΗΣ",
+  "city": "Θεσσαλονίκη",
+  "type": "ΑΕΙ",
+  "base": 11125,
+  "ebe": 8.26,
+  "coeffs": [
+   0.25,
+   0.25,
+   0.25,
+   0.25
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "863",
+  "name": "Μονίμων Υπαξιωματικών Στρατού (ΣΜΥ) - Σώματα",
+  "institution": "ΣΜΥ",
+  "institutionFull": "ΣΧΟΛΗ ΜΟΝΙΜΩΝ ΥΠΑΞΙΩΜΑΤΙΚΩΝ ΣΤΡΑΤΟΥ ΞΗΡΑΣ",
+  "city": "(μη προσδιορισμένη)",
+  "type": "ΣΤΡΑΤΙΩΤΙΚΕΣ",
+  "base": 11120,
+  "ebe": 8.26,
+  "coeffs": [
+   0.3,
+   0.3,
+   0.2,
+   0.2
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": "Ισχύουν επιπλέον προϋποθέσεις εισαγωγής"
+ },
+ {
+  "code": "811",
+  "name": "Ναυτικών Δοκίμων (ΣΝΔ) Μάχιμοι",
+  "institution": "ΣΝΔ",
+  "institutionFull": "ΣΧΟΛΗ ΝΑΥΤΙΚΩΝ ΔΟΚΙΜΩΝ",
+  "city": "(μη προσδιορισμένη)",
+  "type": "ΣΤΡΑΤΙΩΤΙΚΕΣ",
+  "base": 11109,
+  "ebe": 11.09,
+  "coeffs": [
+   0.25,
+   0.3,
+   0.25,
+   0.2
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": "Ισχύουν επιπλέον προϋποθέσεις εισαγωγής"
+ },
+ {
+  "code": "200",
+  "name": "Επιστήμης και Μηχανικής Υλικών",
+  "institution": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΚΡΗΤΗΣ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΚΡΗΤΗΣ",
+  "city": "Ηράκλειο",
+  "type": "ΑΕΙ",
+  "base": 11020,
+  "ebe": 9.86,
+  "coeffs": [
+   0.2,
+   0.2,
+   0.3,
+   0.3
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "407",
+  "name": "Μουσικών Σπουδών",
+  "institution": "ΙΟΝΙΟ ΠΑΝΕΠΙΣΤΗΜΙΟ",
+  "institutionFull": "ΙΟΝΙΟ ΠΑΝΕΠΙΣΤΗΜΙΟ",
+  "city": "Κέρκυρα",
+  "type": "ΑΕΙ",
+  "base": 10980,
+  "ebe": 9.69,
+  "coeffs": [
+   0.2,
+   0.2,
+   0,
+   0
+  ],
+  "specials": [
+   {
+    "kind": "music-performance",
+    "label": "Μουσική Εκτέλεση και Ερμηνεία",
+    "coeff": 0.3,
+    "choose": 1,
+    "options": null,
+    "ebe": 13.46
+   },
+   {
+    "kind": "music-theory",
+    "label": "Μουσική Αντίληψη, Θεωρία και Αρμονία",
+    "coeff": 0.3,
+    "choose": 1,
+    "options": null,
+    "ebe": 8.42
+   }
+  ],
+  "musicIncluded": true,
+  "note": null
+ },
+ {
+  "code": "143",
+  "name": "Παιδαγωγικό Δημοτικής Εκπαίδευσης",
+  "institution": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΑΙΓΑΙΟΥ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΑΙΓΑΙΟΥ",
+  "city": "Ρόδος",
+  "type": "ΑΕΙ",
+  "base": 10950,
+  "ebe": 8.26,
+  "coeffs": [
+   0.25,
+   0.25,
+   0.25,
+   0.25
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "146",
+  "name": "Θεατρικών Σπουδών",
+  "institution": "ΕΚΠΑ",
+  "institutionFull": "ΕΘΝΙΚΟ & ΚΑΠΟΔΙΣΤΡΙΑΚΟ ΠΑΝΕΠΙΣΤΗΜΙΟ ΑΘΗΝΩΝ",
+  "city": "Αθήνα",
+  "type": "ΑΕΙ",
+  "base": 10875,
+  "ebe": 8.26,
+  "coeffs": [
+   0.25,
+   0.25,
+   0.25,
+   0.25
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "1433",
+  "name": "Νοσηλευτικής",
+  "institution": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΘΕΣΣΑΛΙΑΣ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΘΕΣΣΑΛΙΑΣ",
+  "city": "Λάρισα",
+  "type": "ΑΕΙ",
+  "base": 10865,
+  "ebe": 11.09,
+  "coeffs": [
+   0.2,
+   0.25,
+   0.25,
+   0.3
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "679",
+  "name": "Δημόσιας και Κοινοτικής Υγείας",
+  "institution": "ΠΑΔΑ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΔΥΤΙΚΗΣ ΑΤΤΙΚΗΣ",
+  "city": "Αθήνα",
+  "type": "ΑΕΙ",
+  "base": 10805,
+  "ebe": 11.09,
+  "coeffs": [
+   0.25,
+   0.2,
+   0.2,
+   0.35
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "1241",
+  "name": "Αγωγής και Φροντίδας στην Πρώιμη Παιδική Ηλικία",
+  "institution": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΙΩΑΝΝΙΝΩΝ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΙΩΑΝΝΙΝΩΝ",
+  "city": "Ιωάννινα",
+  "type": "ΑΕΙ",
+  "base": 10756,
+  "ebe": 10.33,
+  "coeffs": [
+   0.34,
+   0.22,
+   0.22,
+   0.22
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "1653",
+  "name": "Επιστημών Διατροφής και Διαιτολογίας",
+  "institution": "ΕΛΜΕΠΑ",
+  "institutionFull": "ΕΛΛΗΝΙΚΟ ΜΕΣΟΓΕΙΑΚΟ ΠΑΝΕΠΙΣΤΗΜΙΟ",
+  "city": "Σητεία",
+  "type": "ΑΕΙ",
+  "base": 10740,
+  "ebe": 9.86,
+  "coeffs": [
+   0.2,
+   0.2,
+   0.3,
+   0.3
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "341",
+  "name": "Παιδαγωγικό Νηπιαγωγών",
+  "institution": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΔΥΤΙΚΗΣ ΜΑΚΕΔΟΝΙΑΣ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΔΥΤΙΚΗΣ ΜΑΚΕΔΟΝΙΑΣ",
+  "city": "Φλώρινα",
+  "type": "ΑΕΙ",
+  "base": 10675,
+  "ebe": 10.33,
+  "coeffs": [
+   0.25,
+   0.25,
+   0.25,
+   0.25
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "173",
+  "name": "Ιστορίας και Φιλοσοφίας της Επιστήμης",
+  "institution": "ΕΚΠΑ",
+  "institutionFull": "ΕΘΝΙΚΟ & ΚΑΠΟΔΙΣΤΡΙΑΚΟ ΠΑΝΕΠΙΣΤΗΜΙΟ ΑΘΗΝΩΝ",
+  "city": "Αθήνα",
+  "type": "ΑΕΙ",
+  "base": 10674,
+  "ebe": 10.33,
+  "coeffs": [
+   0.28,
+   0.22,
+   0.22,
+   0.28
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "1011",
+  "name": "Ψηφιακών Τεχνών και Κινηματογράφου",
+  "institution": "ΕΚΠΑ",
+  "institutionFull": "ΕΘΝΙΚΟ & ΚΑΠΟΔΙΣΤΡΙΑΚΟ ΠΑΝΕΠΙΣΤΗΜΙΟ ΑΘΗΝΩΝ",
+  "city": "Ψαχνά Εύβοιας",
+  "type": "ΑΕΙ",
+  "base": 10640,
+  "ebe": 8.26,
+  "coeffs": [
+   0.4,
+   0.2,
+   0.2,
+   0.2
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "323",
+  "name": "Επιστήμης Φυτικής Παραγωγής",
+  "institution": "ΓΠΑ",
+  "institutionFull": "ΓΕΩΠΟΝΙΚΟ ΠΑΝΕΠΙΣΤΗΜΙΟ ΑΘΗΝΩΝ",
+  "city": "Αθήνα",
+  "type": "ΑΕΙ",
+  "base": 10490,
+  "ebe": 11.09,
+  "coeffs": [
+   0.25,
+   0.2,
+   0.25,
+   0.3
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "1617",
+  "name": "Νοσηλευτικής",
+  "institution": "ΔΠΘ",
+  "institutionFull": "ΔΗΜΟΚΡΙΤΕΙΟ ΠΑΝΕΠΙΣΤΗΜΙΟ ΘΡΑΚΗΣ",
+  "city": "Αλεξ/πολη",
+  "type": "ΑΕΙ",
+  "base": 10475,
+  "ebe": 10.47,
+  "coeffs": [
+   0.25,
+   0.25,
+   0.25,
+   0.25
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "275",
+  "name": "Δασολογίας και Φυσικού Περιβάλλοντος",
+  "institution": "ΑΠΘ",
+  "institutionFull": "ΑΡΙΣΤΟΤΕΛΕΙΟ ΠΑΝΕΠΙΣΤΗΜΙΟ ΘΕΣΣΑΛΟΝΙΚΗΣ",
+  "city": "Θεσσαλονίκη",
+  "type": "ΑΕΙ",
+  "base": 10460,
+  "ebe": 9.86,
+  "coeffs": [
+   0.2,
+   0.2,
+   0.3,
+   0.3
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "1249",
+  "name": "Νοσηλευτικής",
+  "institution": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΙΩΑΝΝΙΝΩΝ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΙΩΑΝΝΙΝΩΝ",
+  "city": "Ιωάννινα",
+  "type": "ΑΕΙ",
+  "base": 10435,
+  "ebe": 9.86,
+  "coeffs": [
+   0.25,
+   0.2,
+   0.25,
+   0.3
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "160",
+  "name": "Επιστημών της Εκπαίδευσης στην Προσχολική Ηλικία",
+  "institution": "ΔΠΘ",
+  "institutionFull": "ΔΗΜΟΚΡΙΤΕΙΟ ΠΑΝΕΠΙΣΤΗΜΙΟ ΘΡΑΚΗΣ",
+  "city": "Αλεξ/πολη",
+  "type": "ΑΕΙ",
+  "base": 10400,
+  "ebe": 8.26,
+  "coeffs": [
+   0.25,
+   0.25,
+   0.25,
+   0.25
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "1553",
+  "name": "Μαιευτικής",
+  "institution": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΔΥΤΙΚΗΣ ΜΑΚΕΔΟΝΙΑΣ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΔΥΤΙΚΗΣ ΜΑΚΕΔΟΝΙΑΣ",
+  "city": "Πτολεμαΐδα",
+  "type": "ΑΕΙ",
+  "base": 10384,
+  "ebe": 10.47,
+  "coeffs": [
+   0.22,
+   0.23,
+   0.25,
+   0.3
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "1512",
+  "name": "Επιστήμης και Τεχνολογίας Τροφίμων",
+  "institution": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΠΕΛΟΠΟΝΝΗΣΟΥ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΠΕΛΟΠΟΝΝΗΣΟΥ",
+  "city": "Καλαμάτα",
+  "type": "ΑΕΙ",
+  "base": 10370,
+  "ebe": 9.86,
+  "coeffs": [
+   0.2,
+   0.2,
+   0.3,
+   0.3
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "685",
+  "name": "Επιστημών Οίνου, Αμπέλου και Ποτών",
+  "institution": "ΠΑΔΑ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΔΥΤΙΚΗΣ ΑΤΤΙΚΗΣ",
+  "city": "Αιγάλεω",
+  "type": "ΑΕΙ",
+  "base": 10320,
+  "ebe": 11.09,
+  "coeffs": [
+   0.2,
+   0.2,
+   0.3,
+   0.3
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "1634",
+  "name": "Γεωπονίας",
+  "institution": "ΔΙΠΑΕ",
+  "institutionFull": "ΔΙΕΘΝΕΣ ΠΑΝΕΠΙΣΤΗΜΙΟ ΕΛΛΑΔΑΣ",
+  "city": "Θεσσαλονίκη",
+  "type": "ΑΕΙ",
+  "base": 10310,
+  "ebe": 10.47,
+  "coeffs": [
+   0.2,
+   0.25,
+   0.25,
+   0.3
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "190",
+  "name": "Νοσηλευτικής",
+  "institution": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΠΕΛΟΠΟΝΝΗΣΟΥ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΠΕΛΟΠΟΝΝΗΣΟΥ",
+  "city": "Τρίπολη",
+  "type": "ΑΕΙ",
+  "base": 10195,
+  "ebe": 10.47,
+  "coeffs": [
+   0.25,
+   0.2,
+   0.2,
+   0.35
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "1429",
+  "name": "Επιστήμης Τροφίμων και Διατροφής",
+  "institution": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΘΕΣΣΑΛΙΑΣ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΘΕΣΣΑΛΙΑΣ",
+  "city": "Καρδίτσα",
+  "type": "ΑΕΙ",
+  "base": 10050,
+  "ebe": 9.86,
+  "coeffs": [
+   0.25,
+   0.25,
+   0.25,
+   0.25
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "1651",
+  "name": "Νοσηλευτικής",
+  "institution": "ΕΛΜΕΠΑ",
+  "institutionFull": "ΕΛΛΗΝΙΚΟ ΜΕΣΟΓΕΙΑΚΟ ΠΑΝΕΠΙΣΤΗΜΙΟ",
+  "city": "Ηράκλειο",
+  "type": "ΑΕΙ",
+  "base": 10025,
+  "ebe": 9.86,
+  "coeffs": [
+   0.25,
+   0.25,
+   0.25,
+   0.25
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "360",
+  "name": "Γεωπονίας, Ιχθυολογίας και Υδάτινου Περιβάλλοντος",
+  "institution": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΘΕΣΣΑΛΙΑΣ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΘΕΣΣΑΛΙΑΣ",
+  "city": "Βόλος",
+  "type": "ΑΕΙ",
+  "base": 9900,
+  "ebe": 9.86,
+  "coeffs": [
+   0.25,
+   0.25,
+   0.25,
+   0.25
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "372",
+  "name": "Επιστήμης Τροφίμων και Διατροφής",
+  "institution": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΑΙΓΑΙΟΥ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΑΙΓΑΙΟΥ",
+  "city": "Λήμνος",
+  "type": "ΑΕΙ",
+  "base": 9900,
+  "ebe": 9.86,
+  "coeffs": [
+   0.25,
+   0.25,
+   0.25,
+   0.25
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "1632",
+  "name": "Φυσικού Περιβάλλοντος και Κλιματικής Ανθεκτικότητας",
+  "institution": "ΔΠΘ",
+  "institutionFull": "ΔΗΜΟΚΡΙΤΕΙΟ ΠΑΝΕΠΙΣΤΗΜΙΟ ΘΡΑΚΗΣ",
+  "city": "Δράμα",
+  "type": "ΑΕΙ",
+  "base": 9875,
+  "ebe": 9.86,
+  "coeffs": [
+   0.25,
+   0.25,
+   0.25,
+   0.25
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "1425",
+  "name": "Δημόσιας και Ενιαίας Υγείας",
+  "institution": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΘΕΣΣΑΛΙΑΣ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΘΕΣΣΑΛΙΑΣ",
+  "city": "Καρδίτσα",
+  "type": "ΑΕΙ",
+  "base": 9875,
+  "ebe": 9.86,
+  "coeffs": [
+   0.25,
+   0.25,
+   0.25,
+   0.25
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "1428",
+  "name": "Επιστήμης Ζωικής Παραγωγής",
+  "institution": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΘΕΣΣΑΛΙΑΣ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΘΕΣΣΑΛΙΑΣ",
+  "city": "Λάρισα",
+  "type": "ΑΕΙ",
+  "base": 9875,
+  "ebe": 9.86,
+  "coeffs": [
+   0.25,
+   0.25,
+   0.25,
+   0.25
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "162",
+  "name": "Επιστημών της Προσχολικής Αγωγής και Εκπαιδευτικού Σχεδιασμού",
+  "institution": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΑΙΓΑΙΟΥ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΑΙΓΑΙΟΥ",
+  "city": "Ρόδος",
+  "type": "ΑΕΙ",
+  "base": 9850,
+  "ebe": 8.26,
+  "coeffs": [
+   0.25,
+   0.25,
+   0.25,
+   0.25
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "1434",
+  "name": "Περιβάλλοντος",
+  "institution": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΘΕΣΣΑΛΙΑΣ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΘΕΣΣΑΛΙΑΣ",
+  "city": "Λάρισα",
+  "type": "ΑΕΙ",
+  "base": 9770,
+  "ebe": 8.26,
+  "coeffs": [
+   0.25,
+   0.2,
+   0.25,
+   0.3
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "1452",
+  "name": "Επιστήμης και Τεχνολογίας Τροφίμων",
+  "institution": "ΙΟΝΙΟ ΠΑΝΕΠΙΣΤΗΜΙΟ",
+  "institutionFull": "ΙΟΝΙΟ ΠΑΝΕΠΙΣΤΗΜΙΟ",
+  "city": "Αργοστόλι",
+  "type": "ΑΕΙ",
+  "base": 9746,
+  "ebe": 9.86,
+  "coeffs": [
+   0.23,
+   0.23,
+   0.28,
+   0.26
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "1511",
+  "name": "Γεωπονίας",
+  "institution": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΠΕΛΟΠΟΝΝΗΣΟΥ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΠΕΛΟΠΟΝΝΗΣΟΥ",
+  "city": "Καλαμάτα",
+  "type": "ΑΕΙ",
+  "base": 9692,
+  "ebe": 9.86,
+  "coeffs": [
+   0.24,
+   0.24,
+   0.28,
+   0.24
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "367",
+  "name": "Τεχνών Ήχου και Εικόνας",
+  "institution": "ΙΟΝΙΟ ΠΑΝΕΠΙΣΤΗΜΙΟ",
+  "institutionFull": "ΙΟΝΙΟ ΠΑΝΕΠΙΣΤΗΜΙΟ",
+  "city": "Κέρκυρα",
+  "type": "ΑΕΙ",
+  "base": 9675,
+  "ebe": 8.26,
+  "coeffs": [
+   0.3,
+   0.25,
+   0.2,
+   0.25
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "1552",
+  "name": "Γεωπονίας",
+  "institution": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΔΥΤΙΚΗΣ ΜΑΚΕΔΟΝΙΑΣ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΔΥΤΙΚΗΣ ΜΑΚΕΔΟΝΙΑΣ",
+  "city": "Φλώρινα",
+  "type": "ΑΕΙ",
+  "base": 9660,
+  "ebe": 9.86,
+  "coeffs": [
+   0.2,
+   0.2,
+   0.3,
+   0.3
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "1001",
+  "name": "Αγροτικής Ανάπτυξης, Αγροδιατροφής και Διαχείρισης Φυσικών Πόρων",
+  "institution": "ΕΚΠΑ",
+  "institutionFull": "ΕΘΝΙΚΟ & ΚΑΠΟΔΙΣΤΡΙΑΚΟ ΠΑΝΕΠΙΣΤΗΜΙΟ ΑΘΗΝΩΝ",
+  "city": "Ψαχνά Εύβοιας",
+  "type": "ΑΕΙ",
+  "base": 9660,
+  "ebe": 8.26,
+  "coeffs": [
+   0.2,
+   0.2,
+   0.3,
+   0.3
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "1633",
+  "name": "Αμπελουργίας και Οινολογίας",
+  "institution": "ΔΠΘ",
+  "institutionFull": "ΔΗΜΟΚΡΙΤΕΙΟ ΠΑΝΕΠΙΣΤΗΜΙΟ ΘΡΑΚΗΣ",
+  "city": "Δράμα",
+  "type": "ΑΕΙ",
+  "base": 9660,
+  "ebe": 9.86,
+  "coeffs": [
+   0.2,
+   0.2,
+   0.3,
+   0.3
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "169",
+  "name": "Θεατρικών Σπουδών",
+  "institution": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΠΑΤΡΩΝ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΠΑΤΡΩΝ",
+  "city": "Πάτρα",
+  "type": "ΑΕΙ",
+  "base": 9645,
+  "ebe": 8.26,
+  "coeffs": [
+   0.3,
+   0.25,
+   0.2,
+   0.25
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "1242",
+  "name": "Γεωπονίας",
+  "institution": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΙΩΑΝΝΙΝΩΝ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΙΩΑΝΝΙΝΩΝ",
+  "city": "Άρτα",
+  "type": "ΑΕΙ",
+  "base": 9635,
+  "ebe": 9.86,
+  "coeffs": [
+   0.25,
+   0.25,
+   0.2,
+   0.3
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "1391",
+  "name": "Ωκεανογραφίας και Θαλασσίων Βιοεπιστημών",
+  "institution": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΑΙΓΑΙΟΥ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΑΙΓΑΙΟΥ",
+  "city": "Μυτιλήνη",
+  "type": "ΑΕΙ",
+  "base": 9620,
+  "ebe": 9.86,
+  "coeffs": [
+   0.2,
+   0.25,
+   0.25,
+   0.3
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "1289",
+  "name": "Γεωπονίας",
+  "institution": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΠΑΤΡΩΝ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΠΑΤΡΩΝ",
+  "city": "Μεσολόγγι",
+  "type": "ΑΕΙ",
+  "base": 9580,
+  "ebe": 9.86,
+  "coeffs": [
+   0.2,
+   0.25,
+   0.25,
+   0.3
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "1288",
+  "name": "Αειφορικής Γεωργίας",
+  "institution": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΠΑΤΡΩΝ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΠΑΤΡΩΝ",
+  "city": "Αγρίνιο",
+  "type": "ΑΕΙ",
+  "base": 9550,
+  "ebe": 9.86,
+  "coeffs": [
+   0.2,
+   0.25,
+   0.25,
+   0.3
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "1422",
+  "name": "Γεωπονίας - Αγροτεχνολογίας",
+  "institution": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΘΕΣΣΑΛΙΑΣ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΘΕΣΣΑΛΙΑΣ",
+  "city": "Λάρισα",
+  "type": "ΑΕΙ",
+  "base": 9520,
+  "ebe": 9.86,
+  "coeffs": [
+   0.2,
+   0.25,
+   0.3,
+   0.25
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "1657",
+  "name": "Γεωπονίας",
+  "institution": "ΕΛΜΕΠΑ",
+  "institutionFull": "ΕΛΛΗΝΙΚΟ ΜΕΣΟΓΕΙΑΚΟ ΠΑΝΕΠΙΣΤΗΜΙΟ",
+  "city": "Ηράκλειο",
+  "type": "ΑΕΙ",
+  "base": 9320,
+  "ebe": 9.86,
+  "coeffs": [
+   0.2,
+   0.2,
+   0.3,
+   0.3
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "1278",
+  "name": "Επιστήμης και Τεχνολογίας Τροφίμων",
+  "institution": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΠΑΤΡΩΝ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΠΑΤΡΩΝ",
+  "city": "Αγρίνιο",
+  "type": "ΑΕΙ",
+  "base": 9160,
+  "ebe": 9.86,
+  "coeffs": [
+   0.2,
+   0.2,
+   0.3,
+   0.3
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "362",
+  "name": "Θεατρικών Σπουδών",
+  "institution": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΠΕΛΟΠΟΝΝΗΣΟΥ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΠΕΛΟΠΟΝΝΗΣΟΥ",
+  "city": "Ναύπλιο",
+  "type": "ΑΕΙ",
+  "base": 9025,
+  "ebe": 8.26,
+  "coeffs": [
+   0.25,
+   0.25,
+   0.25,
+   0.25
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "1517",
+  "name": "Παραστατικών και Ψηφιακών Τεχνών",
+  "institution": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΠΕΛΟΠΟΝΝΗΣΟΥ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΠΕΛΟΠΟΝΝΗΣΟΥ",
+  "city": "Ναύπλιο",
+  "type": "ΑΕΙ",
+  "base": 9025,
+  "ebe": 8.26,
+  "coeffs": [
+   0.25,
+   0.25,
+   0.25,
+   0.25
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "353",
+  "name": "Αγροτικής Ανάπτυξης",
+  "institution": "ΔΠΘ",
+  "institutionFull": "ΔΗΜΟΚΡΙΤΕΙΟ ΠΑΝΕΠΙΣΤΗΜΙΟ ΘΡΑΚΗΣ",
+  "city": "Ορεστιάδα",
+  "type": "ΑΕΙ",
+  "base": 8975,
+  "ebe": 8.26,
+  "coeffs": [
+   0.25,
+   0.25,
+   0.25,
+   0.25
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "864",
+  "name": "Μονίμων Υπαξιωματικών Ναυτικού (ΣΜΥΝ)",
+  "institution": "ΣΜΥΝ",
+  "institutionFull": "ΣΧΟΛΗ ΜΟΝΙΜΩΝ ΥΠΑΞΙΩΜΑΤΙΚΩΝ ΝΑΥΤΙΚΟΥ",
+  "city": "(μη προσδιορισμένη)",
+  "type": "ΣΤΡΑΤΙΩΤΙΚΕΣ",
+  "base": 8900,
+  "ebe": 9.3,
+  "coeffs": [
+   0.3,
+   0.3,
+   0.2,
+   0.2
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": "Ισχύουν επιπλέον προϋποθέσεις εισαγωγής"
+ },
+ {
+  "code": "862",
+  "name": "Μονίμων Υπαξιωματικών Στρατού (ΣΜΥ) - Όπλα",
+  "institution": "ΣΜΥ",
+  "institutionFull": "ΣΧΟΛΗ ΜΟΝΙΜΩΝ ΥΠΑΞΙΩΜΑΤΙΚΩΝ ΣΤΡΑΤΟΥ ΞΗΡΑΣ",
+  "city": "(μη προσδιορισμένη)",
+  "type": "ΣΤΡΑΤΙΩΤΙΚΕΣ",
+  "base": 8820,
+  "ebe": 8.26,
+  "coeffs": [
+   0.3,
+   0.3,
+   0.2,
+   0.2
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": "Ισχύουν επιπλέον προϋποθέσεις εισαγωγής"
+ },
+ {
+  "code": "1061",
+  "name": "Δασολογίας και Διαχείρισης Φυσικού Περιβάλλοντος",
+  "institution": "ΓΠΑ",
+  "institutionFull": "ΓΕΩΠΟΝΙΚΟ ΠΑΝΕΠΙΣΤΗΜΙΟ ΑΘΗΝΩΝ",
+  "city": "Καρπενήσι",
+  "type": "ΑΕΙ",
+  "base": 8700,
+  "ebe": 8.26,
+  "coeffs": [
+   0.3,
+   0.2,
+   0.3,
+   0.2
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "1424",
+  "name": "Δασολογίας, Επιστημών Ξύλου και Σχεδιασμού",
+  "institution": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΘΕΣΣΑΛΙΑΣ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΘΕΣΣΑΛΙΑΣ",
+  "city": "Καρδίτσα",
+  "type": "ΑΕΙ",
+  "base": 8490,
+  "ebe": 8.26,
+  "coeffs": [
+   0.25,
+   0.2,
+   0.25,
+   0.3
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "1453",
+  "name": "Περιβάλλοντος",
+  "institution": "ΙΟΝΙΟ ΠΑΝΕΠΙΣΤΗΜΙΟ",
+  "institutionFull": "ΙΟΝΙΟ ΠΑΝΕΠΙΣΤΗΜΙΟ",
+  "city": "Ζάκυνθος",
+  "type": "ΑΕΙ",
+  "base": 8470,
+  "ebe": 8.26,
+  "coeffs": [
+   0.2,
+   0.25,
+   0.25,
+   0.3
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "276",
+  "name": "Περιβάλλοντος",
+  "institution": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΑΙΓΑΙΟΥ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΑΙΓΑΙΟΥ",
+  "city": "Μυτιλήνη",
+  "type": "ΑΕΙ",
+  "base": 8440,
+  "ebe": 8.26,
+  "coeffs": [
+   0.2,
+   0.3,
+   0.3,
+   0.2
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "1276",
+  "name": "Αλιείας και Υδατοκαλλιεργειών",
+  "institution": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΠΑΤΡΩΝ",
+  "institutionFull": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΠΑΤΡΩΝ",
+  "city": "Μεσολόγγι",
+  "type": "ΑΕΙ",
+  "base": 8238,
+  "ebe": 8.26,
+  "coeffs": [
+   0.2,
+   0.23,
+   0.25,
+   0.32
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ },
+ {
+  "code": "212",
+  "name": "Δασολογίας και Διαχείρισης Περιβάλλοντος και Φυσικών Πόρων",
+  "institution": "ΔΠΘ",
+  "institutionFull": "ΔΗΜΟΚΡΙΤΕΙΟ ΠΑΝΕΠΙΣΤΗΜΙΟ ΘΡΑΚΗΣ",
+  "city": "Ορεστιάδα",
+  "type": "ΑΕΙ",
+  "base": 8080,
+  "ebe": 8.26,
+  "coeffs": [
+   0.2,
+   0.2,
+   0.25,
+   0.35
+  ],
+  "specials": [],
+  "musicIncluded": false,
+  "note": null
+ }
+]
