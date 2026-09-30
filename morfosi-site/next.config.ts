@@ -14,6 +14,13 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  // Τα ωρολογια προγραμματα τμηματων αφαιρεθηκαν απο το site —
+  // παλια links / Google πανε στο πλανο σπουδων.
+  async redirects() {
+    return [
+      { source: "/schedule", destination: "/plano", permanent: true },
+    ];
+  },
 };
 
 export default nextConfig;

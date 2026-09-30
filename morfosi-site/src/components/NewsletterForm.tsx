@@ -28,7 +28,7 @@ export default function NewsletterForm() {
         placeholder="Το email σας"
         id="newsletter-email-sidebar"
         required
-        className="bg-gray-100 border-[3px] border-black px-4 py-3 text-sm font-bold placeholder:text-gray-400 focus:outline-none focus:border-brand-teal transition-colors"
+        className="bg-gray-100 border-[3px] border-black px-4 py-3 text-base md:text-sm font-bold placeholder:text-gray-400 focus:outline-none focus:border-brand-teal transition-colors"
       />
       <button
         type="submit"

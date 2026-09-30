@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 import MobileStickyBar from "@/components/MobileStickyBar";
 import CookieConsent from "@/components/CookieConsent";
 import { client } from "@/sanity/client";
-import Script from "next/script";
+import Analytics from "@/components/Analytics";
 import { OrganizationSchema } from "@/components/SchemaOrg";
 
 const geistSans = Geist({
@@ -23,6 +23,17 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Μόρφωση - Φροντιστήριο Μέσης Εκπαίδευσης",
   description: "Το κορυφαίο φροντιστήριο για την εκπαιδευτική σου επιτυχία.",
+  icons: {
+    icon: "/favicon.ico",
+    // Χωρίς αυτό, το «Πρόσθεση στην αρχική οθόνη» στο iOS έδειχνε screenshot
+    // της σελίδας αντί για λογότυπο.
+    apple: "/apple-touch-icon.png",
+  },
+};
+
+export const viewport: Viewport = {
+  // Χρωματίζει τη γραμμή διευθύνσεων σε Android Chrome και Safari iOS.
+  themeColor: "#095f77",
 };
 
 
@@ -43,15 +54,7 @@ export default async function RootLayout({
     >
       <body className="min-h-full flex flex-col pt-0 w-full max-w-[100vw]">
         <OrganizationSchema phone={phone} />
-        <Script src="https://www.googletagmanager.com/gtag/js?id=G-LQM2YQEMFS" strategy="afterInteractive" />
-        <Script id="google-analytics" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){window.dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-LQM2YQEMFS');
-          `}
-        </Script>
+        <Analytics />
         <LayoutWrapper
           header={<Header contactPhone={phone} />}
           footer={<Footer />}

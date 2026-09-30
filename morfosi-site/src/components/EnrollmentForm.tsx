@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { UserPlus, CheckCircle, Loader2 } from "lucide-react";
 import Link from "next/link";
+import { useFormGuard } from "@/lib/useFormGuard";
 
 type EnrollStep = 1 | 2 | 3;
 type FormState = "idle" | "sending" | "success";
@@ -22,6 +23,7 @@ const PROGRAMS = [
 ];
 
 export default function EnrollmentForm() {
+  const { guardPayload, honeypotField } = useFormGuard();
   const [step, setStep] = useState<EnrollStep>(1);
   const [formState, setFormState] = useState<FormState>("idle");
   const [data, setData] = useState({
@@ -66,7 +68,7 @@ export default function EnrollmentForm() {
       const res = await fetch("/api/enroll", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(data),
+        body: JSON.stringify({ ...data, ...guardPayload() }),
       });
 
       const resData = await res.json();
@@ -113,7 +115,8 @@ export default function EnrollmentForm() {
   ];
 
   return (
-    <form onSubmit={handleSubmit} className="border-[4px] border-black shadow-[12px_12px_0px_#031516]">
+    <form onSubmit={handleSubmit} className="relative border-[4px] border-black shadow-[12px_12px_0px_#031516]">
+      {honeypotField}
       {/* Progress Steps Header */}
       <div className="grid grid-cols-3 gap-0 border-b-[4px] border-black">
         {stepConfig.map((s) => (
@@ -159,7 +162,7 @@ export default function EnrollmentForm() {
                 value={data.studentName}
                 onChange={e => set("studentName", e.target.value)}
                 placeholder="π.χ. Μαρία Παπαδοπούλου"
-                className="border-[3px] border-black px-4 py-3 font-bold text-sm placeholder:text-gray-300 focus:outline-none focus:border-brand-teal transition-colors"
+                className="border-[3px] border-black px-4 py-3 font-bold text-base md:text-sm placeholder:text-gray-300 focus:outline-none focus:border-brand-teal transition-colors" autoComplete="off"
               />
             </div>
 
@@ -172,7 +175,7 @@ export default function EnrollmentForm() {
                 required
                 value={data.studentClass}
                 onChange={e => set("studentClass", e.target.value)}
-                className="border-[3px] border-black px-4 py-3 font-bold text-sm focus:outline-none focus:border-brand-teal bg-white appearance-none cursor-pointer"
+                className="border-[3px] border-black px-4 py-3 font-bold text-base md:text-sm focus:outline-none focus:border-brand-teal bg-white appearance-none cursor-pointer"
               >
                 <option value="">— Επιλέξτε τάξη —</option>
                 {CLASSES.map(c => <option key={c} value={c}>{c}</option>)}
@@ -188,7 +191,7 @@ export default function EnrollmentForm() {
                 type="date"
                 value={data.dateOfBirth}
                 onChange={e => set("dateOfBirth", e.target.value)}
-                className="border-[3px] border-black px-4 py-3 font-bold text-sm focus:outline-none focus:border-brand-teal transition-colors"
+                className="border-[3px] border-black px-4 py-3 font-bold text-base md:text-sm focus:outline-none focus:border-brand-teal transition-colors" autoComplete="bday"
               />
             </div>
 
@@ -202,7 +205,7 @@ export default function EnrollmentForm() {
                 value={data.school}
                 onChange={e => set("school", e.target.value)}
                 placeholder="π.χ. 3ο ΓΕΛ Αγίου Δημητρίου"
-                className="border-[3px] border-black px-4 py-3 font-bold text-sm placeholder:text-gray-300 focus:outline-none focus:border-brand-teal transition-colors"
+                className="border-[3px] border-black px-4 py-3 font-bold text-base md:text-sm placeholder:text-gray-300 focus:outline-none focus:border-brand-teal transition-colors" autoComplete="off"
               />
             </div>
           </div>
@@ -240,7 +243,7 @@ export default function EnrollmentForm() {
                 value={data.parentName}
                 onChange={e => set("parentName", e.target.value)}
                 placeholder="π.χ. Γιώργος Παπαδόπουλος"
-                className="border-[3px] border-black px-4 py-3 font-bold text-sm placeholder:text-gray-300 focus:outline-none focus:border-brand-orange transition-colors"
+                className="border-[3px] border-black px-4 py-3 font-bold text-base md:text-sm placeholder:text-gray-300 focus:outline-none focus:border-brand-orange transition-colors" autoComplete="name"
               />
             </div>
 
@@ -254,7 +257,7 @@ export default function EnrollmentForm() {
                 value={data.parentPhone}
                 onChange={e => set("parentPhone", e.target.value)}
                 placeholder="2105063610"
-                className="border-[3px] border-black px-4 py-3 font-bold text-sm placeholder:text-gray-300 focus:outline-none focus:border-brand-orange transition-colors"
+                className="border-[3px] border-black px-4 py-3 font-bold text-base md:text-sm placeholder:text-gray-300 focus:outline-none focus:border-brand-orange transition-colors" autoComplete="tel" inputMode="tel"
               />
             </div>
 
@@ -266,7 +269,7 @@ export default function EnrollmentForm() {
                 id="parentRelation"
                 value={data.parentRelation}
                 onChange={e => set("parentRelation", e.target.value)}
-                className="border-[3px] border-black px-4 py-3 font-bold text-sm focus:outline-none focus:border-brand-orange bg-white appearance-none cursor-pointer"
+                className="border-[3px] border-black px-4 py-3 font-bold text-base md:text-sm focus:outline-none focus:border-brand-orange bg-white appearance-none cursor-pointer"
               >
                 <option>Γονέας</option>
                 <option>Επίτροπος</option>
@@ -284,7 +287,7 @@ export default function EnrollmentForm() {
                 value={data.parentEmail}
                 onChange={e => set("parentEmail", e.target.value)}
                 placeholder="parent@example.com"
-                className="border-[3px] border-black px-4 py-3 font-bold text-sm placeholder:text-gray-300 focus:outline-none focus:border-brand-orange transition-colors"
+                className="border-[3px] border-black px-4 py-3 font-bold text-base md:text-sm placeholder:text-gray-300 focus:outline-none focus:border-brand-orange transition-colors" autoComplete="email" inputMode="email"
               />
             </div>
           </div>
@@ -360,7 +363,7 @@ export default function EnrollmentForm() {
                 value={data.previousGrade}
                 onChange={e => set("previousGrade", e.target.value)}
                 placeholder="π.χ. 15.5"
-                className="border-[3px] border-black px-4 py-3 font-bold text-sm placeholder:text-gray-300 focus:outline-none focus:border-brand-green transition-colors"
+                className="border-[3px] border-black px-4 py-3 font-bold text-base md:text-sm placeholder:text-gray-300 focus:outline-none focus:border-brand-green transition-colors" inputMode="decimal"
               />
             </div>
             <div className="flex flex-col gap-2">
@@ -371,7 +374,7 @@ export default function EnrollmentForm() {
                 id="howFound"
                 value={data.howFound}
                 onChange={e => set("howFound", e.target.value)}
-                className="border-[3px] border-black px-4 py-3 font-bold text-sm focus:outline-none focus:border-brand-green bg-white appearance-none cursor-pointer"
+                className="border-[3px] border-black px-4 py-3 font-bold text-base md:text-sm focus:outline-none focus:border-brand-green bg-white appearance-none cursor-pointer"
               >
                 <option value="">— Επιλέξτε —</option>
                 <option>Φίλος / Γνωστός</option>
@@ -394,15 +397,24 @@ export default function EnrollmentForm() {
               value={data.notes}
               onChange={e => set("notes", e.target.value)}
               placeholder="π.χ. Ζούσε στο εξωτερικό. Δυσκολία συγκεκριμένα στα Μαθηματικά..."
-              className="border-[3px] border-black px-4 py-3 font-bold text-sm placeholder:text-gray-300 focus:outline-none focus:border-brand-green transition-colors resize-none"
+              className="border-[3px] border-black px-4 py-3 font-bold text-base md:text-sm placeholder:text-gray-300 focus:outline-none focus:border-brand-green transition-colors resize-none"
             />
           </div>
 
-          {/* Terms checkbox */}
+          {/* Terms checkbox — πραγματικό <input type="checkbox">, κρυμμένο οπτικά.
+              Ήταν <div onClick>: δεν έπαιρνε focus με Tab και δεν άλλαζε με Space,
+              οπότε όποιος πλοηγείται με πληκτρολόγιο δεν μπορούσε να υποβάλει
+              καθόλου την αίτηση. Το `peer` κρατάει το ίδιο οπτικό αποτέλεσμα. */}
           <label className="flex items-start gap-4 cursor-pointer group">
+            <input
+              type="checkbox"
+              checked={data.agreeTerms}
+              onChange={(e) => set("agreeTerms", e.target.checked)}
+              className="peer sr-only"
+            />
             <div
-              onClick={() => set("agreeTerms", !data.agreeTerms)}
-              className={`w-6 h-6 border-[3px] flex items-center justify-center flex-shrink-0 mt-0.5 transition-colors ${
+              aria-hidden="true"
+              className={`w-6 h-6 border-[3px] flex items-center justify-center flex-shrink-0 mt-0.5 transition-colors peer-focus-visible:ring-4 peer-focus-visible:ring-brand-teal/50 ${
                 data.agreeTerms ? "border-brand-green bg-brand-green" : "border-gray-400 group-hover:border-brand-green"
               }`}
             >

@@ -57,7 +57,7 @@ const HOURS = [
 // Why choose section
 const WHY_ITEMS = [
   { icon: <Users size={28} />, title: "Μικρά Τμήματα", desc: "Έως 7 μαθητές ανά τμήμα για εξατομικευμένη διδασκαλία", color: "bg-brand-teal" },
-  { icon: <Award size={28} />, title: "Εγγύηση Αποτελεσμάτων", desc: "94%+ εισαγωγή στη σχολή πρώτης επιλογής", color: "bg-brand-orange" },
+  { icon: <Award size={28} />, title: "Εβδομαδιαία Αξιολόγηση", desc: "Τακτικά διαγωνίσματα και ενημέρωση γονέων για την πρόοδο", color: "bg-brand-orange" },
   { icon: <Star size={28} />, title: "Κορυφαίοι Καθηγητές", desc: "Επιλεγμένοι εκπαιδευτικοί με αποδεδειγμένα αποτελέσματα", color: "bg-brand-green" },
   { icon: <CheckCircle size={28} />, title: "Άμεση Εγγραφή", desc: "Διαδικασία εξπρές για να ξεκινήσετε αμέσως.", color: "bg-brand-purple" },
 ];

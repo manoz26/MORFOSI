@@ -2,11 +2,13 @@
 
 import { useState } from "react";
 import { Send, CheckCircle, AlertCircle, Loader2 } from "lucide-react";
+import { useFormGuard } from "@/lib/useFormGuard";
 
 type FormState = "idle" | "sending" | "success" | "error";
 
 export default function ContactForm({ contactEmail }: { contactEmail?: string }) {
   const [state, setState] = useState<FormState>("idle");
+  const { guardPayload, honeypotField } = useFormGuard();
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -27,7 +29,7 @@ export default function ContactForm({ contactEmail }: { contactEmail?: string })
       const res = await fetch("/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(formData),
+        body: JSON.stringify({ ...formData, ...guardPayload() }),
       });
 
       const data = await res.json();
@@ -72,7 +74,8 @@ export default function ContactForm({ contactEmail }: { contactEmail?: string })
   }
 
   return (
-    <form onSubmit={handleSubmit} className="flex flex-col gap-0 border-[4px] border-black shadow-[12px_12px_0px_#000]">
+    <form onSubmit={handleSubmit} className="relative flex flex-col gap-0 border-[4px] border-black shadow-[12px_12px_0px_#000]">
+      {honeypotField}
       {/* Form header */}
       <div className="bg-brand-teal px-8 py-5 flex items-center gap-3">
         <Send size={20} className="text-white" strokeWidth={2.5} />
@@ -94,7 +97,7 @@ export default function ContactForm({ contactEmail }: { contactEmail?: string })
               value={formData.name}
               onChange={handleChange}
               placeholder="π.χ. Γιώργος Παππάς"
-              className="border-[3px] border-black px-4 py-3 font-bold text-sm placeholder:text-gray-300 focus:outline-none focus:border-brand-teal transition-colors"
+              className="border-[3px] border-black px-4 py-3 font-bold text-base md:text-sm placeholder:text-gray-300 focus:outline-none focus:border-brand-teal transition-colors" autoComplete="name"
             />
           </div>
           <div className="flex flex-col gap-2">
@@ -108,7 +111,7 @@ export default function ContactForm({ contactEmail }: { contactEmail?: string })
               value={formData.phone}
               onChange={handleChange}
               placeholder="π.χ. 210 123 4567"
-              className="border-[3px] border-black px-4 py-3 font-bold text-sm placeholder:text-gray-300 focus:outline-none focus:border-brand-teal transition-colors"
+              className="border-[3px] border-black px-4 py-3 font-bold text-base md:text-sm placeholder:text-gray-300 focus:outline-none focus:border-brand-teal transition-colors" autoComplete="tel" inputMode="tel"
             />
           </div>
         </div>
@@ -126,7 +129,7 @@ export default function ContactForm({ contactEmail }: { contactEmail?: string })
             value={formData.email}
             onChange={handleChange}
             placeholder="yourname@example.com"
-            className="border-[3px] border-black px-4 py-3 font-bold text-sm placeholder:text-gray-300 focus:outline-none focus:border-brand-teal transition-colors"
+            className="border-[3px] border-black px-4 py-3 font-bold text-base md:text-sm placeholder:text-gray-300 focus:outline-none focus:border-brand-teal transition-colors" autoComplete="email" inputMode="email"
           />
         </div>
 
@@ -141,7 +144,7 @@ export default function ContactForm({ contactEmail }: { contactEmail?: string })
             required
             value={formData.subject}
             onChange={handleChange}
-            className="border-[3px] border-black px-4 py-3 font-bold text-sm focus:outline-none focus:border-brand-teal transition-colors bg-white appearance-none cursor-pointer"
+            className="border-[3px] border-black px-4 py-3 font-bold text-base md:text-sm focus:outline-none focus:border-brand-teal transition-colors bg-white appearance-none cursor-pointer"
           >
             <option value="">— Επιλέξτε θέμα —</option>
             <option value="info">Γενικές Πληροφορίες</option>
@@ -166,7 +169,7 @@ export default function ContactForm({ contactEmail }: { contactEmail?: string })
             value={formData.message}
             onChange={handleChange}
             placeholder="Γράψτε το μήνυμά σας εδώ..."
-            className="border-[3px] border-black px-4 py-3 font-bold text-sm placeholder:text-gray-300 focus:outline-none focus:border-brand-teal transition-colors resize-none"
+            className="border-[3px] border-black px-4 py-3 font-bold text-base md:text-sm placeholder:text-gray-300 focus:outline-none focus:border-brand-teal transition-colors resize-none"
           />
         </div>
 

@@ -15,12 +15,12 @@ import {
   Phone,
   MapPin,
   ChevronRight,
-  Newspaper,
   FlaskConical,
   Sigma,
   Globe,
   Pencil,
   Star,
+  Newspaper,
   Target,
   CalendarDays,
   Info,
@@ -35,7 +35,6 @@ const currentYear = now.getFullYear(); // 2026
 const nextYear = currentYear + 1; // 2027
 const academicYear = `${currentYear}-${nextYear}`; // 2026-2027
 const academicYearShort = `${currentYear}-${nextYear.toString().slice(-2)}`; // 2026-27
-const prevYear = currentYear - 1; // 2025
 
 // ─────────────────────────────────────────────
 //  TYPE DEFINITIONS
@@ -98,47 +97,9 @@ const NAV_ITEMS: NavItem[] = [
     ],
     featured: {
       title: "Το Πλάνο μας",
-      description: "Δες αναλυτικά πώς δουλεύουμε σε κάθε εκπαιδευτική βαθμίδα και γιατί έχουμε 95% επιτυχία.",
+      description: "Δες αναλυτικά πώς δουλεύουμε σε κάθε εκπαιδευτική βαθμίδα, από το Γυμνάσιο μέχρι τις Πανελλήνιες.",
       cta: "ΔΕΣ ΤΟ ΠΛΑΝΟ",
       href: "/plano",
-      color: "bg-brand-teal-dark",
-    },
-  },
-  {
-    id: "programma",
-    label: "ΠΡΟΓΡΑΜΜΑ ΤΜΗΜΑΤΩΝ",
-    children: [
-      {
-        href: "/schedule",
-        label: "Όλα τα Τμήματα",
-        description: "Πρόγραμμα εβδομάδας για κάθε τμήμα",
-        icon: <CalendarDays size={20} strokeWidth={2.5} />,
-      },
-      {
-        href: "/schedule#A_GYMNASIOU",
-        label: "Γυμνάσιο",
-        description: "Α΄, Β΄, Γ΄ Γυμνασίου — πρόγραμμα & ώρες",
-        icon: <BookOpen size={20} strokeWidth={2.5} />,
-      },
-      {
-        href: "/schedule#A_LYKEIOU",
-        label: "Λύκειο",
-        description: "Α΄, Β΄, Γ΄ Λυκείου — πρόγραμμα & ώρες",
-        icon: <GraduationCap size={20} strokeWidth={2.5} />,
-      },
-      {
-        href: "/contact#enrollment-form",
-        label: "Εγγραφή σε Τμήμα",
-        description: "Κράτησε τη θέση σου τώρα",
-        icon: <Users size={20} strokeWidth={2.5} />,
-        badge: "ΑΝΟΙΧΤΕΣ",
-      },
-    ],
-    featured: {
-      title: "Βρες το τμήμα σου",
-      description: "Μικρά τμήματα, εξατομικευμένη προσοχή. Δες αναλυτικά το πρόγραμμα κάθε τμήματος και εγγράψου άμεσα.",
-      cta: "ΔΕΣ ΠΡΟΓΡΑΜΜΑ",
-      href: "/schedule",
       color: "bg-brand-teal-dark",
     },
   },
@@ -435,15 +396,36 @@ function MobileMenu({
 }) {
   const [expandedId, setExpandedId] = useState<string | null>(null);
 
+  // Το `overflow: hidden` στο body ΔΕΝ κλειδώνει το scroll στο iOS Safari — η
+  // σελίδα συνέχιζε να κυλάει πίσω από το ανοιχτό μενού. Το `position: fixed` με
+  // αρνητικό top είναι ο τρόπος που δουλεύει παντού· κρατάμε τη θέση και την
+  // επαναφέρουμε στο κλείσιμο.
   useEffect(() => {
-    if (isOpen) {
-      document.body.style.overflow = "hidden";
-    } else {
-      document.body.style.overflow = "";
+    if (!isOpen) {
       setTimeout(() => setExpandedId(null), 0);
+      return;
     }
+
+    const scrollY = window.scrollY;
+    const { body } = document;
+    const previous = {
+      position: body.style.position,
+      top: body.style.top,
+      width: body.style.width,
+      overflow: body.style.overflow,
+    };
+
+    body.style.position = "fixed";
+    body.style.top = `-${scrollY}px`;
+    body.style.width = "100%";
+    body.style.overflow = "hidden";
+
     return () => {
-      document.body.style.overflow = "";
+      body.style.position = previous.position;
+      body.style.top = previous.top;
+      body.style.width = previous.width;
+      body.style.overflow = previous.overflow;
+      window.scrollTo(0, scrollY);
     };
   }, [isOpen]);
 
@@ -612,11 +594,11 @@ function AnnouncementBar({ contactPhone }: { contactPhone: string }) {
           {[
             `🎓 Ξεκίνησαν οι εγγραφές για το έτος ${academicYear} — Κάλεσε στο ${contactPhone}`,
             "📚 Νέα συγγράμματα Πανελληνίων διαθέσιμα στη βιβλιοθήκη",
-            `🏆 Πάνω από 50 επιτυχίες στις Πανελλήνιες ${prevYear}`,
+            "🏆 Δες τις λίστες επιτυχόντων στις Πανελλήνιες",
             "⚡ Δωρεάν υπολογιστής μορίων — Υπολόγισε τώρα",
             `🎓 Ξεκίνησαν οι εγγραφές για το έτος ${academicYear} — Κάλεσε στο ${contactPhone}`,
             "📚 Νέα συγγράμματα Πανελληνίων διαθέσιμα στη βιβλιοθήκη",
-            `🏆 Πάνω από 50 επιτυχίες στις Πανελλήνιες ${prevYear}`,
+            "🏆 Δες τις λίστες επιτυχόντων στις Πανελλήνιες",
             "⚡ Δωρεάν υπολογιστής μορίων — Υπολόγισε τώρα",
           ].map((msg, i) => (
             <span key={i} className="text-xs font-bold tracking-wide mr-16">
@@ -627,7 +609,7 @@ function AnnouncementBar({ contactPhone }: { contactPhone: string }) {
       </div>
       <button
         onClick={() => setVisible(false)}
-        className="absolute right-3 top-1/2 -translate-y-1/2 text-white/60 hover:text-white transition-colors z-10 flex-shrink-0"
+        className="absolute right-0 inset-y-0 px-3 flex items-center bg-brand-teal-dark shadow-[-10px_0_10px_#095f77] text-white/60 hover:text-white transition-colors z-10"
         aria-label="Κλείσιμο ανακοίνωσης"
       >
         <X size={14} strokeWidth={2.5} />
@@ -812,15 +794,7 @@ export default function Header({ contactPhone = "210 506 3610" }: { contactPhone
                 </span>
               </a>
 
-              {/* Enrollment CTA Buttons */}
-              <Link
-                href="/schedule"
-                className={`hidden md:inline-flex lg:hidden items-center gap-2 border-2 border-gray-900 text-gray-900 font-black uppercase tracking-wider hover:bg-gray-900 hover:text-white transition-all duration-200 active:scale-95 ${scrolled ? "px-3 py-2 text-xs" : "px-4 py-2.5 text-xs"
-                  }`}
-              >
-                <CalendarDays size={13} />
-                ΤΜΗΜΑΤΑ
-              </Link>
+              {/* Enrollment CTA Button */}
               <Link
                 href="/contact"
                 className={`hidden xl:inline-flex items-center gap-2 bg-brand-orange text-white font-black uppercase tracking-wider hover:bg-orange-600 transition-all duration-200 hover:shadow-[0_4px_20px_rgba(245,130,32,0.5)] active:scale-95 relative overflow-hidden group/enroll ${scrolled ? "px-4 py-2.5 text-[10px] xl:px-2 xl:py-1.5 min-[1400px]:px-3 min-[1400px]:py-2 2xl:px-4 2xl:py-2.5" : "px-5 py-3 text-[11px] xl:px-3 xl:py-2 min-[1400px]:px-4 min-[1400px]:py-2.5 2xl:px-5 2xl:py-3"

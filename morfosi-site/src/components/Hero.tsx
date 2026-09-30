@@ -3,6 +3,7 @@ import { ChevronRight, Calculator, FileText, GraduationCap, ArrowDown } from "lu
 import Link from "next/link";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
+import { FOUNDING_YEAR, yearsOfExperience } from "@/lib/facts";
 
 export default function Hero() {
   const router = useRouter();
@@ -38,7 +39,7 @@ export default function Hero() {
         {/* Subtitle — Why us in one line */}
         <div className="mb-10">
            <span className="text-white text-lg md:text-xl lg:text-2xl font-black bg-brand-orange border-4 border-black px-6 py-3 shadow-[6px_6px_0px_#000] inline-block tracking-wide uppercase leading-snug">
-             95% Επιτυχία — Εξατομικευμένο Πλάνο
+             {yearsOfExperience()} Χρόνια — Εξατομικευμένο Πλάνο
            </span>
            <p className="text-gray-300 font-bold text-base md:text-lg mt-6 max-w-lg leading-relaxed">
              Προετοιμασία για Πανελλήνιες & Γυμνάσιο με πραγματικά αποτελέσματα, μικρά τμήματα, και εβδομαδιαία αξιολόγηση.
@@ -85,7 +86,7 @@ export default function Hero() {
                <div className="flex border-4 border-black bg-white shadow-[4px_4px_0px_#000] h-[5.5rem]">
                   <select
                     aria-label="Επιλογή Εκπαιδευτικής Βαθμίδας"
-                    className="flex-1 bg-transparent text-gray-900 font-extrabold px-4 appearance-none focus:outline-none text-sm uppercase tracking-wider"
+                    className="flex-1 bg-transparent text-gray-900 font-extrabold px-4 appearance-none focus:outline-none text-base md:text-sm uppercase tracking-wider"
                     defaultValue=""
                     onChange={handleLevelSelect}
                   >
@@ -141,14 +142,14 @@ export default function Hero() {
                 className="object-cover contrast-[1.05]"
              />
             
-            {/* Overlay Badge — Enhanced with stats */}
+            {/* Overlay Badge */}
             <div className="absolute -bottom-6 -left-6 bg-white border-[4px] border-black px-6 py-4 shadow-[8px_8px_0px_#000] transform rotate-3 flex items-center gap-3">
                <div className="bg-brand-teal p-2 border-2 border-black">
                   <GraduationCap className="text-white" size={24} />
                </div>
                <div className="flex flex-col">
-                 <span className="font-black text-black leading-none uppercase text-sm">95% Επιτυχια</span>
-                 <span className="font-extrabold text-brand-orange text-xs uppercase tracking-widest">1.200+ Απόφοιτοι</span>
+                 <span className="font-black text-black leading-none uppercase text-sm">Από το {FOUNDING_YEAR}</span>
+                 <span className="font-extrabold text-brand-orange text-xs uppercase tracking-widest">Μικρά Τμήματα</span>
                </div>
             </div>
          </div>

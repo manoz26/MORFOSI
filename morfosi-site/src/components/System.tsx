@@ -9,7 +9,7 @@ async function getSystemData() {
       firstName, lastName, specialty,
       "imageUrl": image.asset->url
     },
-    "facilities": *[_type == "facilityPhoto"] {
+    "facilities": *[_type == "facilityPhoto" && hideFromMain != true] | order(order asc) {
       title,
       "photoUrl": photo.asset->url
     }
@@ -51,9 +51,9 @@ export default async function System() {
         </div>
 
         {/* Right Side — Big photo + 4-tile grid floating in front */}
-        <div className="lg:w-2/3 relative min-h-[500px] lg:min-h-[700px] w-full border-l-[12px] border-brand-teal">
-          {/* Background image */}
-          <div className="absolute inset-0 overflow-hidden">
+        <div className="lg:w-2/3 relative lg:min-h-[700px] w-full border-l-[12px] border-brand-teal">
+          {/* Background image — in flow on mobile, fills the box on desktop */}
+          <div className="relative h-[300px] sm:h-[420px] lg:absolute lg:inset-0 lg:h-auto overflow-hidden">
             <Image
               src="/bigfront.jpg"
               alt="Φροντιστήριο Μόρφωση"
@@ -64,8 +64,8 @@ export default async function System() {
             <div className="absolute inset-0 bg-gray-900/40" />
           </div>
 
-          {/* 4-tile grid — protrudes LEFT out of the photo edge */}
-          <div className="absolute -left-28 lg:-left-36 top-1/2 -translate-y-1/2 z-20 shadow-[12px_12px_0px_rgba(0,0,0,0.35)] w-[55%] max-w-[340px] grid grid-cols-2 border-l-[6px] border-brand-orange">
+          {/* 4-tile grid — stacked under the photo on mobile, protrudes LEFT out of the photo edge on desktop */}
+          <div className="relative w-full grid grid-cols-2 border-l-[6px] border-brand-orange z-20 lg:absolute lg:-left-36 lg:top-1/2 lg:-translate-y-1/2 lg:w-[55%] lg:max-w-[340px] lg:shadow-[12px_12px_0px_rgba(0,0,0,0.35)]">
             {/* Tile 1 — Teacher */}
             <Link href="/teachers" className="bg-white p-0 flex flex-col items-center justify-center text-center hover:bg-gray-50 transition-colors h-[150px] group cursor-pointer relative overflow-hidden">
               {teacherImg ? (

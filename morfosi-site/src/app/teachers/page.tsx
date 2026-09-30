@@ -1,4 +1,5 @@
 import { client } from "@/sanity/client";
+import { FACT_COUNTS_QUERY, yearsOfExperience, type FactCounts } from "@/lib/facts";
 import { GraduationCap, Users, Star, Award, BookOpen, ChevronRight, Sparkles } from "lucide-react";
 
 export const revalidate = 60; // Refresh data from Sanity every 60 seconds
@@ -15,11 +16,6 @@ const TEACHERS_QUERY = `*[_type == "teacher"] | order(order asc, lastName asc) {
   specialty,
   bio,
   "imageUrl": image.asset->url
-}`;
-
-const STATS_QUERY = `{
-  "teacherCount": count(*[_type == "teacher"]),
-  "successCount": count(*[_type == "studentSuccess"])
 }`;
 
 // Fallback teachers for when CMS is empty
@@ -45,7 +41,7 @@ const FALLBACK_TEACHERS = [
   {
     _id: 't4', firstName: 'Νίκος', lastName: 'Δημητρίου',
     specialty: 'Αγγλική Γλώσσα & Λογοτεχνία',
-    bio: 'Cambridge-certified με σπουδές στο Λονδίνο. Προετοιμάζει μαθητές για C2 Proficiency και IELTS με ποσοστό επιτυχίας 98%.',
+    bio: 'Cambridge-certified με σπουδές στο Λονδίνο. Προετοιμάζει μαθητές για C2 Proficiency και IELTS.',
     imageUrl: null
   },
   {
@@ -80,21 +76,23 @@ const SPECIALTIES = [
 
 export default async function TeachersPage() {
   let teachers: any[] = [];
-  let stats = { teacherCount: 0, successCount: 0 };
+  let stats: FactCounts = { teachers: 0, books: 0 };
 
   try {
     [teachers, stats] = await Promise.all([
       client.fetch(TEACHERS_QUERY),
-      client.fetch(STATS_QUERY),
+      client.fetch(FACT_COUNTS_QUERY),
     ]);
   } catch (e) {
     // Fallback if Sanity is unreachable
   }
 
   const displayTeachers = teachers.length > 0 ? teachers : FALLBACK_TEACHERS;
+  // Μόνο πραγματικά νούμερα (βλ. src/lib/facts.ts).
   const displayStats = {
-    teacherCount: stats.teacherCount || displayTeachers.length,
-    successCount: stats.successCount || 1200,
+    teacherCount: stats.teachers || displayTeachers.length,
+    books: stats.books,
+    years: yearsOfExperience(),
   };
 
   // Color palette cycling for teacher cards — brand colors
@@ -143,7 +141,9 @@ export default async function TeachersPage() {
                 <span className="text-white font-black text-xs uppercase tracking-[0.3em]">Ακαδημαϊκή Ομάδα</span>
               </div>
 
-              <h1 className="text-5xl md:text-7xl lg:text-[100px] font-black text-white uppercase tracking-tighter leading-none mb-8 whitespace-nowrap">
+              {/* Χωρίς `whitespace-nowrap` στο κινητό: στα 375px ο τίτλος έπιανε 452px
+                  και το «ΜΑΣ.» κοβόταν έξω από την οθόνη. */}
+              <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-[100px] font-black text-white uppercase tracking-tighter leading-none mb-8 md:whitespace-nowrap">
                 <span className="text-white">OΙ </span><span className="text-brand-teal">ΚΑΘΗΓΗΤΕΣ </span><span className="text-brand-orange">ΜΑΣ.</span>
               </h1>
 
@@ -154,17 +154,17 @@ export default async function TeachersPage() {
 
             {/* Right: Stats cards */}
             <div className="flex flex-row lg:flex-col gap-4 flex-shrink-0">
-              <div className="bg-brand-teal border-4 border-white/20 p-6 min-w-[180px] shadow-[6px_6px_0px_rgba(255,255,255,0.1)]">
+              <div className="bg-brand-teal border-4 border-white/20 p-4 sm:p-6 flex-1 lg:flex-none min-w-0 lg:min-w-[180px] shadow-[6px_6px_0px_rgba(255,255,255,0.1)]">
                 <div className="text-5xl font-black text-white leading-none tracking-tighter">
-                  {displayStats.teacherCount}+
+                  {displayStats.teacherCount}
                 </div>
                 <div className="text-white/80 font-bold text-xs uppercase tracking-[0.2em] mt-2">Εκπαιδευτικοί</div>
               </div>
-              <div className="bg-brand-orange border-4 border-white/20 p-6 min-w-[180px] shadow-[6px_6px_0px_rgba(255,255,255,0.1)]">
+              <div className="bg-brand-orange border-4 border-white/20 p-4 sm:p-6 flex-1 lg:flex-none min-w-0 lg:min-w-[180px] shadow-[6px_6px_0px_rgba(255,255,255,0.1)]">
                 <div className="text-5xl font-black text-white leading-none tracking-tighter">
-                  {displayStats.successCount.toLocaleString('el-GR')}+
+                  {displayStats.years}
                 </div>
-                <div className="text-white/80 font-bold text-xs uppercase tracking-[0.2em] mt-2">Επιτυχίες</div>
+                <div className="text-white/80 font-bold text-xs uppercase tracking-[0.2em] mt-2">Χρόνια Εμπειρίας</div>
               </div>
             </div>
           </div>
@@ -206,9 +206,9 @@ export default async function TeachersPage() {
             {/* Right column — 3 bullet points */}
             <div className="flex flex-col gap-8">
               {[
-                { icon: <Star size={20} />, label: 'Μέση εμπειρία', val: '12+ χρόνια', color: 'text-brand-orange' },
-                { icon: <Award size={20} />, label: 'Εξειδίκευση', val: '25+ μαθήματα', color: 'text-brand-teal' },
-                { icon: <BookOpen size={20} />, label: 'Συγγράμματα', val: '40+ τίτλοι', color: 'text-brand-green' },
+                { icon: <Star size={20} />, label: 'Στην εκπαίδευση', val: `${displayStats.years} χρόνια`, color: 'text-brand-orange' },
+                { icon: <Award size={20} />, label: 'Εκπαιδευτικοί', val: `${displayStats.teacherCount}`, color: 'text-brand-teal' },
+                ...(displayStats.books ? [{ icon: <BookOpen size={20} />, label: 'Συγγράμματα', val: `${displayStats.books} εκδόσεις`, color: 'text-brand-green' }] : []),
               ].map((item, i) => (
                 <div key={i} className="flex items-center gap-5 group">
                   <div className={`w-12 h-12 border-4 border-black flex items-center justify-center flex-shrink-0 ${item.color} shadow-[4px_4px_0px_#000] group-hover:shadow-[2px_2px_0px_#000] group-hover:translate-x-[2px] group-hover:translate-y-[2px] transition-all`}>

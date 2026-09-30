@@ -1,7 +1,8 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { GraduationCap, TrendingUp, Users, Clock } from "lucide-react";
+import { BookOpen, Users, Clock } from "lucide-react";
+import { yearsOfExperience, type FactCounts } from "@/lib/facts";
 
 function AnimatedNumber({ target, suffix = "" }: { target: number; suffix?: string }) {
   const [count, setCount] = useState(0);
@@ -43,46 +44,29 @@ function AnimatedNumber({ target, suffix = "" }: { target: number; suffix?: stri
   );
 }
 
-const STATS = [
-  {
-    icon: <TrendingUp size={20} strokeWidth={3} />,
-    value: 95,
-    suffix: "%",
-    label: "ΕΠΙΤΥΧΙΑ",
-  },
-  {
-    icon: <GraduationCap size={20} strokeWidth={3} />,
-    value: 1200,
-    suffix: "+",
-    label: "ΑΠΟΦΟΙΤΟΙ",
-  },
-  {
-    icon: <Clock size={20} strokeWidth={3} />,
-    value: new Date().getFullYear() - 2001,
-    suffix: "",
-    label: "ΧΡΟΝΙΑ ΕΜΠΕΙΡΙΑΣ",
-  },
-  {
-    icon: <Users size={20} strokeWidth={3} />,
-    value: 10,
-    suffix: "+",
-    label: "ΕΚΠΑΙΔΕΥΤΙΚΟΙ",
-  },
-];
+export default function SocialProofBar({ counts }: { counts?: FactCounts }) {
+  // Μόνο ό,τι είναι αληθινό: τα χρόνια από την ίδρυση και ό,τι μετριέται στο Sanity.
+  const stats = [
+    { icon: <Clock size={20} strokeWidth={3} />, value: yearsOfExperience(), label: "ΧΡΟΝΙΑ ΕΜΠΕΙΡΙΑΣ" },
+    { icon: <Users size={20} strokeWidth={3} />, value: counts?.teachers ?? 0, label: "ΚΑΘΗΓΗΤΕΣ" },
+    { icon: <BookOpen size={20} strokeWidth={3} />, value: counts?.books ?? 0, label: "ΕΚΔΟΣΕΙΣ ΒΙΒΛΙΩΝ" },
+  ].filter((stat) => stat.value > 0);
 
-export default function SocialProofBar() {
   return (
     <section className="relative w-full bg-[#031516] border-y-[6px] border-brand-orange overflow-hidden">
       {/* Stats Grid */}
-      <div className="grid grid-cols-2 lg:grid-cols-4 gap-0 divide-x-[3px] divide-brand-orange/30">
-        {STATS.map((stat, i) => (
+      <div
+        className="grid gap-0 divide-x-[3px] divide-brand-orange/30"
+        style={{ gridTemplateColumns: `repeat(${stats.length}, minmax(0, 1fr))` }}
+      >
+        {stats.map((stat, i) => (
           <div
             key={i}
             className="flex flex-col items-center justify-center py-6 md:py-8 px-4 text-center group hover:bg-brand-orange/10 transition-colors"
           >
             <div className="text-brand-orange mb-2">{stat.icon}</div>
             <span className="font-black text-white text-3xl md:text-4xl lg:text-5xl tracking-tighter leading-none">
-              <AnimatedNumber target={stat.value} suffix={stat.suffix} />
+              <AnimatedNumber target={stat.value} />
             </span>
             <span className="font-black text-gray-400 text-[10px] md:text-xs tracking-widest uppercase mt-2">
               {stat.label}

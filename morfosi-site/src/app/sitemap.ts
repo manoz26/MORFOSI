@@ -10,7 +10,6 @@ const STATIC_ROUTES: MetadataRoute.Sitemap = [
   { url: `${BASE_URL}/plano`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.9 },
   { url: `${BASE_URL}/calculator`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.85 },
   { url: `${BASE_URL}/exams`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.8 },
-  { url: `${BASE_URL}/schedule`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },
   { url: `${BASE_URL}/schedule-exams`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.75 },
   { url: `${BASE_URL}/teachers`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.75 },
   { url: `${BASE_URL}/news`, lastModified: new Date(), changeFrequency: "daily", priority: 0.75 },

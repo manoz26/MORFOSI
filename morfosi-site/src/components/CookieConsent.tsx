@@ -1,21 +1,15 @@
 "use client";
 
-import { useState } from "react";
+import { useSyncExternalStore } from "react";
 import Link from "next/link";
-import { Cookie, X } from "lucide-react";
+import { Cookie } from "lucide-react";
+import { subscribe, getSnapshot, getServerSnapshot, setConsent } from "@/lib/consent";
 
 export default function CookieConsent() {
-  const [show, setShow] = useState(() => {
-    if (typeof window === "undefined") return false;
-    return !localStorage.getItem("morfosi_cookie_consent");
-  });
+  const consent = useSyncExternalStore(subscribe, getSnapshot, getServerSnapshot);
 
-  if (!show) return null;
-
-  const acceptCookies = () => {
-    localStorage.setItem("morfosi_cookie_consent", "true");
-    setShow(false);
-  };
+  // `null` = δεν έχει απαντήσει ακόμα. Μόνο τότε δείχνουμε το banner.
+  if (consent !== null) return null;
 
   return (
     <div className="fixed bottom-0 left-0 w-full z-[100] px-4 pb-4 md:px-8 md:pb-8 pt-4 pointer-events-none flex justify-center">
@@ -29,7 +23,9 @@ export default function CookieConsent() {
             Χρησιμοποιούμε Cookies 🍪
           </h4>
           <p className="text-sm font-bold text-gray-600 leading-relaxed md:pr-4">
-            Αυτός ο ιστότοπος χρησιμοποιεί cookies για να βελτιώσει την εμπειρία σας και να αναλύσει την επισκεψιμότητά μας. Μπορείτε να μάθετε περισσότερα στην{" "}
+            Χρησιμοποιούμε cookies στατιστικών (Google Analytics) για να καταλάβουμε πώς
+            χρησιμοποιείται ο ιστότοπος. Φορτώνουν <strong>μόνο</strong> αν το αποδεχτείτε.
+            Περισσότερα στην{" "}
             <Link href="/privacy" className="text-brand-teal underline font-black hover:text-brand-orange transition-colors">
               Πολιτική Απορρήτου
             </Link>{" "}
@@ -37,19 +33,20 @@ export default function CookieConsent() {
           </p>
         </div>
 
+        {/* `min-w-0` ώστε τα κουμπιά να συρρικνώνονται αντί να βγαίνουν εκτός οθόνης
+            στα 375px — το «ΑΠΟΡΡΙΨΗ» έφτανε ως τα 381px και κοβόταν. */}
         <div className="flex gap-3 flex-shrink-0 w-full md:w-auto">
           <button
-            onClick={acceptCookies}
-            className="flex-1 md:flex-none uppercase tracking-widest font-black text-sm bg-brand-teal text-white border-[3px] border-black shadow-[4px_4px_0px_#000] hover:shadow-none hover:translate-x-[4px] hover:translate-y-[4px] transition-all px-8 py-3 text-center"
+            onClick={() => setConsent("granted")}
+            className="flex-1 min-w-0 md:flex-none uppercase tracking-wider md:tracking-widest font-black text-sm bg-brand-teal text-white border-[3px] border-black shadow-[4px_4px_0px_#000] hover:shadow-none hover:translate-x-[4px] hover:translate-y-[4px] transition-all px-4 md:px-8 py-3 text-center"
           >
-            ΕΝΤΑΞΕΙ
+            ΑΠΟΔΟΧΗ
           </button>
           <button
-            onClick={() => setShow(false)}
-            aria-label="Κλείσιμο"
-            className="hidden md:flex uppercase tracking-widest font-black text-white hover:text-gray-900 border-[3px] border-black bg-black shadow-[4px_4px_0px_#000] hover:shadow-none hover:translate-x-[4px] hover:translate-y-[4px] hover:bg-gray-100 transition-all p-3 items-center justify-center"
+            onClick={() => setConsent("denied")}
+            className="flex-1 min-w-0 md:flex-none uppercase tracking-wider md:tracking-widest font-black text-sm bg-white text-gray-900 border-[3px] border-black shadow-[4px_4px_0px_#000] hover:shadow-none hover:translate-x-[4px] hover:translate-y-[4px] hover:bg-gray-100 transition-all px-4 md:px-8 py-3 text-center"
           >
-            <X size={20} strokeWidth={3} />
+            ΑΠΟΡΡΙΨΗ
           </button>
         </div>
       </div>

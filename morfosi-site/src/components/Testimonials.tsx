@@ -17,12 +17,9 @@ export interface TestimonialType {
 export default function Testimonials({ testimonials = [] }: { testimonials?: TestimonialType[] }) {
   const [activeIndex, setActiveIndex] = useState(0)
   
-  // Fallback Data if Sanity is empty
-  const items = testimonials.length > 0 ? testimonials : [
-    { _id: 'fallback-1', studentName: 'Ματούλα Βαρέλα', university: 'Ιατρική Αθηνών', quote: 'Η μεθοδικότητα των καθηγητών και η στοχευμένη προετοιμασία στο Φροντιστήριο Μόρφωση ήταν το κλειδί για την εισαγωγή μου στην Ιατρική. Δεν θα τα κατάφερνα χωρίς αυτούς!', photoUrl: '' },
-    { _id: 'fallback-2', studentName: 'Γιώργος Παππάς', university: 'Ηλεκτρολόγων Μηχανικών ΕΜΠ', quote: 'Τα εβδομαδιαία διαγωνίσματα προσομοίωσης με βοήθησαν να διαχειριστώ το άγχος μου. Όταν έφτασε η μέρα των Πανελλαδικών, ένιωθα λες και έγραφα ένα ακόμα τεστ στο φροντιστήριο.', photoUrl: '' },
-    { _id: 'fallback-3', studentName: 'Ελένη Κωνσταντίνου', university: 'Νομική Αθηνών', quote: 'Εξαιρετικό κλίμα, στήριξη ψυχολογική και ακαδημαϊκή. Οι σημειώσεις των καθηγητών ήταν τα απόλυτα"ευαγγέλια" για την επιτυχία μου.', photoUrl: '' }
-  ];
+  // Χωρίς fallback data: οι μαρτυρίες είναι δηλώσεις πραγματικών μαθητών, οπότε
+  // ή έρχονται εγκεκριμένες από το CMS ή δεν εμφανίζεται καθόλου η ενότητα.
+  const items = testimonials;
 
   // Refs for scroll animations
   const sectionRef = useRef(null)
@@ -72,6 +69,8 @@ export default function Testimonials({ testimonials = [] }: { testimonials?: Tes
 
     return () => clearInterval(interval)
   }, [autoRotateInterval, items.length])
+
+  if (items.length === 0) return null;
 
   return (
     <section ref={sectionRef} id="testimonials" className="py-24 md:py-32 overflow-hidden bg-white border-t-[8px] border-black scroll-mt-32">
@@ -132,11 +131,11 @@ export default function Testimonials({ testimonials = [] }: { testimonials?: Tes
           </motion.div>
 
           {/* Right side: Testimonial cards */}
-          <motion.div variants={itemVariants} className="relative h-full min-h-[400px] md:min-h-[450px] w-full flex items-center">
+          <motion.div variants={itemVariants} className="relative grid w-full items-center">
             {items.map((testimonial, index) => (
               <motion.div
                 key={testimonial._id || index}
-                className="absolute inset-x-0 w-full"
+                className="col-start-1 row-start-1 w-full"
                 initial={{ opacity: 0, x: 100 }}
                 animate={{
                   opacity: activeIndex === index ? 1 : 0,
@@ -149,7 +148,7 @@ export default function Testimonials({ testimonials = [] }: { testimonials?: Tes
                   pointerEvents: activeIndex === index ? "auto" : "none"
                 }}
               >
-                <div className="bg-white border-[6px] border-black shadow-[16px_16px_0px_#000] p-8 md:p-12 h-full flex flex-col relative group">
+                <div className="bg-white border-[6px] border-black shadow-[8px_8px_0px_#000] md:shadow-[16px_16px_0px_#000] p-6 md:p-12 h-full flex flex-col relative group">
                   {/* Rating Stars - Brutalist style */}
                   <div className="mb-6 flex gap-1">
                     {Array(5)
@@ -163,7 +162,7 @@ export default function Testimonials({ testimonials = [] }: { testimonials?: Tes
 
                   <div className="relative mb-8 flex-1">
                     <Quote className="absolute -top-6 -left-6 h-12 w-12 text-brand-teal opacity-20 rotate-180" />
-                    <p className="relative z-10 text-xl md:text-2xl font-bold leading-relaxed text-gray-900 tracking-tight">&quot;{testimonial.quote}&quot;</p>
+                    <p className="relative z-10 text-lg md:text-2xl font-bold leading-relaxed text-gray-900 tracking-tight">&quot;{testimonial.quote}&quot;</p>
                   </div>
 
                   {/* Hard Separator */}
@@ -179,7 +178,7 @@ export default function Testimonials({ testimonials = [] }: { testimonials?: Tes
                        )}
                     </div>
                     <div>
-                      <h3 className="font-black text-2xl uppercase tracking-tighter text-gray-900">{testimonial.studentName}</h3>
+                      <h3 className="font-black text-xl md:text-2xl uppercase tracking-tighter text-gray-900">{testimonial.studentName}</h3>
                       <p className="font-extrabold text-brand-teal uppercase tracking-widest text-sm mt-1">
                         {testimonial.university} {testimonial.year ? `(${testimonial.year})` : ''}
                       </p>
@@ -190,14 +189,14 @@ export default function Testimonials({ testimonials = [] }: { testimonials?: Tes
             ))}
 
             {/* Decorative elements behind cards */}
-            <div className="absolute -bottom-8 -left-8 h-32 w-32 bg-brand-teal border-[4px] border-black -z-10 shadow-[8px_8px_0px_#000]"></div>
-            <div className="absolute -top-8 -right-8 h-20 w-20 bg-brand-orange border-[4px] border-black -z-10 shadow-[8px_8px_0px_#000]"></div>
+            <div className="hidden md:block absolute -bottom-8 -left-8 h-32 w-32 bg-brand-teal border-[4px] border-black -z-10 shadow-[8px_8px_0px_#000]"></div>
+            <div className="hidden md:block absolute -top-8 -right-8 h-20 w-20 bg-brand-orange border-[4px] border-black -z-10 shadow-[8px_8px_0px_#000]"></div>
           </motion.div>
         </motion.div>
       </div>
 
       {/* CTA — Conversion point */}
-      <div className="max-w-7xl mx-auto px-6 lg:px-12 mt-16 flex flex-col sm:flex-row justify-center items-center gap-6">
+      <div className="max-w-7xl mx-auto px-6 lg:px-12 mt-20 flex flex-col sm:flex-row justify-center items-center gap-6">
         <a
           href="/contact#enrollment-form"
           className="inline-flex items-center gap-3 bg-brand-orange text-white px-12 py-5 font-black uppercase tracking-widest text-sm border-4 border-black shadow-[8px_8px_0px_#000] hover:shadow-[3px_3px_0px_#000] hover:translate-x-[5px] hover:translate-y-[5px] transition-all"

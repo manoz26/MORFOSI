@@ -25,7 +25,9 @@ export default async function Footer() {
         ΜΟΡΦΩΣΗ
       </h2>
 
-      <div className="max-w-7xl mx-auto px-6 lg:px-12 pt-24 pb-12 relative z-10">
+      {/* Στο κινητό η σταθερή μπάρα CTA (55px + safe area) σκέπαζε το copyright και
+          τους συνδέσμους όρων — εξ ου το επιπλέον padding κάτω. */}
+      <div className="max-w-7xl mx-auto px-6 lg:px-12 pt-24 pb-[calc(5.5rem+env(safe-area-inset-bottom,0px))] md:pb-12 relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-16 border-b border-gray-800 pb-16">
           
           {/* 1. Logo & About */}
@@ -38,7 +40,7 @@ export default async function Footer() {
             </p>
             {/* Input field fake interaction for aesthetics */}
             <div className="flex w-full mt-auto">
-              <input type="email" placeholder="Email για Νέα" aria-label="Email για ενημερώσεις" className="bg-gray-800 text-white px-4 py-3 w-full text-xs font-bold outline-none placeholder:text-gray-500 focus:bg-gray-700 transition-colors" />
+              <input type="email" placeholder="Email για Νέα" aria-label="Email για ενημερώσεις" className="bg-gray-800 text-white px-4 py-3 w-full text-base md:text-xs font-bold outline-none placeholder:text-gray-500 focus:bg-gray-700 transition-colors" />
               <button aria-label="Εγγραφή στο Newsletter" className="bg-brand-teal px-4 text-white hover:bg-brand-orange transition-colors flex items-center justify-center">
                  <ArrowRight size={18} strokeWidth={3} />
               </button>
@@ -61,7 +63,7 @@ export default async function Footer() {
                <Link href="/prosanatolismos" className="hover:text-brand-orange transition-colors w-fit flex items-center gap-2 group">
                  <div className="w-1 h-1 bg-brand-orange opacity-0 group-hover:opacity-100 transition-opacity" /> Επαγγελματικός Προσανατολισμός
                </Link>
-               <Link href="/schedule" className="hover:text-brand-orange transition-colors w-fit flex items-center gap-2 group">
+               <Link href="/plano" className="hover:text-brand-orange transition-colors w-fit flex items-center gap-2 group">
                  <div className="w-1 h-1 bg-brand-orange opacity-0 group-hover:opacity-100 transition-opacity" /> Προγράμματα Σπουδών
                </Link>
                <Link href="/#testimonials" className="hover:text-brand-orange transition-colors w-fit flex items-center gap-2 group">

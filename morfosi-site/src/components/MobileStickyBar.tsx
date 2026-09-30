@@ -24,7 +24,12 @@ export default function MobileStickyBar({ contactPhone = "2105063610" }: { conta
       {/* Top shadow line */}
       <div className="h-[3px] bg-black" />
 
-      <div className="flex">
+      {/* Το padding του safe area κρατάει τα κουμπιά πάνω από το home indicator
+          του iPhone — χωρίς αυτό το κάτω μισό τους έπεφτε στη ζώνη χειρονομιών. */}
+      <div
+        className="flex bg-brand-orange"
+        style={{ paddingBottom: "env(safe-area-inset-bottom, 0px)" }}
+      >
         {/* Phone button */}
         <a
           href={`tel:${contactPhone.replace(/\s+/g, "")}`}

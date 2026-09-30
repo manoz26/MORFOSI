@@ -475,17 +475,19 @@ export default function CalculatorWizard({ contactPhone = "210 506 3610" }: { co
         style={{ backgroundImage: "linear-gradient(#000 2px, transparent 2px), linear-gradient(90deg, #000 2px, transparent 2px)", backgroundSize: "60px 60px" }} />
 
       {/* Progress Header */}
-      <div className="w-full bg-white border-b-[4px] border-gray-900 sticky top-0 z-40 shadow-[0_4px_0px_rgba(0,0,0,1)] flex items-center justify-between px-6 md:px-12 py-4">
-        <div className="flex items-center gap-3">
-          <div className="w-8 h-8 bg-black flex items-center justify-center text-white font-black text-lg">M</div>
-          <h2 className="text-gray-900 font-black tracking-tighter text-xl md:text-2xl uppercase">
+      {/* Στα 375px η μπάρα χρειαζόταν 434px: ο τίτλος δεν συρρικνωνόταν και το
+          βήμα «5» κατέληγε εκτός οθόνης. Μικρότερα βήματα + τίτλος που σπάει. */}
+      <div className="w-full bg-white border-b-[4px] border-gray-900 sticky top-0 z-40 shadow-[0_4px_0px_rgba(0,0,0,1)] flex items-center justify-between gap-3 px-4 md:px-12 py-4">
+        <div className="flex items-center gap-2 md:gap-3 min-w-0">
+          <div className="w-8 h-8 shrink-0 bg-black flex items-center justify-center text-white font-black text-lg">M</div>
+          <h2 className="text-gray-900 font-black tracking-tighter text-base sm:text-xl md:text-2xl uppercase min-w-0">
             ΥΠΟΛΟΓΙΣΤΗΣ <span className="text-brand-orange bg-black px-2 mt-1 inline-block">ΜΟΡΙΩΝ</span>
           </h2>
         </div>
-        <div className="flex gap-2">
+        <div className="flex gap-1.5 md:gap-2 shrink-0" role="list" aria-label={`Βήμα ${step} από 5`}>
           {[1, 2, 3, 4, 5].map((s) => (
-            <div key={s} className={`w-8 h-8 md:w-10 md:h-10 flex items-center justify-center font-black text-sm border-[3px] border-gray-900 transition-colors ${s === step ? "bg-brand-orange text-white" : s < step ? "bg-gray-900 text-white" : "bg-gray-200 text-gray-500"}`}>
-              {s < step ? <CheckCircle2 size={16} strokeWidth={4} /> : s}
+            <div key={s} role="listitem" className={`w-7 h-7 md:w-10 md:h-10 flex items-center justify-center font-black text-xs md:text-sm border-[3px] border-gray-900 transition-colors ${s === step ? "bg-brand-orange text-white" : s < step ? "bg-gray-900 text-white" : "bg-gray-200 text-gray-500"}`}>
+              {s < step ? <CheckCircle2 size={14} strokeWidth={4} /> : s}
             </div>
           ))}
         </div>
@@ -540,7 +542,7 @@ export default function CalculatorWizard({ contactPhone = "210 506 3610" }: { co
                 <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-12 gap-6 border-b-[4px] border-gray-900 pb-8">
                   <div>
                     <span className="bg-black text-white px-3 py-1 font-black text-xs uppercase tracking-widest block w-fit mb-4">ΒΗΜΑ 2</span>
-                    <h2 className="text-5xl md:text-6xl font-black text-gray-900 tracking-tighter uppercase leading-none">
+                    <h2 className="text-4xl sm:text-5xl md:text-6xl font-black text-gray-900 tracking-tighter uppercase leading-none">
                       ΒΑΘΜΟΛΟΓΙΕΣ <br /><span className="text-brand-orange bg-black px-2 mt-2 inline-block">{currentField.name.split(" ")[0]}</span>
                     </h2>
                   </div>

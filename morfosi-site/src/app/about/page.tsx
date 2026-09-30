@@ -3,7 +3,9 @@
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { client } from "@/sanity/client";
+import { FACT_COUNTS_QUERY, FOUNDING_YEAR, type FactCounts } from "@/lib/facts";
 import dynamic from 'next/dynamic';
+import type { FacilityPhoto } from '@/components/PremiumFacilityGallery';
 const PremiumFacilityGallery = dynamic(() => import('@/components/PremiumFacilityGallery'), { ssr: false });
 import { motion, AnimatePresence } from "framer-motion";
 import {
@@ -22,7 +24,6 @@ import {
   Target,
   Lightbulb,
   Shield,
-  TrendingUp,
   CheckCircle,
   ArrowRight,
   Building2,
@@ -40,7 +41,7 @@ import {
 const now = new Date();
 const currentYear = now.getFullYear(); // 2026
 const prevYear = currentYear - 1; // 2025
-const foundingYear = 2001;
+const foundingYear = FOUNDING_YEAR;
 const yearsOfExp = currentYear - foundingYear;
 const academicYearShort = `${currentYear}-${(currentYear + 1).toString().slice(-2)}`;
 
@@ -54,7 +55,7 @@ const HISTORY_PLACEHOLDER = {
   body: [
     "Το Φροντιστήριο Μόρφωση ιδρύθηκε με ένα και μοναδικό όραμα: να δώσουμε στον κάθε μαθητή τα εφόδια που χρειάζεται για να πετύχει τους στόχους του. Ξεκινήσαμε με λίγα τμήματα και μεγάλο πάθος, και σήμερα αποτελούμε σημείο αναφοράς για εκατοντάδες οικογένειες.",
     "Από την πρώτη στιγμή, πιστέψαμε ότι η ποιοτική εκπαίδευση δεν είναι προνόμιο λίγων. Σχεδιάσαμε ένα σύστημα που συνδυάζει την ατομική προσοχή με τη δυναμική ομάδας, δημιουργώντας ένα περιβάλλον όπου κάθε μαθητής αισθάνεται ότι ανήκει.",
-    "Σήμερα, με πάνω από 1.200 επιτυχίες στις Πανελλήνιες, συνεχίζουμε να εξελισσόμαστε. Νέα εργαλεία, νέες μέθοδοι, αλλά πάντα με τις ίδιες αξίες: αφοσίωση, αριστεία και ανθρωπιά.",
+    "Σήμερα, μετά από τόσες γενιές μαθητών, συνεχίζουμε να εξελισσόμαστε. Νέα εργαλεία, νέες μέθοδοι, αλλά πάντα με τις ίδιες αξίες: αφοσίωση, αριστεία και ανθρωπιά.",
   ],
 };
 
@@ -148,19 +149,23 @@ const VALUES = [
   },
 ];
 
-const STATS = [
-  { num: `${yearsOfExp}+`, label: "Χρόνια Εμπειρίας", icon: Calendar, color: "text-brand-teal" },
-  { num: "1.200+", label: "Επιτυχίες Πανελληνίων", icon: Award, color: "text-brand-orange" },
-  { num: "10+", label: "Εξειδικευμένοι Καθηγητές", icon: GraduationCap, color: "text-brand-green" },
-  { num: "98%", label: "Ικανοποίηση Μαθητών", icon: Star, color: "text-brand-purple" },
-  { num: "200+", label: "Ενεργοί Μαθητές", icon: Users, color: "text-brand-red" },
-  { num: "15+", label: "Εκδόσεις Βιβλίων", icon: BookOpen, color: "text-brand-teal-dark" },
-];
+// Μόνο πραγματικά νούμερα (βλ. src/lib/facts.ts): χρόνια από την ίδρυση και
+// ό,τι μετριέται στο Sanity. Χωρίς ποσοστά/σύνολα που δεν έχουν μετρηθεί.
+type StatItem = { num: string; label: string; icon: typeof Calendar; color: string };
+
+function buildStats(counts: FactCounts | null): StatItem[] {
+  const stats: StatItem[] = [
+    { num: `${yearsOfExp}`, label: "Χρόνια Εμπειρίας", icon: Calendar, color: "text-brand-teal" },
+  ];
+  if (counts?.teachers) stats.push({ num: `${counts.teachers}`, label: "Εξειδικευμένοι Καθηγητές", icon: GraduationCap, color: "text-brand-green" });
+  if (counts?.books) stats.push({ num: `${counts.books}`, label: "Εκδόσεις Βιβλίων", icon: BookOpen, color: "text-brand-orange" });
+  return stats;
+}
 
 const FACILITIES = [
   {
     title: "Αίθουσες Διδασκαλίας",
-    desc: "8 σύγχρονες αίθουσες εξοπλισμένες με smart boards, κλιματισμό και άρτιο ακουστικό περιβάλλον.",
+    desc: "Σύγχρονες αίθουσες με κλιματισμό και ήσυχο περιβάλλον, στημένες για ολιγομελή τμήματα.",
     icon: Building2,
     color: "bg-brand-teal",
   },
@@ -215,7 +220,7 @@ const TESTIMONIALS = [
 ];
 
 const TEAM_ROLES = [
-  { role: "Διευθυντής", name: "Βασίλης Βέλμαχος", desc: "Ιδρυτής & Ακαδημαϊκός Διευθυντής, 20 χρόνια στην εκπαίδευση", color: "bg-brand-teal" },
+  { role: "Διευθυντής", name: "Βασίλης Βέλμαχος", desc: `Ιδρυτής & Ακαδημαϊκός Διευθυντής από το ${FOUNDING_YEAR}`, color: "bg-brand-teal" },
   { role: "Γραμματεία", name: "Άννα Κυριακίδου", desc: "Υπεύθυνη Εγγραφών & Εξυπηρέτησης. Πάντα εδώ για κάθε ερώτηση.", color: "bg-brand-orange" },
   { role: "Ακαδημαϊκός Σύμβουλος", name: "Δρ. Κώστας Νικολάου", desc: "Καθοδηγεί μαθητές στην επιλογή κατεύθυνσης και σχολής.", color: "bg-brand-green" },
 ];
@@ -254,7 +259,7 @@ function useCountUp(target: string, duration = 2000, inView = false) {
 // ─────────────────────────────────────────────
 //  STAT CARD WITH COUNTER ANIMATION
 // ─────────────────────────────────────────────
-function StatCard({ stat, index }: { stat: (typeof STATS)[0]; index: number }) {
+function StatCard({ stat, index }: { stat: StatItem; index: number }) {
   const ref = useRef<HTMLDivElement>(null);
   const [inView, setInView] = useState(false);
   const count = useCountUp(stat.num, 2000, inView);
@@ -298,9 +303,11 @@ export default function AboutPage() {
   const [contactPhone, setContactPhone] = useState("210 506 3610");
   const [address, setAddress] = useState("25ης Μαρτίου 84, Αγίου Δημητρίου 17, Πετρούπολη 132 31");
   const [contactEmail, setContactEmail] = useState("morfosifront@gmail.com");
-  const [facilityPhotos, setFacilityPhotos] = useState<Array<{ _id: string; title: string; photoUrl: string }>>([]);
+  const [facilityPhotos, setFacilityPhotos] = useState<FacilityPhoto[]>([]);
   const [eventPhotos, setEventPhotos] = useState<Array<{ _id: string; title: string; photoUrl: string; description?: string; date?: string }>>([]);
   const [activeEventPhoto, setActiveEventPhoto] = useState(0);
+  const [counts, setCounts] = useState<FactCounts | null>(null);
+  const stats = buildStats(counts);
 
   useEffect(() => {
     client.fetch(`*[_type == "siteSettings"][0]{ contactPhone, address, contactEmail }`).then(data => {
@@ -309,7 +316,11 @@ export default function AboutPage() {
       if (data?.contactEmail) setContactEmail(data.contactEmail);
     }).catch(console.error);
 
-    client.fetch(`*[_type == "facilityPhoto"] | order(order asc) { _id, title, "photoUrl": photo.asset->url }`)
+    client.fetch<FactCounts>(FACT_COUNTS_QUERY)
+      .then(setCounts)
+      .catch(console.error);
+
+    client.fetch(`*[_type == "facilityPhoto"] | order(order asc) { _id, title, featured, hideFromMain, "photoUrl": photo.asset->url, "aspect": photo.asset->metadata.dimensions.aspectRatio }`)
       .then(data => { if (data?.length) setFacilityPhotos(data); })
       .catch(console.error);
 
@@ -394,7 +405,7 @@ export default function AboutPage() {
               {[
                 { label: "Ιδρύθηκε", val: "2001", icon: Calendar, color: "bg-brand-teal" },
                 { label: "Τοποθεσία", val: "Αθήνα", icon: MapPin, color: "bg-brand-orange" },
-                { label: "Καθηγητές", val: "10+", icon: GraduationCap, color: "bg-brand-green" },
+                ...(counts?.teachers ? [{ label: "Καθηγητές", val: `${counts.teachers}`, icon: GraduationCap, color: "bg-brand-green" }] : []),
               ].map((item) => {
                 const Icon = item.icon;
                 return (
@@ -416,9 +427,9 @@ export default function AboutPage() {
       <div className="bg-brand-orange border-y-[6px] border-black overflow-hidden py-4">
         <div className="flex gap-16 animate-billboard whitespace-nowrap">
           {[
-            `${yearsOfExp} ΧΡΟΝΙΑ ΕΜΠΕΙΡΙΑΣ`, "1200+ ΕΠΙΤΥΧΙΕΣ", "ΜΙΚΡΑ ΤΜΗΜΑΤΑ",
+            `${yearsOfExp} ΧΡΟΝΙΑ ΕΜΠΕΙΡΙΑΣ`, "ΔΙΚΕΣ ΜΑΣ ΕΚΔΟΣΕΙΣ", "ΜΙΚΡΑ ΤΜΗΜΑΤΑ",
             "ΕΞΑΤΟΜΙΚΕΥΜΕΝΗ ΠΡΟΣΟΧΗ", "ΚΟΡΥΦΑΙΟΙ ΚΑΘΗΓΗΤΕΣ", "ΑΘΗΝΑ",
-            `${yearsOfExp} ΧΡΟΝΙΑ ΕΜΠΕΙΡΙΑΣ`, "1200+ ΕΠΙΤΥΧΙΕΣ", "ΜΙΚΡΑ ΤΜΗΜΑΤΑ",
+            `${yearsOfExp} ΧΡΟΝΙΑ ΕΜΠΕΙΡΙΑΣ`, "ΔΙΚΕΣ ΜΑΣ ΕΚΔΟΣΕΙΣ", "ΜΙΚΡΑ ΤΜΗΜΑΤΑ",
           ].map((s, i) => (
             <span key={i} className="font-black text-white uppercase tracking-widest text-sm flex items-center gap-6">
               {s} <span className="text-black/30">◆</span>
@@ -479,12 +490,12 @@ export default function AboutPage() {
 
               <div className="bg-brand-teal p-8 border-[4px] border-gray-900 shadow-[8px_8px_0px_#000] flex items-center gap-6">
                 <div className="w-16 h-16 bg-white flex items-center justify-center flex-shrink-0 border-4 border-gray-900">
-                  <TrendingUp size={28} className="text-brand-teal" />
+                  <Calendar size={28} className="text-brand-teal" />
                 </div>
                 <div>
-                  <div className="text-white/80 font-black text-xs uppercase tracking-widest mb-1">Ποσοστό Επιτυχίας</div>
-                  <div className="text-white font-black text-4xl tracking-tighter">98%</div>
-                  <div className="text-white/70 text-sm font-bold">μαθητών επιτυγχάνουν τον στόχο τους</div>
+                  <div className="text-white/80 font-black text-xs uppercase tracking-widest mb-1">Στην εκπαίδευση από το</div>
+                  <div className="text-white font-black text-4xl tracking-tighter">{foundingYear}</div>
+                  <div className="text-white/70 text-sm font-bold">{yearsOfExp} χρόνια δίπλα σε μαθητές και γονείς</div>
                 </div>
               </div>
             </div>
@@ -504,25 +515,38 @@ export default function AboutPage() {
                 <span>Αριθμοί που Μιλούν</span>
               </div>
               <h2 className="text-5xl lg:text-7xl font-black text-gray-900 uppercase tracking-tighter leading-none">
-                ΤΑ<br />
+                Η ΜΟΡΦΩΣΗ<br />
                 <span className="text-brand-orange relative">
-                  ΑΠΟΤΕΛΕΣ
+                  ΣΕ ΑΡΙΘΜΟΥΣ
                   <span className="absolute -bottom-2 left-0 w-full h-[6px] bg-brand-orange" />
                 </span>
-                ΜΑΤΑ
               </h2>
             </div>
             <p className="text-gray-500 font-bold max-w-sm text-lg leading-relaxed">
-              20 χρόνια επίμονης δουλειάς αποτυπωμένα σε αριθμούς που δεν λένε ψέματα.
+              {yearsOfExp} χρόνια δουλειάς. Βάζουμε μόνο αριθμούς που μπορούμε να δείξουμε — τους επιτυχόντες κάθε χρονιάς θα τους βρεις ονομαστικά στις{" "}
+              <Link href="/epityxontes" className="text-brand-orange underline underline-offset-4 hover:text-gray-900">λίστες επιτυχόντων</Link>.
             </p>
           </div>
 
-          <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-6 gap-0 border-[4px] border-gray-900">
-            {STATS.map((stat, i) => (
-              <div key={i} className={`border-r-[4px] border-gray-900 last:border-r-0 ${i >= 3 ? "border-t-[4px] border-gray-900" : ""}`}>
-                <StatCard stat={stat} index={i} />
-              </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-6 md:gap-8">
+            {stats.map((stat, i) => (
+              <StatCard key={stat.label} stat={stat} index={i} />
             ))}
+            <Link
+              href="/epityxontes"
+              className="group relative bg-brand-orange border-4 border-gray-900 shadow-[8px_8px_0px_#111] hover:shadow-[4px_4px_0px_#111] hover:translate-x-[4px] hover:translate-y-[4px] transition-all duration-200 p-8 overflow-hidden flex flex-col justify-between"
+            >
+              <div className="w-14 h-14 border-4 border-gray-900 bg-white flex items-center justify-center mb-6">
+                <Award size={24} className="text-brand-orange" strokeWidth={2.5} />
+              </div>
+              <div>
+                <div className="text-2xl xl:text-3xl font-black tracking-tighter leading-none mb-3 text-white uppercase">Επιτυχόντες</div>
+                <div className="text-xs font-black uppercase tracking-widest text-white/90 flex items-center gap-2">
+                  Δες τις λίστες ανά χρονιά
+                  <ArrowRight size={14} strokeWidth={3} className="group-hover:translate-x-1 transition-transform" />
+                </div>
+              </div>
+            </Link>
           </div>
         </div>
       </section>
@@ -855,15 +879,15 @@ export default function AboutPage() {
           {/* All successes banner */}
           <div className="mt-16 bg-brand-orange border-[4px] border-gray-900 shadow-[12px_12px_0px_#000] p-10 flex flex-col md:flex-row items-center justify-between gap-8">
             <div>
-              <div className="text-white/80 font-black text-xs uppercase tracking-widest mb-2">Συνολικές Επιτυχίες</div>
-              <div className="text-white font-black text-7xl tracking-tighter leading-none">1.200+</div>
-              <div className="text-white/80 font-bold text-lg mt-2">μαθητές έχουν πετύχει τον στόχο τους μαζί μας</div>
+              <div className="text-white/80 font-black text-xs uppercase tracking-widest mb-2">Οι Επιτυχόντες μας</div>
+              <div className="text-white font-black text-5xl md:text-7xl tracking-tighter leading-none">ΟΝΟΜΑΣΤΙΚΑ</div>
+              <div className="text-white/80 font-bold text-lg mt-2">όλες οι λίστες επιτυχόντων στις Πανελλήνιες, χρονιά προς χρονιά</div>
             </div>
             <Link
-              href="/teachers"
+              href="/epityxontes"
               className="flex-shrink-0 bg-white text-gray-900 px-10 py-5 font-black text-sm uppercase tracking-widest border-4 border-gray-900 hover:bg-gray-900 hover:text-white transition-all hover:-translate-y-1 hover:shadow-[6px_6px_0px_rgba(0,0,0,0.3)] flex items-center gap-3"
             >
-              Γνώρισε την Ομάδα μας
+              Δες τις λίστες
               <ChevronRight size={18} strokeWidth={3} />
             </Link>
           </div>
@@ -1041,7 +1065,7 @@ export default function AboutPage() {
           <div className="mt-20 flex flex-wrap justify-center gap-8">
             {[
               { icon: Shield, label: "Εγγύηση Αριστείας" },
-              { icon: Award, label: "20+ Χρόνια Εμπειρίας" },
+              { icon: Award, label: `${yearsOfExp} Χρόνια Εμπειρίας` },
               { icon: Users, label: "Μικρά Τμήματα" },
               { icon: CheckCircle, label: "Αποδεδειγμένα Αποτελέσματα" },
             ].map((b, i) => {

@@ -12,12 +12,14 @@ import PromoStrips from "@/components/PromoStrips";
 import Testimonials from "@/components/Testimonials";
 import BooksCarousel from "@/components/BooksCarousel";
 import Link from "next/link";
+import { FACT_COUNTS_QUERY } from "@/lib/facts";
 
 export const revalidate = 60; // Refresh data every 60 seconds
 
 // Server Component GROQ Query - Τραβάει τα πάντα από την Βάση
 const PAGE_DATA_QUERY = `{
   "settings": *[_type == "siteSettings"][0] { contactPhone },
+  "counts": ${FACT_COUNTS_QUERY},
   "programs": *[_type == "program"] | order(_createdAt asc) {
     _id,
     title,
@@ -25,7 +27,12 @@ const PAGE_DATA_QUERY = `{
     "slug": slug.current,
     "iconUrl": icon.asset->url
   },
-  "testimonials": *[_type == "studentSuccess"] | order(year desc)[0...4] {
+  "testimonials": *[
+    _type == "studentSuccess"
+    && approved == true
+    && defined(quote)
+    && length(quote) >= 40
+  ] | order(year desc)[0...4] {
     _id,
     studentName,
     year,
@@ -33,12 +40,12 @@ const PAGE_DATA_QUERY = `{
     quote,
     "photoUrl": photo.asset->url
   },
-  "posts": *[_type == "post"] | order(publishedAt desc)[0...2] {
+  "posts": *[_type == "post" && defined(slug.current)] | order(coalesce(publishedAt, _createdAt) desc)[0...2] {
     _id,
     title,
-    publishedAt,
+    "publishedAt": coalesce(publishedAt, _createdAt),
     "slug": slug.current,
-    "imageUrl": mainImage.asset->url,
+    "excerpt": array::join(string::split(pt::text(body), "")[0..160], ""),
     category
   },
   "books": *[_type == "book"] | order(_createdAt desc) {
@@ -62,10 +69,6 @@ export default async function Home() {
     { _id: 'b3', title: 'ΒΙΒΛΙΟ 3', category: 'Πρόσθεσε από το Studio' }
   ];
 
-  const displayPosts = data.posts?.length > 0 ? data.posts : [
-    { _id: 'p1', title: 'Demo Ανακοίνωση 1 (Βάση Άδεια)', publishedAt: '2026-04-01T00:00:00Z' },
-    { _id: 'p2', title: 'Demo Ανακοίνωση 2 (Βάση Άδεια)', publishedAt: '2026-11-01T00:00:00Z' }
-  ];
 
   const phone = data.settings?.contactPhone || '2105063610';
   const phoneClean = phone.replace(/\s+/g, '');
@@ -76,8 +79,8 @@ export default async function Home() {
         {/* 1st: Split-Screen Hero — Clear value proposition + strong CTA */}
         <Hero />
 
-        {/* 2nd: Social Proof Bar — Instant credibility (95%, 6000+, 35 years) */}
-        <SocialProofBar />
+        {/* 2nd: Social Proof Bar — μόνο πραγματικά νούμερα (χρόνια, καθηγητές, εκδόσεις) */}
+        <SocialProofBar counts={data.counts} />
         
         {/* 3rd: Apple-style Scroll Video Scrubbing */}
         <ScrollVideo />
@@ -92,7 +95,7 @@ export default async function Home() {
         <System />
 
         {/* 7th: Massive Stats */}
-        <Stats />
+        <Stats counts={data.counts} />
 
         {/* 8th: Programs Grid (ΣΥΝΔΕΘΗΚΕ ΜΕ CMS) */}
         <Programs programs={data.programs} />
@@ -132,40 +135,43 @@ export default async function Home() {
           </div>
         </section>
 
-        {/* 13th: Νέα & Ανακοινώσεις (ΣΥΝΔΕΘΗΚΕ ΜΕ CMS) */}
-        <section className="bg-white py-32 w-full border-t border-gray-200">
+        {/* 13th: Νέα & Ανακοινώσεις (CMS) — εμφανίζεται μόνο όταν υπάρχουν δημοσιευμένα νέα */}
+        {data.posts?.length > 0 && (
+        <section className="bg-white py-24 md:py-32 w-full border-t border-gray-200">
           <div className="max-w-7xl mx-auto px-6 lg:px-12">
-            <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-16 border-b-[6px] border-gray-900 pb-4 gap-6">
+            <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-12 md:mb-16 border-b-[6px] border-gray-900 pb-4 gap-6">
               <h2 className="text-4xl lg:text-5xl font-black uppercase tracking-tighter text-gray-900 leading-none">ΝΕΑ &<br/><span className="text-brand-orange">ΑΝΑΚΟΙΝΩΣΕΙΣ</span></h2>
               <Link href="/news" className="text-brand-teal font-black text-sm tracking-widest uppercase hover:text-gray-900 transition-colors flex items-center gap-2">
-                ΠΕΡΙΣΣΟΤΕΡΑ →
+                ΟΛΑ ΤΑ ΝΕΑ →
               </Link>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
-               {displayPosts.map((item: any) => {
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-16">
+               {data.posts.map((item: any) => {
                  const dateObj = new Date(item.publishedAt);
                  const day = dateObj.getDate().toString().padStart(2, '0');
                  const monthStr = dateObj.toLocaleDateString('el-GR', { month: 'short' }).toUpperCase();
                  const year = dateObj.getFullYear();
-                 
+
                  return (
-                 <Link 
-                    href={`/news/${item.slug || item._id}`} 
-                    key={item._id} 
-                    className="flex gap-8 group cursor-pointer border-b-2 md:border-b-0 border-gray-200 pb-8 md:pb-0"
+                 <Link
+                    href={`/news/${item.slug}`}
+                    key={item._id}
+                    className="flex gap-5 md:gap-8 group cursor-pointer border-b-2 md:border-b-0 border-gray-200 pb-8 md:pb-0 min-w-0"
                  >
                     <div className="text-brand-orange text-right flex-shrink-0">
-                       <span className="text-6xl lg:text-7xl font-sans font-black leading-[0.8] block tracking-tighter group-hover:scale-110 transition-transform">{day}</span>
-                       <span className="text-sm font-black uppercase tracking-widest mt-2 block">{monthStr} {year}</span>
+                       <span className="text-5xl lg:text-7xl font-sans font-black leading-[0.8] block tracking-tighter group-hover:scale-110 transition-transform">{day}</span>
+                       <span className="text-xs md:text-sm font-black uppercase tracking-widest mt-2 block">{monthStr} {year}</span>
                     </div>
-                    <div className="pt-2">
-                       <h3 className="text-2xl font-black text-gray-900 leading-snug mb-4 group-hover:text-brand-orange transition-colors tracking-tight line-clamp-2">
+                    <div className="pt-2 min-w-0">
+                       <h3 className="text-xl md:text-2xl font-black text-gray-900 leading-snug mb-3 group-hover:text-brand-orange transition-colors tracking-tight line-clamp-2 break-words">
                          {item.title}
                        </h3>
-                       <p className="text-gray-500 font-bold mb-4 line-clamp-2">
-                         {item.category ? `Κατηγορία: ${item.category.toUpperCase()}` : 'Η θερινή προετοιμασία είναι το κλειδί για την επιτυχία...'}
-                       </p>
+                       {(item.excerpt || item.category) && (
+                         <p className="text-gray-500 font-bold mb-4 line-clamp-2">
+                           {item.excerpt || `Κατηγορία: ${item.category.toUpperCase()}`}
+                         </p>
+                       )}
                        <span className="text-brand-teal font-extrabold text-xs uppercase tracking-widest flex items-center gap-2">ΔΙΑΒΑΣΤΕ ΠΕΡΙΣΣΟΤΕΡΑ <ArrowRight size={14} className="group-hover:translate-x-2 transition-transform" /></span>
                     </div>
                  </Link>
@@ -174,6 +180,7 @@ export default async function Home() {
             </div>
           </div>
         </section>
+        )}
 
         {/* 14th: Final CTA — Last chance to convert */}
         <section className="bg-brand-teal py-20 md:py-28 border-t-[8px] border-black">

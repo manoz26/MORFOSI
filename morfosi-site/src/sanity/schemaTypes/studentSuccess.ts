@@ -39,5 +39,23 @@ export const studentSuccessType = defineType({
       type: 'boolean',
       initialValue: false,
     }),
+    defineField({
+      name: 'approved',
+      title: 'Εγκεκριμένο για δημοσίευση στην Αρχική;',
+      description:
+        'Μένει κλειστό μέχρι να ελεγχθεί το κείμενο. Μόνο τα εγκεκριμένα εμφανίζονται δημόσια στην ενότητα «Ιστορίες Επιτυχίας».',
+      type: 'boolean',
+      initialValue: false,
+    }),
   ],
+  preview: {
+    select: { title: 'studentName', university: 'university', year: 'year', approved: 'approved', media: 'photo' },
+    prepare({ title, university, year, approved, media }) {
+      return {
+        title: `${approved ? '✓' : '⛔'} ${title}`,
+        subtitle: [university, year].filter(Boolean).join(' · ') || 'Χωρίς σχολή/έτος',
+        media,
+      }
+    },
+  },
 })

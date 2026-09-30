@@ -4,6 +4,7 @@ import { useEffect, useState, useRef, Suspense } from 'react';
 import Link from 'next/link';
 import { useSearchParams } from 'next/navigation';
 import { client } from '@/sanity/client';
+import { yearsOfExperience } from '@/lib/facts';
 import { Sigma, Pencil, FlaskConical, Globe } from 'lucide-react';
 
 // ─── Types ───────────────────────────────────────────────────────────────────
@@ -87,9 +88,8 @@ const FALLBACK_PLANS: PlanData[] = [
       { subjectName: 'Αγγλικά', hoursPerWeek: 2, category: 'Γλώσσες' },
     ],
     stats: [
-      { value: '97%', label: 'Επιτυχία στις Εξετάσεις' },
+      { value: `${yearsOfExperience()}`, label: 'Χρόνια Εμπειρίας' },
       { value: '7', label: 'Μέγιστο Μαθητών/Τμήμα' },
-      { value: '200+', label: 'Απόφοιτοι Ετησίως' },
     ],
     callToAction: 'Εγγράψου Τώρα',
   },
@@ -98,9 +98,9 @@ const FALLBACK_PLANS: PlanData[] = [
     level: 'lykeio',
     tagline: 'Η πορεία προς τα Πανεπιστήμια ξεκινά εδώ',
     heroDescription:
-      'Στο Λύκειο ο στόχος είναι κρυστάλλινος: να περάσεις στη σχολή που θέλεις. Η μέθοδός μας συνδυάζει εντατική εξάσκηση, πραγματικά θέματα Πανελληνίων και ατομική καθοδήγηση από εξειδικευμένους καθηγητές. Ποσοστό επιτυχίας 95% τα τελευταία 10 χρόνια.',
+      'Στο Λύκειο ο στόχος είναι κρυστάλλινος: να περάσεις στη σχολή που θέλεις. Η μέθοδός μας συνδυάζει εντατική εξάσκηση, πραγματικά θέματα Πανελληνίων και ατομική καθοδήγηση από εξειδικευμένους καθηγητές.',
     features: [
-      { icon: '🏆', title: '95% Επιτυχία', description: 'Το υψηλότερο ποσοστό επιτυχίας στις Πανελλήνιες στην περιοχή' },
+      { icon: '🎯', title: 'Στόχος Σχολής', description: 'Πλάνο μορίων για κάθε μαθητή με βάση τη σχολή που θέλει' },
       { icon: '📝', title: 'Θέματα Πανελληνίων', description: 'Εξάσκηση με πραγματικά θέματα από τα τελευταία 10 χρόνια' },
       { icon: '🔬', title: 'Εργαστήρια Επίλυσης', description: 'Εβδομαδιαία εργαστήρια με επίλυση δύσκολων θεμάτων' },
       { icon: '📱', title: 'Online Υποστήριξη', description: '24/7 πρόσβαση σε σημειώσεις και λυμένες ασκήσεις' },
@@ -124,9 +124,8 @@ const FALLBACK_PLANS: PlanData[] = [
       { subjectName: 'Νεοελληνική Γλώσσα', hoursPerWeek: 3, category: 'Οικονομίας & Πληροφορικής' },
     ],
     stats: [
-      { value: '95%', label: 'Επιτυχία Πανελληνίων' },
-      { value: '1.200+', label: 'Επιτυχόντες Φοιτητές' },
-      { value: `${new Date().getFullYear() - 2001}+`, label: 'Χρόνια Εμπειρίας' },
+      { value: `${yearsOfExperience()}`, label: 'Χρόνια Εμπειρίας' },
+      { value: '7', label: 'Μέγιστο Μαθητών/Τμήμα' },
     ],
     callToAction: 'Κάνε την Εγγραφή σου',
   },

@@ -76,7 +76,7 @@ export const planPageType = defineType({
         {
           type: 'object',
           fields: [
-            defineField({ name: 'value', title: 'Τιμή (π.χ. 95%)', type: 'string' }),
+            defineField({ name: 'value', title: 'Τιμή (π.χ. 7) — μόνο πραγματικά νούμερα', type: 'string' }),
             defineField({ name: 'label', title: 'Ετικέτα (π.χ. Επιτυχία)', type: 'string' }),
           ],
         },

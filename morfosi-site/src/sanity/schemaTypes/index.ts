@@ -7,12 +7,13 @@ import { studentSuccessType } from './studentSuccess'
 import { teacherType } from './teacher'
 import { programType } from './program'
 import { siteSettingsType } from './siteSettings'
-import { classScheduleType } from './classSchedule'
 import { facilityPhotoType } from './facilityPhoto'
 import { examMaterialType } from './examMaterial'
 import { planPageType } from './planPage'
 import { successYearType } from './successYear'
 import { eventPhotoType } from './eventPhoto'
+import { enrollmentRequestType } from './enrollmentRequest'
+import { contactMessageType } from './contactMessage'
 
 export const schema: { types: SchemaTypeDefinition[] } = {
   types: [
@@ -22,11 +23,13 @@ export const schema: { types: SchemaTypeDefinition[] } = {
     teacherType,
     programType,
     siteSettingsType,
-    classScheduleType,
     facilityPhotoType,
     examMaterialType,
     planPageType,
     successYearType,
     eventPhotoType,
+    // Παράγονται από τις φόρμες του site, δεν δημιουργούνται με το χέρι.
+    enrollmentRequestType,
+    contactMessageType,
   ],
 }

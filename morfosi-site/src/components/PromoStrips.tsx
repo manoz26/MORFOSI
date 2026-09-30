@@ -6,9 +6,9 @@ export default function PromoStrips() {
     <>
       <section className="w-full flex flex-col lg:flex-row">
         {/* Strip 1: Protypa - Teal Background */}
-        <div className="w-full lg:w-1/2 flex flex-col xl:flex-row min-h-[500px]">
+        <div className="w-full lg:w-1/2 flex flex-col xl:flex-row xl:min-h-[500px]">
           {/* Image half */}
-          <div className="w-full xl:w-1/2 bg-gray-200 relative overflow-hidden group">
+          <div className="w-full xl:w-1/2 h-64 sm:h-80 xl:h-auto bg-gray-200 relative overflow-hidden group">
             <Image
               src="/front.jpg"
               alt="Πρότυπα και Πειραματικά Σχολεία"
@@ -18,7 +18,7 @@ export default function PromoStrips() {
             <div className="absolute inset-0 bg-brand-teal/10 group-hover:bg-transparent transition-colors"></div>
           </div>
           {/* Text half */}
-          <div className="w-full xl:w-1/2 p-12 bg-brand-teal flex flex-col justify-center relative">
+          <div className="w-full xl:w-1/2 p-8 sm:p-12 bg-brand-teal flex flex-col justify-center relative">
             <div className="absolute top-0 right-0 w-4 h-full bg-brand-orange"></div>
             <h2 className="text-3xl font-black mb-4 uppercase tracking-tighter text-white">
               Προτυπα & <br />Πειραματικα Σχολεια
@@ -33,9 +33,9 @@ export default function PromoStrips() {
         </div>
 
         {/* Strip 2: Epaggelmatikos - Dark Background */}
-        <div className="w-full lg:w-1/2 flex flex-col xl:flex-row min-h-[500px] border-l-[12px] border-white">
+        <div className="w-full lg:w-1/2 flex flex-col xl:flex-row xl:min-h-[500px] lg:border-l-[12px] border-white">
           {/* Text half */}
-          <div className="w-full xl:w-1/2 p-12 bg-gray-900 flex flex-col justify-center relative order-2 xl:order-1">
+          <div className="w-full xl:w-1/2 p-8 sm:p-12 bg-gray-900 flex flex-col justify-center relative order-2 xl:order-1">
             <h2 className="text-3xl font-black mb-4 uppercase tracking-tighter text-white">
               Επαγγελματικός <br /> Προσανατολισμός
             </h2>
@@ -47,7 +47,7 @@ export default function PromoStrips() {
             </Link>
           </div>
           {/* Image half */}
-          <div className="w-full xl:w-1/2 bg-gray-300 relative overflow-hidden group order-1 xl:order-2">
+          <div className="w-full xl:w-1/2 h-64 sm:h-80 xl:h-auto bg-gray-300 relative overflow-hidden group order-1 xl:order-2">
             <Image
               src="/front2.jpg"
               alt="Επαγγελματικός Προσανατολισμός"
