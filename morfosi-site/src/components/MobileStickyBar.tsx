@@ -3,7 +3,7 @@
 import { Phone, UserPlus } from "lucide-react";
 import { useEffect, useState } from "react";
 
-export default function MobileStickyBar({ contactPhone = "2105063610" }: { contactPhone?: string }) {
+export default function MobileStickyBar({ contactPhone = "2105063630" }: { contactPhone?: string }) {
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {

@@ -256,7 +256,7 @@ export default function EnrollmentForm() {
                 type="tel" required
                 value={data.parentPhone}
                 onChange={e => set("parentPhone", e.target.value)}
-                placeholder="2105063610"
+                placeholder="69XXXXXXXX"
                 className="border-[3px] border-black px-4 py-3 font-bold text-base md:text-sm placeholder:text-gray-300 focus:outline-none focus:border-brand-orange transition-colors" autoComplete="tel" inputMode="tel"
               />
             </div>

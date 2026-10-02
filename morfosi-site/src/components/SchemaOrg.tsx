@@ -18,7 +18,7 @@ interface SchemaOrgProps {
 }
 
 export function OrganizationSchema({
-  phone = "210 506 3610",
+  phone = "21 0506 3630",
   email = CONTACT_EMAIL,
   address = "25ης Μαρτίου 84, Άγιος Δημήτριος, 17342",
   url = SITE_URL,

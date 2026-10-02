@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 };
 
 export default async function CalculatorPage() {
-  let contactPhone = "210 506 3610";
+  let contactPhone = "21 0506 3630";
   try {
     const settings = await client.fetch(`*[_type == "siteSettings"][0]{ contactPhone }`);
     if (settings?.contactPhone) {

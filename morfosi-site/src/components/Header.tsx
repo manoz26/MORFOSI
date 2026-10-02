@@ -266,7 +266,7 @@ const NAV_ITEMS: NavItem[] = [
       title: "Επικοινωνήστε μαζί μας",
       description: "Είμαστε εδώ για κάθε απορία γιά εγγραφές, προγράμματα ή οτιδήποτε άλλο.",
       cta: "ΚΑΛΕΣΕ ΜΑΣ",
-      href: "tel:2105063610",
+      href: "tel:2105063630",
       color: "bg-black",
     },
   },
@@ -621,7 +621,7 @@ function AnnouncementBar({ contactPhone }: { contactPhone: string }) {
 // ─────────────────────────────────────────────
 //  MAIN HEADER
 // ─────────────────────────────────────────────
-export default function Header({ contactPhone = "210 506 3610" }: { contactPhone?: string }) {
+export default function Header({ contactPhone = "21 0506 3630" }: { contactPhone?: string }) {
   const [openMenu, setOpenMenu] = useState<string | null>(null);
   const [mobileOpen, setMobileOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);

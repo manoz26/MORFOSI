@@ -549,11 +549,11 @@ export default function ProsanatolismosPage() {
               <ArrowRight size={20} strokeWidth={3} />
             </Link>
             <a
-              href="tel:2105063610"
+              href="tel:2105063630"
               className="inline-flex items-center gap-3 border-4 border-white/20 text-white px-14 py-6 font-black text-base uppercase tracking-widest hover:border-brand-teal hover:text-brand-teal transition-colors"
             >
               <Phone size={18} strokeWidth={3} />
-              210 506 3610
+              21 0506 3630
             </a>
           </div>
         </div>

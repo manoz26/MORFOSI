@@ -300,7 +300,7 @@ function StatCard({ stat, index }: { stat: StatItem; index: number }) {
 export default function AboutPage() {
   const [activeTestimonial, setActiveTestimonial] = useState(0);
   const [historyExpanded, setHistoryExpanded] = useState(false);
-  const [contactPhone, setContactPhone] = useState("210 506 3610");
+  const [contactPhone, setContactPhone] = useState("21 0506 3630");
   const [address, setAddress] = useState("25ης Μαρτίου 84, Αγίου Δημητρίου 17, Πετρούπολη 132 31");
   const [contactEmail, setContactEmail] = useState("morfosifront@gmail.com");
   const [facilityPhotos, setFacilityPhotos] = useState<FacilityPhoto[]>([]);

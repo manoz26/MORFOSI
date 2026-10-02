@@ -49,7 +49,7 @@ export default async function RootLayout({
   children: React.ReactNode;
 }>) {
   const settings = await client.fetch(`*[_type == "siteSettings"][0]{ contactPhone }`);
-  const phone = settings?.contactPhone || "210 506 3610";
+  const phone = settings?.contactPhone || "21 0506 3630";
   return (
     <html
       lang="el"

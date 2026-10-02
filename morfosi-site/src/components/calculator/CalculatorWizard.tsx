@@ -130,7 +130,7 @@ const EbeBadge = ({ grade, ebe, label }: { grade: number; ebe: number; label: st
 };
 
 // --- Main Component ---
-export default function CalculatorWizard({ contactPhone = "210 506 3610" }: { contactPhone?: string }) {
+export default function CalculatorWizard({ contactPhone = "21 0506 3630" }: { contactPhone?: string }) {
   const [step, setStep] = useState(1);
   const [field, setField] = useState<FieldId>(null);
   const [gradeInputs, setGradeInputs] = useState<Record<number, string>>({});

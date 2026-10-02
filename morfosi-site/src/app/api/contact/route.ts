@@ -39,7 +39,7 @@ export async function POST(req: Request) {
     if (!hasWriteAccess) {
       console.error("[contact] Λείπει το SANITY_API_WRITE_TOKEN — το μήνυμα ΔΕΝ αποθηκεύτηκε.");
       return NextResponse.json(
-        { error: "Τεχνικό πρόβλημα στην αποστολή. Καλέστε μας στο 210 506 3610." },
+        { error: "Τεχνικό πρόβλημα στην αποστολή. Καλέστε μας στο 21 0506 3630." },
         { status: 503 }
       );
     }
@@ -69,7 +69,7 @@ export async function POST(req: Request) {
     }
     console.error("[contact] Αποτυχία αποθήκευσης:", error);
     return NextResponse.json(
-      { error: "Τεχνικό πρόβλημα στην αποστολή. Καλέστε μας στο 210 506 3610." },
+      { error: "Τεχνικό πρόβλημα στην αποστολή. Καλέστε μας στο 21 0506 3630." },
       { status: 500 }
     );
   }

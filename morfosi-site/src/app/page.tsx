@@ -70,7 +70,7 @@ export default async function Home() {
   ];
 
 
-  const phone = data.settings?.contactPhone || '2105063610';
+  const phone = data.settings?.contactPhone || '2105063630';
   const phoneClean = phone.replace(/\s+/g, '');
 
   return (
