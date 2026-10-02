@@ -8,6 +8,7 @@ import {
   withinRateLimit,
   clientIp,
 } from "@/lib/formGuard";
+import { sendNotification } from "@/lib/notify";
 
 const enrollSchema = z
   .object({
@@ -45,16 +46,63 @@ export async function POST(req: Request) {
       return NextResponse.json({ success: true, message: "Η αίτηση αποθηκεύτηκε επιτυχώς" });
     }
 
-    if (!hasWriteAccess) {
-      // Χωρίς token δεν υπάρχει τρόπος να σωθεί η αίτηση. Καλύτερα να το δει ο
-      // χρήστης και να τηλεφωνήσει, παρά να νομίζει ότι στάλθηκε και να χαθεί.
-      console.error("[enroll] Λείπει το SANITY_API_WRITE_TOKEN — η αίτηση ΔΕΝ αποθηκεύτηκε.");
+    // Δύο ανεξάρτητοι δρόμοι: Studio + email στη γραμματεία. Αρκεί να πετύχει
+    // ο ένας· αν αποτύχουν και οι δύο, ο χρήστης το βλέπει και τηλεφωνεί,
+    // αντί να νομίζει ότι στάλθηκε και να χαθεί.
+    const [saved, emailed] = await Promise.all([
+      saveToSanity(data),
+      sendNotification({
+        subject: `Νέα αίτηση εγγραφής: ${data.studentName} (${data.studentClass})`,
+        heading: "Νέα αίτηση εγγραφής από την ιστοσελίδα",
+        replyTo: data.parentEmail,
+        rows: [
+          ["Μαθητής/τρια", data.studentName],
+          ["Τάξη", data.studentClass],
+          ["Πρόγραμμα", data.program],
+          ["Σχολείο", data.school],
+          ["Ημ. γέννησης", data.dateOfBirth],
+          ["Βαθμός προηγ. έτους", data.previousGrade],
+          [data.parentRelation || "Κηδεμόνας", data.parentName],
+          ["Τηλέφωνο", data.parentPhone],
+          ["Email", data.parentEmail],
+          ["Πώς μας βρήκε", data.howFound],
+          ["Σημειώσεις", data.notes],
+        ],
+      }),
+    ]);
+
+    if (!saved && !emailed) {
       return NextResponse.json(
         { error: "Τεχνικό πρόβλημα στην υποβολή. Καλέστε μας στο 21 0506 3630." },
         { status: 503 }
       );
     }
 
+    return NextResponse.json(
+      { success: true, message: "Η αίτηση αποθηκεύτηκε επιτυχώς" },
+      { status: 200 }
+    );
+  } catch (error) {
+    if (error instanceof z.ZodError) {
+      return NextResponse.json(
+        { error: "Μη έγκυρα δεδομένα συμπλήρωσης", details: error.flatten().fieldErrors },
+        { status: 400 }
+      );
+    }
+    console.error("[enroll] Απρόσμενο σφάλμα:", error);
+    return NextResponse.json(
+      { error: "Τεχνικό πρόβλημα στην υποβολή. Καλέστε μας στο 21 0506 3630." },
+      { status: 500 }
+    );
+  }
+}
+
+async function saveToSanity(data: z.infer<typeof enrollSchema>) {
+  if (!hasWriteAccess) {
+    console.error("[enroll] Λείπει το SANITY_API_WRITE_TOKEN — η αίτηση ΔΕΝ αποθηκεύτηκε στο Studio.");
+    return false;
+  }
+  try {
     await writeClient.create({
       _type: "enrollmentRequest",
       studentName: data.studentName,
@@ -74,23 +122,10 @@ export async function POST(req: Request) {
       // Αποθηκεύεται κανονικά· το flag είναι μόνο ένδειξη για τη γραμματεία.
       suspectedSpam: isSuspiciouslyFast({ _t: data._t }) || undefined,
     });
-
-    return NextResponse.json(
-      { success: true, message: "Η αίτηση αποθηκεύτηκε επιτυχώς" },
-      { status: 200 }
-    );
+    return true;
   } catch (error) {
-    if (error instanceof z.ZodError) {
-      return NextResponse.json(
-        { error: "Μη έγκυρα δεδομένα συμπλήρωσης", details: error.flatten().fieldErrors },
-        { status: 400 }
-      );
-    }
     // Το σφάλμα καταγράφεται ώστε μια αποτυχημένη εγγραφή να μην περάσει απαρατήρητη.
-    console.error("[enroll] Αποτυχία αποθήκευσης:", error);
-    return NextResponse.json(
-      { error: "Τεχνικό πρόβλημα στην υποβολή. Καλέστε μας στο 21 0506 3630." },
-      { status: 500 }
-    );
+    console.error("[enroll] Αποτυχία αποθήκευσης στο Studio:", error);
+    return false;
   }
 }

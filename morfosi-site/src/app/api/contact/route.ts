@@ -8,6 +8,7 @@ import {
   withinRateLimit,
   clientIp,
 } from "@/lib/formGuard";
+import { sendNotification } from "@/lib/notify";
 
 const contactSchema = z
   .object({
@@ -36,25 +37,30 @@ export async function POST(req: Request) {
       return NextResponse.json({ success: true, message: "Το μήνυμα εστάλη με επιτυχία" });
     }
 
-    if (!hasWriteAccess) {
-      console.error("[contact] Λείπει το SANITY_API_WRITE_TOKEN — το μήνυμα ΔΕΝ αποθηκεύτηκε.");
+    // Studio + email στη γραμματεία· αρκεί να πετύχει ο ένας (βλ. api/enroll).
+    const topic = SUBJECTS[data.subject] || data.subject;
+    const [saved, emailed] = await Promise.all([
+      saveToSanity(data),
+      sendNotification({
+        subject: `Νέο μήνυμα από την ιστοσελίδα: ${data.name} (${topic})`,
+        heading: "Νέο μήνυμα από τη φόρμα επικοινωνίας",
+        replyTo: data.email,
+        rows: [
+          ["Όνομα", data.name],
+          ["Θέμα", topic],
+          ["Τηλέφωνο", data.phone],
+          ["Email", data.email],
+          ["Μήνυμα", data.message],
+        ],
+      }),
+    ]);
+
+    if (!saved && !emailed) {
       return NextResponse.json(
         { error: "Τεχνικό πρόβλημα στην αποστολή. Καλέστε μας στο 21 0506 3630." },
         { status: 503 }
       );
     }
-
-    await writeClient.create({
-      _type: "contactMessage",
-      name: data.name,
-      email: data.email,
-      phone: data.phone || undefined,
-      subject: data.subject,
-      message: data.message,
-      submittedAt: new Date().toISOString(),
-      status: "new",
-      suspectedSpam: isSuspiciouslyFast({ _t: data._t }) || undefined,
-    });
 
     return NextResponse.json(
       { success: true, message: "Το μήνυμα εστάλη με επιτυχία" },
@@ -67,10 +73,44 @@ export async function POST(req: Request) {
         { status: 400 }
       );
     }
-    console.error("[contact] Αποτυχία αποθήκευσης:", error);
+    console.error("[contact] Απρόσμενο σφάλμα:", error);
     return NextResponse.json(
       { error: "Τεχνικό πρόβλημα στην αποστολή. Καλέστε μας στο 21 0506 3630." },
       { status: 500 }
     );
+  }
+}
+
+/** Ίδιες τιμές με το <select> του ContactForm. */
+const SUBJECTS: Record<string, string> = {
+  info: "Γενικές Πληροφορίες",
+  enrollment: "Εγγραφή Μαθητή",
+  programs: "Προγράμματα Σπουδών",
+  books: "Βιβλία & Εκδόσεις",
+  exams: "Διαγωνίσματα & Θέματα",
+  other: "Άλλο",
+};
+
+async function saveToSanity(data: z.infer<typeof contactSchema>) {
+  if (!hasWriteAccess) {
+    console.error("[contact] Λείπει το SANITY_API_WRITE_TOKEN — το μήνυμα ΔΕΝ αποθηκεύτηκε στο Studio.");
+    return false;
+  }
+  try {
+    await writeClient.create({
+      _type: "contactMessage",
+      name: data.name,
+      email: data.email,
+      phone: data.phone || undefined,
+      subject: data.subject,
+      message: data.message,
+      submittedAt: new Date().toISOString(),
+      status: "new",
+      suspectedSpam: isSuspiciouslyFast({ _t: data._t }) || undefined,
+    });
+    return true;
+  } catch (error) {
+    console.error("[contact] Αποτυχία αποθήκευσης στο Studio:", error);
+    return false;
   }
 }
