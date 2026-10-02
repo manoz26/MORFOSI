@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 import { client } from "@/sanity/client";
 
-const BASE_URL = "https://morfosi.edu.gr";
+import { SITE_URL as BASE_URL } from "@/lib/site";
 
 // Static routes with their change frequency and priority
 const STATIC_ROUTES: MetadataRoute.Sitemap = [

@@ -6,4 +6,4 @@ Disallow: /studio/
 Disallow: /api/
 
 # Sitemap
-Sitemap: https://morfosi.edu.gr/sitemap.xml
+Sitemap: https://www.morfosifrontistirio.gr/sitemap.xml

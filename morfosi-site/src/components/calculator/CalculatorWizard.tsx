@@ -1,4 +1,5 @@
 "use client";
+import { SITE_DOMAIN } from "@/lib/site";
 
 import React, { useState, useEffect, useMemo, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -403,7 +404,7 @@ export default function CalculatorWizard({ contactPhone = "210 506 3610" }: { co
   <div class="header">
     <div class="header-left">
       <h1>ΜΟΡΦΩΣΗ</h1>
-      <p>ΦΡΟΝΤΙΣΤΗΡΙΟ &nbsp;|&nbsp; ${phone} &nbsp;|&nbsp; morfosi.edu.gr</p>
+      <p>ΦΡΟΝΤΙΣΤΗΡΙΟ &nbsp;|&nbsp; ${phone} &nbsp;|&nbsp; ${SITE_DOMAIN}</p>
     </div>
     <div class="header-badge">
       <div class="badge-title">Αποτελέσματα — Επιτυχόντες</div>
@@ -453,7 +454,7 @@ export default function CalculatorWizard({ contactPhone = "210 506 3610" }: { co
       <p>Θέλεις να βελτιώσεις τα μόριά σου; Κάλεσέ μας!</p>
     </div>
     <div class="footer-right">
-      ${phone}<br>morfosi.edu.gr<br>Εκπαιδευτικός Οργανισμός
+      ${phone}<br>${SITE_DOMAIN}<br>Εκπαιδευτικός Οργανισμός
     </div>
   </div>
 

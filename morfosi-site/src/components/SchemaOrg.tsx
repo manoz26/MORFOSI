@@ -1,3 +1,4 @@
+import { SITE_URL, CONTACT_EMAIL } from "@/lib/site";
 /**
  * JSON-LD Structured Data for Morfosi Frontistirio.
  *
@@ -18,9 +19,9 @@ interface SchemaOrgProps {
 
 export function OrganizationSchema({
   phone = "210 506 3610",
-  email = "chronakesm@gmail.com",
+  email = CONTACT_EMAIL,
   address = "25ης Μαρτίου 84, Άγιος Δημήτριος, 17342",
-  url = "https://morfosi.edu.gr",
+  url = SITE_URL,
 }: SchemaOrgProps) {
   const schema = {
     "@context": "https://schema.org",
@@ -239,7 +240,7 @@ export function CourseSchema({ name, description, url }: CourseSchemaProps) {
     provider: {
       "@type": "EducationalOrganization",
       name: "Φροντιστήριο Μόρφωση",
-      sameAs: "https://morfosi.edu.gr",
+      sameAs: SITE_URL,
     },
     inLanguage: "el",
     educationalLevel: "HighSchool",

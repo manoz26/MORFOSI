@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from "next";
+import { SITE_URL } from "@/lib/site";
 import { Geist, Geist_Mono } from "next/font/google";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
@@ -21,6 +22,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  // Απόλυτα URLs για og:image / canonical. Βλ. src/lib/site.ts
+  metadataBase: new URL(SITE_URL),
   title: "Μόρφωση - Φροντιστήριο Μέσης Εκπαίδευσης",
   description: "Το κορυφαίο φροντιστήριο για την εκπαιδευτική σου επιτυχία.",
   icons: {

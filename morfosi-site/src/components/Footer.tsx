@@ -1,3 +1,4 @@
+import { CONTACT_EMAIL } from "@/lib/site";
 import { client } from "@/sanity/client";
 import { MapPin, Phone, Mail, ArrowRight } from "lucide-react";
 import Link from "next/link";
@@ -89,7 +90,7 @@ export default async function Footer() {
                </div>
                <div className="flex items-center gap-4 hover:text-white transition-colors cursor-pointer group">
                   <Mail className="text-brand-green flex-shrink-0 group-hover:text-brand-orange transition-colors" size={20} />
-                  <p>{settings?.contactEmail || 'info@morfosi.edu.gr'}</p>
+                  <p>{settings?.contactEmail || CONTACT_EMAIL}</p>
                </div>
             </div>
           </div>

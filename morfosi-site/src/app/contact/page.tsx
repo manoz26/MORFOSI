@@ -1,3 +1,4 @@
+import { SITE_URL } from "@/lib/site";
 import { client } from "@/sanity/client";
 import ContactForm from "@/components/ContactForm";
 import EnrollmentForm from "@/components/EnrollmentForm";
@@ -82,8 +83,8 @@ export default async function ContactPage() {
     <div className="min-h-screen bg-white font-sans text-gray-900 selection:bg-brand-teal selection:text-white overflow-x-hidden">
       <FAQSchema faqs={FAQ} />
       <BreadcrumbSchema items={[
-        { name: "Αρχική", url: "https://morfosi.edu.gr" },
-        { name: "Επικοινωνία", url: "https://morfosi.edu.gr/contact" },
+        { name: "Αρχική", url: SITE_URL },
+        { name: "Επικοινωνία", url: `${SITE_URL}/contact` },
       ]} />
 
       {/* ═══════════════════════════════════════════════════════════

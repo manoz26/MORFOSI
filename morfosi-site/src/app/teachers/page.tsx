@@ -1,3 +1,4 @@
+import { CONTACT_EMAIL } from "@/lib/site";
 import { client } from "@/sanity/client";
 import { FACT_COUNTS_QUERY, yearsOfExperience, type FactCounts } from "@/lib/facts";
 import { GraduationCap, Users, Star, Award, BookOpen, ChevronRight, Sparkles } from "lucide-react";
@@ -475,7 +476,7 @@ export default async function TeachersPage() {
             Αν είσαι εκπαιδευτικός με πάθος για τη διδασκαλία και πιστεύεις στην αριστεία, θέλουμε να σε γνωρίσουμε.
           </p>
           <a
-            href="mailto:info@morfosi.edu.gr"
+            href={`mailto:${CONTACT_EMAIL}`}
             id="contact-teachers-cta"
             className="inline-flex items-center gap-3 bg-brand-orange text-white px-12 py-6 font-black uppercase tracking-widest text-lg border-4 border-transparent hover:border-white transition-all hover:-translate-y-2 hover:shadow-[0_20px_60px_rgba(245,130,32,0.6)] shadow-[0_0_0_rgba(245,130,32,0)]"
           >

@@ -1,3 +1,4 @@
+import { CONTACT_EMAIL } from "@/lib/site";
 import { Metadata } from "next";
 import { client } from "@/sanity/client";
 
@@ -91,7 +92,7 @@ export default async function PrivacyPage() {
             <div className="bg-gray-100 p-6 mt-4 border border-gray-200">
               <p className="m-0">Εκπαιδευτικός Οργανισμός "Μόρφωση"</p>
               <p className="m-0 text-brand-teal font-medium">
-                <a href={`mailto:${settings?.contactEmail || "info@morfosi.edu.gr"}`} className="no-underline text-brand-teal hover:underline">{settings?.contactEmail || "info@morfosi.edu.gr"}</a>
+                <a href={`mailto:${settings?.contactEmail || CONTACT_EMAIL}`} className="no-underline text-brand-teal hover:underline">{settings?.contactEmail || CONTACT_EMAIL}</a>
               </p>
               <p className="m-0 text-gray-600">
                 Τηλέφωνο Επικοινωνίας: <a href={`tel:${settings?.contactPhone || "210 0000000"}`} className="no-underline text-gray-600 hover:text-gray-900">{settings?.contactPhone || "210 0000000"}</a>

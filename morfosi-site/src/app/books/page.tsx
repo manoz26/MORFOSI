@@ -1,3 +1,4 @@
+import { CONTACT_EMAIL } from "@/lib/site";
 import { client } from "@/sanity/client";
 import Link from "next/link";
 import { BookOpen, Download, ExternalLink, Search, Filter, ArrowRight, Star, Layers, BookMarked, Sparkles } from "lucide-react";
@@ -418,7 +419,7 @@ export default async function BooksPage() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               id="books-contact-cta"
-              href="mailto:info@morfosi.edu.gr"
+              href={`mailto:${CONTACT_EMAIL}`}
               className="inline-flex items-center gap-3 bg-brand-teal text-white px-10 py-5 font-black uppercase tracking-widest border-4 border-black shadow-[6px_6px_0px_#000] hover:shadow-[2px_2px_0px_#000] hover:translate-x-[4px] hover:translate-y-[4px] transition-all"
             >
               <ArrowRight size={20} strokeWidth={3} />

@@ -1,4 +1,5 @@
 "use client";
+import { CONTACT_EMAIL } from "@/lib/site";
 
 import { useState } from "react";
 import { Send, CheckCircle, AlertCircle, Loader2 } from "lucide-react";
@@ -194,7 +195,7 @@ export default function ContactForm({ contactEmail }: { contactEmail?: string })
         </button>
 
         <p className="text-gray-400 font-bold text-xs text-center">
-          Απαντάμε συνήθως εντός 24 ωρών · {contactEmail || "info@morfosi.edu.gr"}
+          Απαντάμε συνήθως εντός 24 ωρών · {contactEmail || CONTACT_EMAIL}
         </p>
       </div>
     </form>
