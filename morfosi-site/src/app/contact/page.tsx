@@ -11,7 +11,7 @@ import {
 
 export const metadata = {
   title: 'Επικοινωνία & Εγγραφές | Φροντιστήριο Μόρφωση',
-  description: 'Επικοινωνήστε με το Φροντιστήριο Μόρφωση. Online αίτηση εγγραφής για μαθητές Γυμνασίου & Λυκείου. Βρείτε μας στον Άγιο Δημήτριο.',
+  description: 'Επικοινωνήστε με το Φροντιστήριο Μόρφωση. Online αίτηση εγγραφής για μαθητές Γυμνασίου & Λυκείου. Βρείτε μας στον Άγιο Δημήτριο Πετρούπολης.',
 };
 
 const SETTINGS_QUERY = `*[_type == "siteSettings"][0] {
@@ -71,7 +71,7 @@ export default async function ContactPage() {
 
   const phone    = settings?.contactPhone || "2105063630";
   const email    = settings?.contactEmail || "chronakesm@gmail.com";
-  const address  = settings?.address      || "25ης Μαρτίου 84, Άγιος Δημήτριος";
+  const address  = settings?.address      || "25ης Μαρτίου 84, Αγίου Δημητρίου 17, Πετρούπολη 132 31";
   const facebook = settings?.socialMedia?.facebook;
   const instagram= settings?.socialMedia?.instagram;
   const youtube  = settings?.socialMedia?.youtube;

@@ -20,7 +20,7 @@ interface SchemaOrgProps {
 export function OrganizationSchema({
   phone = "21 0506 3630",
   email = CONTACT_EMAIL,
-  address = "25ης Μαρτίου 84, Άγιος Δημήτριος, 17342",
+  address = "25ης Μαρτίου 84, Αγίου Δημητρίου 17, Πετρούπολη 132 31",
   url = SITE_URL,
 }: SchemaOrgProps) {
   const schema = {
@@ -40,7 +40,7 @@ export function OrganizationSchema({
           height: 512,
         },
         description:
-          "Κορυφαίο ιδιωτικό φροντιστήριο μέσης εκπαίδευσης στον Άγιο Δημήτριο. Ολιγομελή τμήματα Γυμνασίου & Λυκείου, εξειδικευμένη προετοιμασία Πανελλαδικών. Από το 2001.",
+          "Κορυφαίο ιδιωτικό φροντιστήριο μέσης εκπαίδευσης στον Άγιο Δημήτριο Πετρούπολης. Ολιγομελή τμήματα Γυμνασίου & Λυκείου, εξειδικευμένη προετοιμασία Πανελλαδικών. Από το 2001.",
         telephone: phone,
         email,
         foundingDate: "2001",
@@ -50,10 +50,10 @@ export function OrganizationSchema({
         },
         address: {
           "@type": "PostalAddress",
-          streetAddress: "25ης Μαρτίου 84",
-          addressLocality: "Άγιος Δημήτριος",
+          streetAddress: "25ης Μαρτίου 84, Αγίου Δημητρίου 17",
+          addressLocality: "Πετρούπολη",
           addressRegion: "Αττική",
-          postalCode: "17342",
+          postalCode: "13231",
           addressCountry: "GR",
         },
         contactPoint: {
@@ -117,16 +117,16 @@ export function OrganizationSchema({
         priceRange: "$$",
         address: {
           "@type": "PostalAddress",
-          streetAddress: "25ης Μαρτίου 84",
-          addressLocality: "Άγιος Δημήτριος",
+          streetAddress: "25ης Μαρτίου 84, Αγίου Δημητρίου 17",
+          addressLocality: "Πετρούπολη",
           addressRegion: "Αττική",
-          postalCode: "17342",
+          postalCode: "13231",
           addressCountry: "GR",
         },
         geo: {
           "@type": "GeoCoordinates",
-          latitude: 37.9305,
-          longitude: 23.7285,
+          latitude: 38.0416,
+          longitude: 23.6852,
         },
         openingHoursSpecification: [
           {
