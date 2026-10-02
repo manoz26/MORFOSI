@@ -1,4 +1,5 @@
 import { client } from "@/sanity/client";
+import { pageMetadata } from "@/lib/seo";
 import ExamsHub from "@/components/exams/ExamsHub";
 
 // Server Component GROQ Query
@@ -10,10 +11,11 @@ const EXAMS_DATA_QUERY = `*[_type == "examMaterial"] | order(date desc) {
 
 export const revalidate = 60; // Refresh data from Sanity every 60 seconds
 
-export const metadata = {
+export const metadata = pageMetadata({
   title: 'Θέματα & Διαγωνίσματα | Μόρφωση',
   description: 'Λύσε θέματα Πανελληνίων, διαγωνίσματα ΟΕΦΕ και θέματα προσομοίωσης από το Φροντιστήριο Μόρφωση.',
-}
+  path: "/exams",
+});
 
 export default async function ExamsPage() {
   // Fetching Data από το Sanity CMS

@@ -1,4 +1,5 @@
 import { client } from "@/sanity/client";
+import { pageMetadata } from "@/lib/seo";
 import Link from "next/link";
 import NewsletterForm from "@/components/NewsletterForm";
 import {
@@ -6,10 +7,11 @@ import {
   Megaphone, Bell, BookOpen, GraduationCap, TrendingUp, Star
 } from "lucide-react";
 
-export const metadata = {
+export const metadata = pageMetadata({
   title: 'Νέα & Ανακοινώσεις | Φροντιστήριο Μόρφωση',
   description: 'Τελευταία νέα, ανακοινώσεις και ενημερώσεις από το Φροντιστήριο Μόρφωση. Εγγραφές, προγράμματα, αποτελέσματα και πολλά ακόμα.',
-};
+  path: "/news",
+});
 
 const ALL_POSTS_QUERY = `*[_type == "post"] | order(publishedAt desc) {
   _id,

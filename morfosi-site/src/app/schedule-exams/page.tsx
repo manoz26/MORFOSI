@@ -1,11 +1,13 @@
 import { Calendar, Clock, Bookmark, AlertCircle, ArrowRight } from "lucide-react";
+import { pageMetadata } from "@/lib/seo";
 import Link from "next/link";
 import { Metadata } from "next";
 
-export const metadata: Metadata = {
+export const metadata = pageMetadata({
   title: "Πρόγραμμα Εξετάσεων Πανελληνίων | Φροντιστήριο Μόρφωση",
   description: "Το αναλυτικό πρόγραμμα των Πανελλαδικών Εξετάσεων ανά κατεύθυνση, ημερομηνίες και μαθήματα.",
-};
+  path: "/schedule-exams",
+});
 
 const SCHEDULE = [
   {

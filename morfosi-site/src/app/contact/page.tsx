@@ -1,4 +1,5 @@
 import { SITE_URL } from "@/lib/site";
+import { pageMetadata } from "@/lib/seo";
 import { client } from "@/sanity/client";
 import ContactForm from "@/components/ContactForm";
 import EnrollmentForm from "@/components/EnrollmentForm";
@@ -9,10 +10,11 @@ import {
   ArrowRight, Star, CheckCircle, Sparkles, Users, Award, ChevronDown
 } from "lucide-react";
 
-export const metadata = {
+export const metadata = pageMetadata({
   title: 'Επικοινωνία & Εγγραφές | Φροντιστήριο Μόρφωση',
   description: 'Επικοινωνήστε με το Φροντιστήριο Μόρφωση. Online αίτηση εγγραφής για μαθητές Γυμνασίου & Λυκείου. Βρείτε μας στον Άγιο Δημήτριο Πετρούπολης.',
-};
+  path: "/contact",
+});
 
 const SETTINGS_QUERY = `*[_type == "siteSettings"][0] {
   contactEmail,

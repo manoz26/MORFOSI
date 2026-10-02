@@ -1,9 +1,11 @@
 import { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata = pageMetadata({
   title: "Όροι Χρήσης | Εκπαιδευτικός Οργανισμός Μόρφωση",
   description: "Όροι χρήσης του ιστότοπου του Εκπαιδευτικού Οργανισμού Μόρφωση.",
-};
+  path: "/terms",
+});
 
 export default function TermsPage() {
   return (

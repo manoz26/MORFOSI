@@ -1,14 +1,16 @@
 import { CONTACT_EMAIL } from "@/lib/site";
+import { pageMetadata } from "@/lib/seo";
 import { client } from "@/sanity/client";
 import Link from "next/link";
 import { BookOpen, Download, ExternalLink, Search, Filter, ArrowRight, Star, Layers, BookMarked, Sparkles } from "lucide-react";
 
 export const revalidate = 60; // Refresh data from Sanity every 60 seconds
 
-export const metadata = {
+export const metadata = pageMetadata({
   title: 'Εκδόσεις Μόρφωση | Βιβλία & Συγγράμματα Φροντιστηρίου',
   description: 'Οι επίσημες εκδόσεις του Φροντιστηρίου Μόρφωση. Βιβλία για Α΄, Β΄, Γ΄ Λυκείου και Γυμνάσιο. Κατεβάστε PDF ή αποκτήστε online.',
-};
+  path: "/books",
+});
 
 const ALL_BOOKS_QUERY = `*[_type == "book"] | order(orderPriority asc) {
   _id,

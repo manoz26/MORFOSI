@@ -1,14 +1,16 @@
 import type { Metadata } from 'next';
+import { pageMetadata } from "@/lib/seo";
 import CalculatorWizard from '@/components/calculator/CalculatorWizard';
 import Link from 'next/link';
 import { ArrowLeft } from 'lucide-react';
 
 import { client } from '@/sanity/client';
 
-export const metadata: Metadata = {
+export const metadata = pageMetadata({
   title: 'Υπολογισμός Μορίων | Μόρφωση Φροντιστήριο',
   description: 'Υπολογίστε τα μόριά σας με ακρίβεια βάσει των νέων συντελεστών βαρύτητας.',
-};
+  path: "/calculator",
+});
 
 export default async function CalculatorPage() {
   let contactPhone = "21 0506 3630";

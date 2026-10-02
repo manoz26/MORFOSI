@@ -1,3 +1,5 @@
+import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo";
 import { client } from "@/sanity/client";
 import { notFound } from "next/navigation";
 import Image from "next/image";
@@ -77,6 +79,34 @@ const ptComponents = {
     ),
   },
 };
+
+/** Περιγραφή για Google/Viber: οι πρώτες ~155 χαρακτήρες του κειμένου. */
+function excerpt(body: any[] | undefined) {
+  const text = (body || [])
+    .filter((b) => b?._type === 'block')
+    .flatMap((b) => (b.children || []).map((c: any) => c.text || ''))
+    .join(' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+  return text.length > 155 ? `${text.slice(0, 152).trimEnd()}…` : text;
+}
+
+export async function generateMetadata(props: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  const { slug } = await props.params;
+  let post: any = null;
+  try {
+    post = await client.fetch(POST_QUERY, { slug });
+  } catch {}
+  post = post || FALLBACK_POSTS[slug];
+  if (!post) return {};
+  return pageMetadata({
+    title: `${post.title} | Φροντιστήριο Μόρφωση`,
+    description: excerpt(post.body) || 'Νέα και ανακοινώσεις από το Φροντιστήριο Μόρφωση.',
+    path: `/news/${slug}`,
+    image: post.imageUrl,
+    type: 'article',
+  });
+}
 
 export default async function SinglePostPage(props: { params: Promise<{ slug: string }> }) {
   const params = await props.params;

@@ -1,11 +1,13 @@
 import { CONTACT_EMAIL } from "@/lib/site";
+import { pageMetadata } from "@/lib/seo";
 import { Metadata } from "next";
 import { client } from "@/sanity/client";
 
-export const metadata: Metadata = {
+export const metadata = pageMetadata({
   title: "Πολιτική Απορρήτου | Εκπαιδευτικός Οργανισμός Μόρφωση",
   description: "Πολιτική απορρήτου και προστασίας προσωπικών δεδομένων (GDPR) του Εκπαιδευτικού Οργανισμού Μόρφωση.",
-};
+  path: "/privacy",
+});
 
 const SETTINGS_QUERY = `*[_type == "siteSettings"][0] {
   contactEmail,
